@@ -70,11 +70,12 @@ brew "emacs", args: ['HEAD', 'use-git-head', 'cocoa', 'srgb']
 brew "ack"									# Better grep
 brew "colordiff"							# Colored diff
 brew "dark-mode"							# Configure dark mode top bar
+brew "dockutil"                             # Manages the dock icons
 brew "fdupes"								# CLI duplicate finder
 brew "hardlink-osx"							# Hard link functionality on macOS
 brew "htop"									# Display system usage
 brew "mas"									# Install software from app store
-brew "mutt", args: ['with-trash-patch']		# Email Client 
+brew "mutt", args: ['with-trash-patch']		# Email Client
 brew "nmap"									# Network management package
 brew "terminal-notifier" 					# Enable terminal notifications for scripts
 brew "thefuck"								# To correct mistypes in commands
@@ -91,7 +92,7 @@ tap "caskroom/cask"
 cask "alfred"								# Improved Spotlight
 cask "appcleaner"							# Removes plist along with the app
 cask "bettertouchtool"						# Macros and gestures (PAIS -license)
-cask "chromium"								# Open Source web browser 
+cask "chromium"								# Open Source web browser
 cask "clipmenu"								# Clipboard manager
 cask "dropbox" 								# Cloud storage with syncing
 cask "flux"									# Changes temperature color based on time of day
@@ -103,8 +104,8 @@ cask "karabiner-elements"					# Tool to remap keys like caps-lock
 cask "logitech-control-center"				# Drivers for keyboard and mouse
 cask "mactex"								# LateX and TeX
 cask "malwarebytes-anti-malware"			# Remove antimalware
-cask "onyx"									# Tweak tool for OS 
-cask "osxfuse"	
+cask "onyx"									# Tweak tool for OS
+cask "osxfuse"
 cask "scroll-reverser"						# Tool to invert mousewheel scroll
 cask "skim"									# Better PDF tool with Sublime Text integration
 cask "spark"								# Powerful email client
@@ -114,7 +115,7 @@ cask "sublime-text"							# Multipurpose text editor
 cask "telegram"								# Instant messaging with sync across devices
 cask "the-unarchiver"						# To deflate and decompress files
 cask "transmission"							# Torrent client
-cask "veracrypt"							# Disk and disk image encryption 
+cask "veracrypt"							# Disk and disk image encryption
 cask "vlc"									# Video Player
 cask "vox"									# Lightweight audio player
 cask "xbox360-controller-driver"			# Drivers for XBOX 360 controller

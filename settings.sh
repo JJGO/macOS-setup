@@ -1,7 +1,7 @@
 #! /bin/bash
 # much courtesy of https://github.com/mathiasbynens/
 
-set -e 			# Exit on error 
+set -e 			# Exit on error
 set -o pipefail # Exit on pipe error
 set -x 			# Enable verbosity
 
@@ -283,9 +283,6 @@ sudo pmset -a hibernatemode 0
 
 # Disable the sudden motion sensor as it’s not useful for SSDs
 sudo pmset -a sms 0
-
-# Enable Trim on third party SSD
-sudo trimforce enable
 
 
 ###############################################################################

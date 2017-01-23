@@ -7,6 +7,10 @@ set -x 			# Enable verbosity
 # Enable dark mode
 dark-mode --mode Dark
 
+# Clear the cluttered dock
+dockutil --remove all
+# TODO put my apps here with dockutil
+
 # Install colemak keyboard
 wget https://colemak.com/pub/mac/Colemak.keylayout
 mv Colemak.keylayout ~/Library/Keyboard\ Layouts/
@@ -44,3 +48,7 @@ git clone "https://github.com/tmuxinator/tmuxinator/tree/master/completion" /tmp
 mkdir -p ~/.bin/
 cp /tmp/tmuxinator/completion/tmuxinator.bash ~/.bin/
 cp /tmp/tmuxinator/completion/tmuxinator.zsh  ~/.bin/
+
+
+# Enable Trim on third party SSD
+sudo trimforce enable

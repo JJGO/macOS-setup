@@ -1,1 +1,3 @@
 *.old
+.DS_Store
+Gemfile.lock
