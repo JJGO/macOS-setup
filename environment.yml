@@ -1,0 +1,15 @@
+name: main
+channels: 
+    - defaults
+    - conda-forge
+dependencies:
+    - python=3
+    - numpy
+    - scipy
+    - pandas
+    - jupyter
+    - matplotlib
+    - seaborn
+    - scikit-learn
+    - nltk
+    - pytest

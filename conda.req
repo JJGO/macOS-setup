@@ -1,0 +1,6 @@
+coverage
+docopt
+flake8
+pytest-cov
+seaborn
+theano
