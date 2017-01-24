@@ -22,7 +22,6 @@ brew "cmatrix"
 # cask "atom" 								# GitHubs editor
 cask "calibre"								# Eboook Management
 cask "chromium"								# Open Source web browser
-cask "chrome-remote-desktop-host"			# Remote control using Google credentials
 cask "ccleaner"								# Cache and temporary files removal
 cask "coconutbattery"						# Displays battery health
 cask "docker" 								# Containerization tool

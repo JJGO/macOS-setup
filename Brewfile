@@ -103,6 +103,8 @@ cask "clipmenu"								# Clipboard manager
 cask "dropbox" 								# Cloud storage with syncing
 cask "flux"									# Changes temperature color based on time of day
 cask "google-chrome"						# Google's web browser
+cask "chrome-remote-desktop-host"           # Remote control using Google credentials
+cask "firefox"                              # Alternative web browser
 cask "google-drive"							# Google cloud storage
 cask "github-desktop"						# Github desktop client (good for diffs)
 cask "iterm2"								# Better than Terminal.app
