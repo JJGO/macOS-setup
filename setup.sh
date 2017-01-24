@@ -1,8 +1,19 @@
 #!/bin/bash
 
-set -e 			# Exit on error
+# Look for developer tools (needed for Homebrew)
+xcode-select -p
+if [ $? -eq 0 ]; then
+  	echo "Found XCode Tools"
+else
+  	echo "Installing XCode Tools"
+  
+	xcode-select --install
+fi
+
+# Flags
+set -e # Global exit on error flag
+set -x # Higher verbosity for easier debug
 set -o pipefail # Exit on pipe error
-set -x 			# Enable verbosity
 
 # Chage shell script files to run
 chmod +x *.sh
@@ -10,14 +21,12 @@ chmod +x *.sh
 # Change MacOS Settings
 ./settings.sh
 
-# Install xcode before homebrew
-xcode-select --install
-
 # Put local in bash_profile
 echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
 
 # Setup Brew bundle for running Brewfiles
 brew tap Homebrew/bundle && brew bundle
@@ -50,3 +59,9 @@ while true; do
         * ) echo "Please answer yes or no.";;
     esac
 done
+
+
+# Clean cached files and pkgs
+brew cleanup
+brew cask cleanup
+brew prune
