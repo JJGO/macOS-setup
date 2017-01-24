@@ -30,6 +30,7 @@ brew "openssh"
 brew "readline"
 brew "rsync"
 brew "screen"
+brew "stow"
 brew "tree"									# Recursive display
 brew "watch"								# Execute and monitor every X seconds
 brew "wdiff", args: ['with-gettext']
@@ -80,10 +81,16 @@ brew "nmap"									# Network management package
 brew "terminal-notifier" 					# Enable terminal notifications for scripts
 brew "thefuck"								# To correct mistypes in commands
 brew "the_silver_searcher"					# Search similar to ack
+brew "doxygen"								# tmux dependency
 brew "tmux", args: ['with-utf8proc']        # Terminal multiplexer and server
 brew "trash"								# To use OS trash instead of rm forever
 brew "youtube-dl"							# Download YouTube (and others) from CLI
 
+### MISC
+brew "archey"
+brew "cowsay"
+brew "fortune"
+brew "screenfetch"
 
 ##### CASKS #####
 
@@ -92,7 +99,6 @@ tap "caskroom/cask"
 cask "alfred"								# Improved Spotlight
 cask "appcleaner"							# Removes plist along with the app
 cask "bettertouchtool"						# Macros and gestures (PAIS -license)
-cask "chromium"								# Open Source web browser
 cask "clipmenu"								# Clipboard manager
 cask "dropbox" 								# Cloud storage with syncing
 cask "flux"									# Changes temperature color based on time of day
@@ -108,7 +114,6 @@ cask "onyx"									# Tweak tool for OS
 cask "osxfuse"
 cask "scroll-reverser"						# Tool to invert mousewheel scroll
 cask "skim"									# Better PDF tool with Sublime Text integration
-cask "spark"								# Powerful email client
 cask "spotify"								# Music streaming
 cask "steam"								# Gaming collection hub
 cask "sublime-text"							# Multipurpose text editor
@@ -136,16 +141,11 @@ cask "qlprettypatch"
 cask "quicklook-csv"
 cask "betterzipql"
 cask "qlimagesize"
+cask "webpquicklook"
+cask "suspicious-package"
 cask "qlvideo"
 cask "jupyter-notebook-ql"
-
-### Mac App Store Installs
-mas "Amphetamine", id: 937984704					# Better up to date Caffeine tool to prevent sleep
-mas "LastPass", id: 926036361						# Password management s
-mas "Todoist", id: 585829637						# Todo list tool
-mas "Tomato One", id: 907364780						# Pomodoro timer
-mas "Who's On My WiFi", id: 909760813				# Easily search devices on wifi and store MAC addresses
-mas "Xcode", id: 497799835							# Apple's developper tools
+cask "quicknfo"
 
 # Fonts
 tap 'caskroom/fonts'
@@ -161,3 +161,12 @@ cask "font-menlo-for-powerline"
 cask "font-source-code-pro"
 cask "font-source-sans-pro"
 cask "font-terminus"
+
+### Mac App Store Installs
+mas "Amphetamine", id: 937984704					# Better up to date Caffeine tool to prevent sleep
+mas "LastPass", id: 926036361						# Password management s
+mas "Todoist", id: 585829637						# Todo list tool
+mas "Tomato One", id: 907364780						# Pomodoro timers
+mas "Xcode", id: 497799835							# Apple's developper tools
+
+

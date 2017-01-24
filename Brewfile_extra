@@ -1,30 +1,13 @@
 cask_args appdir: '/Applications'
 
-### PROGRAMMING LANGUAGES
-brew "gcc", args: ['with-all-languages'].   # Get GCC compiler (macOS default is clang)
-brew "ghc"
-brew "cabal-install"
-brew "golang"
-brew "node"
-brew "npm"
-brew 'r', args: ['with-openblas']
-brew "scala"
-brew "sbt"
-
-cask "java"
-cask "julia"
-
-
 ### EXTRA CLI UTILITIES
 brew "dos2unix"								# Translate newlines between DOS and UNIX
-brew "ansible" 								# Automate OS configuration
 brew "elinks"								# CLI web browser
 brew "graphviz"								# Graph visualization software
 brew "imagemagick", args: ['with-librsvg', 'with-fontconfig'] # Good image editing software
-brew "lastpass-cli" args: ['with-pinentry', 'with-doc'] # Lastpass from terminal
+brew "lastpass-cli", args: ['with-pinentry', 'with-doc'] # Lastpass from terminal
 brew "media-info" 							# Media info for videos
 brew "mkvtoolnix"							# Mkv tools
-brew "neovim"
 brew "pandoc"								# Document conversion
 brew "rclone" 								# Rsync to cloud storage
 brew "subliminal"							# Subtitle renamer
@@ -32,29 +15,25 @@ brew "speedtest_cli"						# Speedtest on CLI
 
 ### MISC
 
-brew "archey"								# System information
 brew "cmatrix"
-brew "cowsay"
-brew "fortune"
-brew "lolcat"
 
 #### NON CORE CASKS ####
 
-cask "atom" 								# GitHubs editor
+# cask "atom" 								# GitHubs editor
 cask "calibre"								# Eboook Management
+cask "chromium"								# Open Source web browser
+cask "chrome-remote-desktop-host"			# Remote control using Google credentials
 cask "ccleaner"								# Cache and temporary files removal
 cask "coconutbattery"						# Displays battery health
 cask "docker" 								# Containerization tool
 cask "filebot"								# TVshow/Movie renamer
 cask "gfxcardstatus"						# Changes the dedicated and internal graphics
+cask "xquartz"								# DEP: Inkscape dependency
 cask "inkscape"								# Vector graphics
-cask "kaleidoscope"							# Visual comparison tool (text, image...)
 cask "kodi"									# Media center for music, tvshows and movies
-cask "lastfm"								# To scrobble music
-cask "mou"									# Markdown preview editor
+cask "macdown"								# Simple markdown editor with live preview
 cask "nosleep"								# Prevents from sleeping with close lid
 cask "openemu"								# Emulator collection
-cask "selfcontrol"							# App to lock mail, website and focus working
 cask "skype"								# Video calls
 cask "sourcetree"							# Git visualization tool
 cask "torbrowser"							# Anonymized browser
@@ -66,12 +45,36 @@ cask "xld"									# Convert flac files
 # PAID Casks
 cask "dash"									# Offline programming reference (PAID)
 cask "fantastical"							# Menu bar calendar (PAID)
+cask "kaleidoscope"							# Visual comparison tool (text, image...)
 cask "the-archive-browser"					# Preview compressed files (PAID)
 cask "wifi-explorer"						# Look for wifi networks power and channels (PAID)
 
 
 ### Mac App Store Installs
-mas "Blackmagic Disk Speed Test", id: 425264550		# Disk read/write speed
-mas "Degrees", id: 430173763 						# Menu bar weather
 mas "MPlayerX", id: 421131143						# Alternative Media player (for conflicts errors mostly)
+mas "Spark", id: 1176895641							# Email client
+mas "Who's On My WiFi", id: 909760813				# Easily search devices on wifi and store MAC addresses
 
+### PROGRAMMING LANGUAGES
+# Note ruby and python are already on main Brewfile
+
+# C C++
+brew "gcc", args: ['with-all-languages']   # Get GCC compiler (macOS default is clang)
+
+# Java and Scala (order matters)
+cask "java"
+brew "scala"
+brew "sbt"
+
+# Node.js
+brew "node"
+brew "npm"
+
+# Haskell
+brew "ghc"
+brew "cabal-install"
+
+# Go, Julia, R
+brew "golang"
+cask "julia"
+brew "r", args: ['with-openblas']
