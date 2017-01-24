@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 ruby RUBY_VERSION
 
-gem 'tmuxinator'
+gem 'tmuxinator'	# Config tmux sessions
+gem 'lolcat'		# Rainbow color anything
 
 # Jekyll gems
 gem 'jekyll'
