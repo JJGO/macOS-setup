@@ -15,6 +15,7 @@ pycrypto
 pyflakes
 Pygments
 pylint
+PyQt5
 pytest
 requests
 scipy
