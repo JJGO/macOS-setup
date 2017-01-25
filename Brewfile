@@ -30,7 +30,7 @@ brew "openssh"
 brew "readline"
 brew "rsync"
 brew "screen"
-brew "stow"
+brew "stow"                                 # Symlink creator, useful for dotfiles
 brew "tree"									# Recursive display
 brew "watch"								# Execute and monitor every X seconds
 brew "wdiff", args: ['with-gettext']
@@ -72,6 +72,7 @@ brew "ack"									# Better grep
 brew "colordiff"							# Colored diff
 brew "dark-mode"							# Configure dark mode top bar
 brew "dockutil"                             # Manages the dock icons
+brew "duti"                                 # Set default document and URL handlers
 brew "fdupes"								# CLI duplicate finder
 brew "hardlink-osx"							# Hard link functionality on macOS
 brew "htop"									# Display system usage
