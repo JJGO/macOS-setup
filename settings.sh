@@ -22,6 +22,9 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 #sudo scutil --set ComputerName "0x6D746873"
 sudo scutil --set HostName $hostName
 
+# Set the dark style
+defaults write NSGlobalDomain AppleInterfaceStyle -string 'Dark'
+
 # Menu bar: show remaining battery  percentage
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
@@ -69,6 +72,21 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 
 # Disable smart dashes as they’re annoying when typing code
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+# Disable automatic capitalization as it is annoying when typing code
+defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+
+# Disable period substitution as it is annoying when typing code
+defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
+
+# Disable spelling correction as it is annoying when typing code
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+# Diable minimize on double click (interferes with BTT)
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+# Set beep sound to classic Sosumi
+defaults write NSGlobalDomain com.apple.sound.beep.sound -string "/System/Library/Sounds/Sosumi.aiff"
 
 ###############################################################################
 # Screen                                                                      #
@@ -207,6 +225,9 @@ sudo defaults write /Library/Preferences/.GlobalPreferences.plist AppleKeyboardU
 
 # Minimize windows into their application’s icon
 defaults write com.apple.dock minimize-to-application -bool true
+
+# Use scale effect for minimize
+defaults write com.apple.dock mineffect -string 'scale'
 
 # Enable spring loading for all Dock items
 defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true

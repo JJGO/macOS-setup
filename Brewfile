@@ -70,7 +70,6 @@ brew "emacs", args: ['HEAD', 'use-git-head', 'cocoa', 'srgb']
 ### CLI UTILITIES
 brew "ack"									# Better grep
 brew "colordiff"							# Colored diff
-brew "dark-mode"							# Configure dark mode top bar
 brew "dockutil"                             # Manages the dock icons
 brew "duti"                                 # Set default document and URL handlers
 brew "fdupes"								# CLI duplicate finder

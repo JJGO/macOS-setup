@@ -4,9 +4,6 @@ set -e 			# Exit on error
 set -o pipefail # Exit on pipe error
 set -x 			# Enable verbosity
 
-# Enable dark mode
-dark-mode --mode Dark
-
 # Clear the cluttered dock
 dockutil --remove all
 # TODO put my apps here with dockutil
@@ -41,6 +38,18 @@ echo -e "\e[1mCopied SSH key to clipboard, add it to GitHub\e[0m"
 mkdir ~/.nano
 git clone https://github.com/scopatz/nanorc.git ~/.nano
 cat ~/.nano/nanorc >>! ~/.nanorc
+
+
+### VLC ###
+
+# Disable recently played videos
+defaults write org.videolan.vlc NSRecentDocumentsLimit 0
+defaults delete org.videolan.vlc.LSSharedFileList RecentDocuments
+defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAmount 0
+
+# Remove anything previous
+defaults delete org.videolan.vlc recentlyPlayedMedia
+defaults delete org.videolan.vlc recentlyPlayedMediaList
 
 
 ### TMUXINATOR ###
