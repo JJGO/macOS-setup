@@ -250,7 +250,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0
 defaults write com.apple.dock autohide -bool true
 
 # Make Dock icons of hidden applications translucent
-defaults write com.apple.dock showhidden -bool true
+defaults write com.apple.dock showhidden -bool false
 
 # Allow text selection in the Quick Look window
 defaults write com.apple.finder QLEnableTextSelection -bool true
