@@ -47,6 +47,9 @@ bundle install
 # Load dotfiles
 ./dotfiles_setup.sh
 
+# Setup file extensions
+./file_extensions.sh
+
 # Run post-processing script
 ./post-process.sh
 
