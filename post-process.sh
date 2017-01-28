@@ -61,5 +61,15 @@ cp "$MUX_COMPLETION/tmuxinator.fish" ~/.bin/
 mkdir -p ~/.config/fish/completions/
 cp ~/.bin/tmuxinator.fish ~/.config/fish/completions/
 
+### INSTALL MPV  with 60 fps###
+# https://www.reddit.com/r/osx/comments/4ljbdq/mpv_tutorial_and_60_fps_playback_on_os_x/
+brew install --without-harfbuzz libass
+brew install --with-rtmpdump --with-openssl --with-libass --with-libbs2b --with-rubberband ffmpeg
+brew install --with-vapoursynth --with-libarchive --with-bundle mpv
+brew install mvtools
+brew install ffms2
+brew install subliminal
+brew linkapps mpv
+
 # Enable Trim on third party SSD
 sudo trimforce enable
