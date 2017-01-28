@@ -81,6 +81,7 @@ brew "nmap"									# Network management package
 brew "terminal-notifier" 					# Enable terminal notifications for scripts
 brew "thefuck"								# To correct mistypes in commands
 brew "the_silver_searcher"					# Search similar to ack
+brew "install switchaudio-osx"              # Switch audio input/output
 brew "doxygen"								# tmux dependency
 brew "tmux", args: ['with-utf8proc']        # Terminal multiplexer and server
 brew "trash"								# To use OS trash instead of rm forever
