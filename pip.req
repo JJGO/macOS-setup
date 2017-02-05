@@ -11,6 +11,7 @@ nose
 numpy
 pandas
 pep8
+Pillow
 pycrypto
 pyflakes
 Pygments
