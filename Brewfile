@@ -65,6 +65,7 @@ brew "lua"
 # Widely used CLI editors
 brew "vim", args: ['override-system-vi']
 brew "macvim", args: ['custom-system-icons']
+brew "neovim/neovim/neovim"
 brew "emacs", args: ['HEAD', 'use-git-head', 'cocoa', 'srgb']
 
 ### CLI UTILITIES
