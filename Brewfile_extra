@@ -80,3 +80,9 @@ brew "cabal-install"
 brew "golang"
 cask "julia"
 brew "r", args: ['with-openblas']
+
+
+### EXTRA NICETIES
+
+brew "mono"
+cask "sonarr"
