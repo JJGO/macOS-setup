@@ -124,3 +124,14 @@ TODO Fix non spotify songs
 
 ## Karabiner Elements
 Caps lock to Backspace
+
+
+## Automation
+* Instalar Sonarr (brew)
+* Instalar Jackett
+* Instalar Radarr
+* Instalar Headphones
+* Copiar jackett a /Applications
+* Configurar Sonarr trackers
+* Configurar Radarr trackers
+* COnfigurar Transmission
