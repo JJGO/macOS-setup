@@ -14,6 +14,8 @@
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
 	<integer>1</integer>
+	<key>AutoCommandHistory</key>
+	<false/>
 	<key>AutoHideTmuxClientSession</key>
 	<false/>
 	<key>CheckTestRelease</key>
@@ -1170,14 +1172,16 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>714 554 620 392 0 0 2048 1130 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>269 139 606 456 0 0 2048 1129 </string>
+	<string>269 139 606 456 0 0 2048 1130 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>177 503 796 473 0 0 1680 1027 </string>
+	<string>177 451 918 494 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>840 577 665 552 0 0 2048 1129 </string>
+	<string>1024 30 1017 993 0 0 2048 1130 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>661 475 650 552 0 0 1680 1027 </string>
+	<string>1024 20 1002 1003 0 0 1680 1028 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1777,6 +1781,8 @@
 			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
+			<key>Session Close Undo Timeout</key>
+			<integer>20</integer>
 			<key>Set Local Environment Vars</key>
 			<true/>
 			<key>Shortcut</key>
@@ -3361,7 +3367,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>42364E48-90EF-45BC-A201-7B78BFDD76FC</string>
 	<key>NoSyncLastTipTime</key>
-	<real>507196892.84236801</real>
+	<real>508588902.46675003</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -3373,6 +3379,19 @@
 	<key>NoSyncTipsToNotShow</key>
 	<array>
 		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+		<string>0005</string>
+		<string>0006</string>
+		<string>0007</string>
+		<string>0008</string>
+		<string>0009</string>
+		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -3422,7 +3441,7 @@
 	<key>PrefsCustomFolder</key>
 	<string>~/macOS-setup/iTerm/</string>
 	<key>PromptOnQuit</key>
-	<true/>
+	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
 	<false/>
 	<key>RightCommand</key>
@@ -3438,7 +3457,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-01-27T08:01:35Z</date>
+	<date>2017-02-10T16:02:12Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -3494,6 +3513,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.13</string>
+	<string>3.0.14</string>
 </dict>
 </plist>
