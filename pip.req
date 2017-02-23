@@ -12,6 +12,7 @@ numpy
 pandas
 pep8
 Pillow
+pint
 pycrypto
 pyflakes
 Pygments
