@@ -86,6 +86,7 @@ brew "install switchaudio-osx"              # Switch audio input/output
 brew "doxygen"								# tmux dependency
 brew "tmux", args: ['with-utf8proc']        # Terminal multiplexer and server
 brew "trash"								# To use OS trash instead of rm forever
+brew "unison"                               # Sync both ways folders
 brew "youtube-dl"							# Download YouTube (and others) from CLI
 
 ### MISC
@@ -93,6 +94,7 @@ brew "archey"
 brew "cowsay"
 brew "fortune"
 brew "screenfetch"
+brew "sl"
 
 ##### CASKS #####
 
@@ -133,7 +135,7 @@ cask "xbox360-controller-driver"			# Drivers for XBOX 360 controller
 cask "bartender"							# Groups menu bar items (PAID)
 cask "carbon-copy-cloner"					# Bulk copy and image creation (PAID)
 cask "daisydisk"							# Handy disk space analyzer (PAID)
-cask "tuxera-ntfs"							# NTFS write support (PAID)
+cask "parangon-ntfs"							# NTFS write support (PAID)
 cask "vmware-fusion"						# Full fledged user friendly VM (PAID)
 
 # Quick Look plugins
