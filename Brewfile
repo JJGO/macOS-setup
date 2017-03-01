@@ -118,6 +118,7 @@ cask "mactex"								# LateX and TeX
 cask "malwarebytes-anti-malware"			# Remove antimalware
 cask "onyx"									# Tweak tool for OS
 cask "osxfuse"
+cask "ext4fuse"
 cask "scroll-reverser"						# Tool to invert mousewheel scroll
 cask "skim"									# Better PDF tool with Sublime Text integration
 cask "spotify"								# Music streaming
