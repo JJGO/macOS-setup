@@ -13,10 +13,11 @@ brew "pandoc"								# Document conversion
 brew "rclone" 								# Rsync to cloud storage
 brew "subliminal"							# Subtitle renamer
 brew "speedtest_cli"						# Speedtest on CLI
-
+brew "tldr"                                 # Simpler man pages
 ### MISC
 
 brew "cmatrix"
+brew "pipes-sh"
 
 #### NON CORE CASKS ####
 
