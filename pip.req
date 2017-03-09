@@ -3,6 +3,7 @@ cryptography
 Cython
 Flask
 h5py
+howdoi
 jupyter
 matplotlib
 nbconvert
