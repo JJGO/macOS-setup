@@ -47,9 +47,10 @@ cask "xld"									# Convert flac files
 
 # PAID Casks
 cask "dash"									# Offline programming reference (PAID)
-# cask "fantastical"							# Menu bar calendar (PAID)
+# cask "fantastical"						# Menu bar calendar (PAID)
 cask "kaleidoscope"							# Visual comparison tool (text, image...)
-# cask "the-archive-browser"					# Preview compressed files (PAID)
+cask "serial"                               # Serial port console (PAID)
+# cask "the-archive-browser"				# Preview compressed files (PAID)
 cask "wifi-explorer"						# Look for wifi networks power and channels (PAID)
 
 
