@@ -28,6 +28,7 @@ brew "make", args: ['with-default-names']
 brew "nano"
 brew "openssh"
 brew "readline"
+brew "rename"
 brew "rsync"
 brew "screen"
 brew "stow"                                 # Symlink creator, useful for dotfiles
