@@ -19,6 +19,7 @@ pyflakes
 Pygments
 pylint
 PyQt5
+pyserial
 pytest
 requests
 scipy
