@@ -15,6 +15,7 @@ pep8
 Pillow
 pint
 pycrypto
+pydotplus
 pyflakes
 Pygments
 pylint
