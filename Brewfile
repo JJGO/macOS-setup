@@ -83,6 +83,7 @@ brew "mutt", args: ['with-trash-patch']		# Email Client
 brew "nmap"									# Network management package
 brew "peco"                                 # Simplistic interactive CLI filtering tool
 brew "terminal-notifier" 					# Enable terminal notifications for scripts
+brew "tig"                                  # text-mode interface for git
 brew "thefuck"								# To correct mistypes in commands
 brew "the_silver_searcher"					# Search similar to ack
 brew "install switchaudio-osx"              # Switch audio input/output
