@@ -82,6 +82,7 @@ brew "mas"									# Install software from app store
 brew "mutt", args: ['with-trash-patch']		# Email Client
 brew "nmap"									# Network management package
 brew "peco"                                 # Simplistic interactive CLI filtering tool
+brew "ranger"                               # Console file manager with VI key bindings
 brew "terminal-notifier" 					# Enable terminal notifications for scripts
 brew "tig"                                  # text-mode interface for git
 brew "thefuck"								# To correct mistypes in commands
