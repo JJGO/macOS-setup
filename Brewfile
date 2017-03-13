@@ -80,6 +80,7 @@ brew "hardlink-osx"							# Hard link functionality on macOS
 brew "htop"									# Display system usage
 brew "mas"									# Install software from app store
 brew "mutt", args: ['with-trash-patch']		# Email Client
+brew "ncdu"                                 #
 brew "nmap"									# Network management package
 brew "peco"                                 # Simplistic interactive CLI filtering tool
 brew "ranger"                               # Console file manager with VI key bindings
