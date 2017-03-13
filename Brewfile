@@ -74,6 +74,7 @@ brew "ack"									# Better grep
 brew "colordiff"							# Colored diff
 brew "dockutil"                             # Manages the dock icons
 brew "duti"                                 # Set default document and URL handlers
+brew "fasd"                                 # Fasd offers quick access to files and directories
 brew "fdupes"								# CLI duplicate finder
 brew "hardlink-osx"							# Hard link functionality on macOS
 brew "htop"									# Display system usage
