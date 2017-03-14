@@ -71,6 +71,7 @@ brew "emacs", args: ['HEAD', 'use-git-head', 'cocoa', 'srgb']
 
 ### CLI UTILITIES
 brew "ack"									# Better grep
+brew "aspell", args: ['with-lang-es']       # Spell checker
 brew "colordiff"							# Colored diff
 brew "dockutil"                             # Manages the dock icons
 brew "duti"                                 # Set default document and URL handlers
