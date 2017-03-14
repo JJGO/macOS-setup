@@ -26,6 +26,7 @@ requests
 scipy
 scikit-learn
 sympy
+tqdm
 virtualenv
 virtualenvwrapper
 coursera-dl
