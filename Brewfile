@@ -81,7 +81,7 @@ brew "hardlink-osx"							# Hard link functionality on macOS
 brew "htop"									# Display system usage
 brew "mas"									# Install software from app store
 brew "mutt", args: ['with-trash-patch']		# Email Client
-brew "ncdu"                                 #
+brew "ncdu"                                 # Storage analyzer
 brew "nmap"									# Network management package
 brew "peco"                                 # Simplistic interactive CLI filtering tool
 brew "ranger"                               # Console file manager with VI key bindings
@@ -106,7 +106,7 @@ brew "sl"
 ##### CASKS #####
 
 tap "caskroom/cask"
-
+cask "amethyst"                             # Tiling window manager
 cask "alfred"								# Improved Spotlight
 cask "appcleaner"							# Removes plist along with the app
 cask "bettertouchtool"						# Macros and gestures (PAIS -license)
