@@ -78,6 +78,7 @@ brew "duti"                                 # Set default document and URL handl
 brew "fasd"                                 # Fasd offers quick access to files and directories
 brew "fdupes"								# CLI duplicate finder
 brew "hardlink-osx"							# Hard link functionality on macOS
+brew "hub"                                  # Perform GitHub actions from the CLI
 brew "htop"									# Display system usage
 brew "mas"									# Install software from app store
 brew "mackup"                               # Configuration Syncer
