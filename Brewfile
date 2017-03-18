@@ -80,6 +80,7 @@ brew "fdupes"								# CLI duplicate finder
 brew "hardlink-osx"							# Hard link functionality on macOS
 brew "htop"									# Display system usage
 brew "mas"									# Install software from app store
+brew "mackup"                               # Configuration Syncer
 brew "mutt", args: ['with-trash-patch']		# Email Client
 brew "ncdu"                                 # Storage analyzer
 brew "nmap"									# Network management package
