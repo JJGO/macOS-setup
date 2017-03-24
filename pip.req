@@ -27,6 +27,7 @@ scipy
 scikit-learn
 sympy
 tqdm
+uncertainties
 virtualenv
 virtualenvwrapper
 coursera-dl
