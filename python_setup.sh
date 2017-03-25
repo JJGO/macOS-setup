@@ -32,7 +32,7 @@ fi
     
 
 # Install latest stable python2
-LATEST_PYTHON2="$(pyenv install -l | grep -oP '^\s+(2.*\d)' | sed 's/ //g' | tail -n 1)"
+LATEST_PYTHON2=$(pyenv install -l | grep -oP '^\s+(2.*\d)' | sed 's/ //g' | tail -n 1)
 pyenv install -s $LATEST_PYTHON2
 
 # Install latest stable python3
@@ -43,8 +43,16 @@ pyenv install -s $LATEST_PYTHON3
 LATEST_ANACONDA=$(pyenv install -l | grep -oP '^\s+(anaconda.*)' | sed 's/ //g' | tail -n 1)
 pyenv install -s $LATEST_ANACONDA
 pyenv global $LATEST_ANACONDA
-pip install -r pip.req
-conda install --yes --file conda.req
+
+# Install python packages
+if [ -f pip.req ]; then
+    pip install -r pip.req
+fi
+
+# Install conda packages
+if [ -f conda.req ]; then
+    conda install --yes --file conda.req
+fi
 
 # Set latest anaconda as default
 pyenv global $LATEST_ANACONDA
