@@ -18,12 +18,12 @@ pyenv global 3.6.0
 pip install -r pip.req -r conda.req
 
 # Install full anaconda and packages
-pyenv install anaconda3-4.2.0
-pyenv global anaconda3-4.2.0
+pyenv install anaconda3-4.3.0
+pyenv global anaconda3-4.3.0
 conda install --yes --file conda.req
 
-# Set 3.6 as default
-pyenv global 3.6.0
+# Set anaconda 3.6.0 as default
+pyenv global anaconda3-4.3.0
 
 mkdir ~/.virtualenvs
 
