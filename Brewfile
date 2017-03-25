@@ -91,6 +91,7 @@ brew "nmap"									# Network management package
 brew "peco"                                 # Simplistic interactive CLI filtering tool
 brew "pv"                                   # Monitor the progress of data through a pipe.
 brew "ranger"                               # Console file manager with VI key bindings
+brew "ripgrep"                              # Search similar to ag but faster
 brew "terminal-notifier" 					# Enable terminal notifications for scripts
 brew "tig"                                  # text-mode interface for git
 brew "thefuck"								# To correct mistypes in commands
