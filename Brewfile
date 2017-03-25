@@ -104,6 +104,7 @@ brew "cowsay"
 brew "fortune"
 brew "screenfetch"
 brew "sl"
+brew "gti"
 
 ##### CASKS #####
 
