@@ -73,6 +73,7 @@ brew "emacs", args: ['HEAD', 'use-git-head', 'cocoa', 'srgb']
 
 ### CLI UTILITIES
 brew "ack"									# Better grep
+brew "atool"                                # A script for managing file archives (aunpack)
 brew "aspell", args: ['with-lang-es']       # Spell checker
 brew "colordiff"							# Colored diff
 brew "dockutil"                             # Manages the dock icons
