@@ -88,11 +88,12 @@ brew "mutt", args: ['with-trash-patch']		# Email Client
 brew "ncdu"                                 # Storage analyzer
 brew "nmap"									# Network management package
 brew "peco"                                 # Simplistic interactive CLI filtering tool
+brew "pv"                                   # Monitor the progress of data through a pipe.
 brew "ranger"                               # Console file manager with VI key bindings
 brew "terminal-notifier" 					# Enable terminal notifications for scripts
 brew "tig"                                  # text-mode interface for git
 brew "thefuck"								# To correct mistypes in commands
-brew "the_silver_searcher"					# Search similar to ack
+brew "the_silver_searcher"					# Search similar to ack but faster
 brew "switchaudio-osx"                      # Switch audio input/output
 brew "doxygen"								# tmux dependency
 brew "tmux", args: ['with-utf8proc']        # Terminal multiplexer and server
