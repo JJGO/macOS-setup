@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -e 			# Exit on error
-set -o pipefail # Exit on pipe error
+# set -o pipefail # Exit on pipe error
 set -x 			# Enable verbosity
 
 # Check if pyenv is in path and run init, else install pyenv
