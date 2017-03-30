@@ -23,11 +23,14 @@ fi
 if command -v pyenv-virtualenv-init > /dev/null; then
     eval "$(pyenv virtualenv-init -)";
 else
-    git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+    if [ ! -d "$(pyenv root)/plugins/pyenv-virtualenv" ]; then
 
-    eval "$(pyenv virtualenv-init -)";
-    echo 'if command -v pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -); fi' >> ~/.bashrc
-    echo 'if command -v pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -); fi' >> ~/.zshenv
+        git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+
+        eval "$(pyenv virtualenv-init -)";
+        echo 'if command -v pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -); fi' >> ~/.bashrc
+        echo 'if command -v pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -); fi' >> ~/.zshenv
+    fi
 fi
     
 
