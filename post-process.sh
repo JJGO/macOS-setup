@@ -73,3 +73,9 @@ brew linkapps mpv
 
 # Enable Trim on third party SSD
 sudo trimforce enable
+
+# Install fn-toggle app
+cd /tmp
+git clone https://github.com/jakubroztocil/macos-fn-toggle
+cd macos-fn-toggle
+make install
