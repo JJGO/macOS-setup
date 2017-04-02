@@ -107,6 +107,7 @@ brew "youtube-dl"							# Download YouTube (and others) from CLI
 brew "archey"
 brew "cowsay"
 brew "fortune"
+brew "figlet"
 brew "screenfetch"
 brew "sl"
 brew "gti"
