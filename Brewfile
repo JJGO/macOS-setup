@@ -49,6 +49,12 @@ brew "fish"									# Friendly interactive sheell. Good defaults but not POSIX
 brew "zsh"									# Better shell, specially with zPrezto
 brew "zsh-completions"						# General ZSH completions
 
+### WINE
+brew "wine"                                 # For Windows software
+brew "winetricks"                           # Extra wine utils
+cask "xquartz"                              # DEP: WineHQ dependency
+cask "wine-stable"                          # GUI Wine interface
+cask "wineskin-winery"                      # Wine wrapper (games)
 
 ### PROGRAMMING LANGUAGES
 brew "xz"
