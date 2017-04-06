@@ -54,7 +54,8 @@ brew "wine"                                 # For Windows software
 brew "winetricks"                           # Extra wine utils
 cask "xquartz"                              # DEP: WineHQ dependency
 cask "wine-stable"                          # GUI Wine interface
-cask "wineskin-winery"                      # Wine wrapper (games)
+cask "wineskin-winery"                      # Wine wrapper
+cask "playonmac"                            # Wine wrapper with nice UI
 
 ### PROGRAMMING LANGUAGES
 brew "xz"
