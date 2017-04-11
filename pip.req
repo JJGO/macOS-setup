@@ -26,6 +26,9 @@ requests
 scipy
 scikit-learn
 sympy
+tensorflow
+theano
+keras
 tqdm
 uncertainties
 virtualenv
