@@ -123,6 +123,7 @@ brew "gti"
 
 tap "caskroom/cask"
 tap "caskroom/versions"
+cask "adium"                                # IM Client
 cask "amethyst"                             # Tiling window manager
 cask "alfred"								# Improved Spotlight
 cask "appcleaner"							# Removes plist along with the app
