@@ -6,6 +6,7 @@ h5py
 howdoi
 jupyter
 matplotlib
+mxnet
 nbconvert
 nltk
 nose
