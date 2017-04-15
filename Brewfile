@@ -127,7 +127,8 @@ cask "adium"                                # IM Client
 cask "amethyst"                             # Tiling window manager
 cask "alfred"								# Improved Spotlight
 cask "appcleaner"							# Removes plist along with the app
-cask "bettertouchtool"						# Macros and gestures (PAIS -license)
+cask "bettertouchtool"						# Macros and gestures (PAID -license)
+cask "caffeine"                             # Prevents the computer from sleeping
 cask "clipmenu"								# Clipboard manager
 cask "dropbox" 								# Cloud storage with syncing
 cask "flux"									# Changes temperature color based on time of day
