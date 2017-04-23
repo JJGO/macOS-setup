@@ -77,6 +77,7 @@ brew "vim", args: ['override-system-vi']
 brew "macvim", args: ['custom-system-icons']
 brew "neovim/neovim/neovim"
 brew "emacs", args: ['HEAD', 'use-git-head', 'cocoa', 'srgb']
+cask "emacs"
 
 ### CLI UTILITIES
 brew "ack"									# Better grep
