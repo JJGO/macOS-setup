@@ -147,6 +147,7 @@ cask "mactex"								# LateX and TeX
 cask "malwarebytes-anti-malware"			# Remove antimalware
 cask "onyx"									# Tweak tool for OS
 cask "osxfuse"
+cask "paintbrush"                           # MS paint equivalent
 cask "pycharm"                              # Use educational license (PAID)
 cask "ext4fuse"
 cask "scroll-reverser"						# Tool to invert mousewheel scroll
