@@ -94,6 +94,7 @@ brew "hub"                                  # Perform GitHub actions from the CL
 brew "htop"									# Display system usage
 brew "mas"									# Install software from app store
 brew "mackup"                               # Configuration Syncer
+brew "mkvtoolnix", args: ['with-qt5']       # Mkv tools
 brew "mutt", args: ['with-trash-patch']		# Email Client
 brew "ncdu"                                 # Storage analyzer
 brew "nmap"									# Network management package

@@ -10,7 +10,6 @@ brew "imagemagick", args: ['with-librsvg', 'with-fontconfig'] # Good image editi
 brew "lastpass-cli", args: ['with-pinentry', 'with-doc'] # Lastpass from terminal
 brew "media-info" 							# Media info for videos
 brew "minicom"                              # Serial port communication
-brew "mkvtoolnix"							# Mkv tools
 brew "pandoc"								# Document conversion
 brew "rclone" 								# Rsync to cloud storage
 brew "subliminal"							# Subtitle renamer
