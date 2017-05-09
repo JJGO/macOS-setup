@@ -187,6 +187,8 @@ cask "suspicious-package"
 cask "qlvideo"
 cask "jupyter-notebook-ql"
 cask "quicknfo"
+cask "qlmobi"
+cask "qladdict"
 
 # Fonts
 tap 'caskroom/fonts'
