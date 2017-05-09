@@ -81,6 +81,7 @@ cask "emacs"
 
 ### CLI UTILITIES
 brew "ack"									# Better grep
+brew "aria2"                                # CLI downloader with torrent support
 brew "atool"                                # A script for managing file archives (aunpack)
 brew "aspell", args: ['with-lang-es']       # Spell checker
 brew "cloc"                                 # Count lines of code
