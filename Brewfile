@@ -90,6 +90,7 @@ brew "dockutil"                             # Manages the dock icons
 brew "duti"                                 # Set default document and URL handlers
 brew "fasd"                                 # Fasd offers quick access to files and directories
 brew "fdupes"								# CLI duplicate finder
+brew "handbrake"                            # For video transcoding and conversion
 brew "hardlink-osx"							# Hard link functionality on macOS
 brew "hub"                                  # Perform GitHub actions from the CLI
 brew "htop"									# Display system usage
