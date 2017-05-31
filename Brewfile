@@ -94,6 +94,7 @@ brew "handbrake"                            # For video transcoding and conversi
 brew "hardlink-osx"							# Hard link functionality on macOS
 brew "hub"                                  # Perform GitHub actions from the CLI
 brew "htop"									# Display system usage
+brew "irssi"                                # IRC Client
 brew "mas"									# Install software from app store
 brew "mackup"                               # Configuration Syncer
 brew "mkvtoolnix", args: ['with-qt5']       # Mkv tools
