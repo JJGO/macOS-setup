@@ -33,6 +33,8 @@ cask "gfxcardstatus"						# Changes the dedicated and internal graphics
 cask "hazel"                                # Automate moving files
 cask "xquartz"								# DEP: Inkscape dependency
 cask "inkscape"								# Vector graphics
+cask "keepassx"                             # Password Manager
+cask "keepassxc"
 cask "kodi"									# Media center for music, tvshows and movies
 cask "macdown"								# Simple markdown editor with live preview
 cask "nosleep"								# Prevents from sleeping with close lid
