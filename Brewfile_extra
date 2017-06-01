@@ -21,7 +21,7 @@ brew "cmatrix"
 brew "pipes-sh"
 
 #### NON CORE CASKS ####
-
+cask "amazon-drive"                         # Amazon Cloud Drive App
 # cask "atom" 								# GitHubs editor
 cask "calibre"								# Eboook Management
 cask "chromium"								# Open Source web browser
