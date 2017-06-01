@@ -125,6 +125,9 @@ TODO Fix non spotify songs
 ## Karabiner Elements
 Caps lock to Backspace
 
+## Recover Config
+Once Dropbox has synced
+`mackup restore`
 
 ## Automation
 * Instalar Sonarr (brew)
@@ -134,4 +137,7 @@ Caps lock to Backspace
 * Copiar jackett a /Applications
 * Configurar Sonarr trackers
 * Configurar Radarr trackers
-* COnfigurar Transmission
+* Configurar Transmission
+
+* Install 2do
+*
