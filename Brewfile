@@ -101,6 +101,7 @@ brew "mkvtoolnix", args: ['with-qt5']       # Mkv tools
 brew "mutt", args: ['with-trash-patch']		# Email Client
 brew "ncdu"                                 # Storage analyzer
 brew "nmap"									# Network management package
+brew "pass"                                 # UNIX password manager based on gpg
 brew "peco"                                 # Simplistic interactive CLI filtering tool
 brew "pv"                                   # Monitor the progress of data through a pipe.
 brew "ranger"                               # Console file manager with VI key bindings
