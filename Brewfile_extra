@@ -36,6 +36,7 @@ cask "inkscape"								# Vector graphics
 cask "keepassx"                             # Password Manager
 cask "keepassxc"
 cask "kodi"									# Media center for music, tvshows and movies
+cask "lego-digital-designer"                # Lego editing tool
 cask "macdown"								# Simple markdown editor with live preview
 cask "nosleep"								# Prevents from sleeping with close lid
 cask "pdftotext"                            # Pdf to text
