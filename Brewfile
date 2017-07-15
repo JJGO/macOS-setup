@@ -15,7 +15,7 @@ brew "ed", args: ['with-default-names']
 brew "findutils"#, args: ['with-default-names']
 brew "gawk"
 brew "gnu-indent", args: ['with-default-names']
-brew "gnu-sed", args: ['with-default-names']
+brew "gnu-sed" #, args: ['with-default-names']
 brew "gnu-tar", args: ['with-default-names']
 brew "gnu-which", args: ['with-default-names']
 # brew "gnutls"
@@ -103,6 +103,7 @@ brew "ncdu"                                 # Storage analyzer
 brew "nmap"									# Network management package
 brew "pass"                                 # UNIX password manager based on gpg
 brew "peco"                                 # Simplistic interactive CLI filtering tool
+brew "plowshare"                            # CLI Hoster Downloader
 brew "pv"                                   # Monitor the progress of data through a pipe.
 brew "ranger"                               # Console file manager with VI key bindings
 brew "ripgrep"                              # Search similar to ag but faster
