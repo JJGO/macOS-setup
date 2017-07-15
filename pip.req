@@ -12,6 +12,7 @@ nbconvert
 nltk
 nose
 numpy
+metakernel
 pandas
 pep8
 Pillow
