@@ -40,7 +40,8 @@ cask "macdown"								# Simple markdown editor with live preview
 cask "nosleep"								# Prevents from sleeping with close lid
 cask "pdftotext"                            # Pdf to text
 cask "openemu"								# Emulator collection
-cask "skype"								# Video calls
+cask "skype"                                # Video calls
+cask "slack"                                # Slack client
 cask "sourcetree"							# Git visualization tool
 cask "torbrowser"							# Anonymized browser
 cask "virtualbox"							# Virtual machines
