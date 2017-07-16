@@ -84,3 +84,9 @@ cd /tmp
 git clone https://github.com/jakubroztocil/macos-fn-toggle
 cd macos-fn-toggle
 make install
+
+# Install git-fire
+
+git clone https://github.com/qw3rtman/git-fire /tmp/git-fire
+mkdir -p $HOME/bin
+cp /tmp/git-fire/git-fire $HOME/bin
