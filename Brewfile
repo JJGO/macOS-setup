@@ -165,6 +165,7 @@ cask "sublime-text"							# Multipurpose text editor
 cask "telegram"								# Instant messaging with sync across devices
 cask "the-unarchiver"						# To deflate and decompress files
 cask "transmission"							# Torrent client
+cask "tunnelblick"                          # OpenVPN client
 cask "veracrypt"							# Disk and disk image encryption
 cask "vlc"									# Video Player
 cask "vox"									# Lightweight audio player
