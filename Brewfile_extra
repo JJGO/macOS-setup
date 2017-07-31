@@ -48,6 +48,7 @@ cask "torbrowser"							# Anonymized browser
 cask "virtualbox"							# Virtual machines
 cask "vagrant"								# Automated VM management/deployment
 cask "vagrant-manager"						#  helps you manage all your virtual machines in one place directly from the menubar
+cask "whatsapp"                             # Whatsapp Desktop Client
 cask "xld"									# Convert flac files
 
 # PAID Casks
