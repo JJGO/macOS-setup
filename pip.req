@@ -5,6 +5,7 @@ Flask
 gensim
 greg
 h5py
+hyperopt
 howdoi
 jupyter
 jupyterthemes
