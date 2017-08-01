@@ -16,6 +16,7 @@ nose
 numpy
 metakernel
 pandas
+paramiko
 pep8
 Pillow
 pint
