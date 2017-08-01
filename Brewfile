@@ -111,6 +111,7 @@ brew "terminal-notifier" 					# Enable terminal notifications for scripts
 brew "tig"                                  # text-mode interface for git
 brew "thefuck"								# To correct mistypes in commands
 brew "the_silver_searcher"					# Search similar to ack but faster
+brew "sshfs"                                # TO mount disks over SSH
 brew "switchaudio-osx"                      # Switch audio input/output
 brew "doxygen"								# tmux dependency
 brew "tmux", args: ['with-utf8proc']        # Terminal multiplexer and server
