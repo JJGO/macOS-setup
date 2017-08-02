@@ -42,6 +42,7 @@ brew "git"
 brew "git-extras"							# Extra commands for convenience
 brew "git-crypt"							# Enables secretfiles
 brew "git-lfs"								# Better handling of large files
+brew "git-flow"                             # CLI  utils for git-flow
 
 brew "bash"									# Apple's is 3.2 current is 4
 brew "bash-completion"						# Bash completion is lacking so this fixes it
