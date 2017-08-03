@@ -35,6 +35,7 @@ sacred
 scipy
 scikit-learn
 sympy
+tensorboard
 tensorflow
 theano
 keras
