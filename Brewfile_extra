@@ -1,7 +1,5 @@
 cask_args appdir: '/Applications'
 
-tap 'colindean/fonts-nonfree'
-
 ### EXTRA CLI UTILITIES
 brew "dos2unix"								# Translate newlines between DOS and UNIX
 brew "ccat"                                 # Colorized cat
@@ -54,7 +52,6 @@ cask "vagrant-manager"						#  helps you manage all your virtual machines in one
 cask "whatsapp"                             # Whatsapp Desktop Client
 cask "xld"									# Convert flac files
 
-cask "font-microsoft-office"
 
 # PAID Casks
 cask "dash"									# Offline programming reference (PAID)

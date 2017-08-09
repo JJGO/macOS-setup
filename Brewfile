@@ -213,6 +213,10 @@ cask "font-menlo-for-powerline"
 cask "font-source-code-pro"
 cask "font-source-sans-pro"
 cask "font-terminus"
+cask "font-times-new-roman"
+
+tap 'colindean/fonts-nonfree'
+cask "font-microsoft-office"
 
 ### Mac App Store Installs
 mas "Amphetamine", id: 937984704					# Better up to date Caffeine tool to prevent sleep
