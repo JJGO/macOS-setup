@@ -106,6 +106,7 @@ brew "pass"                                 # UNIX password manager based on gpg
 brew "peco"                                 # Simplistic interactive CLI filtering tool
 brew "plowshare"                            # CLI Hoster Downloader
 brew "pv"                                   # Monitor the progress of data through a pipe.
+brew "qpdf"                                 # Pdf CLI utility
 brew "ranger"                               # Console file manager with VI key bindings
 brew "ripgrep"                              # Search similar to ag but faster
 brew "terminal-notifier" 					# Enable terminal notifications for scripts
