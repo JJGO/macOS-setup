@@ -222,6 +222,7 @@ cask "font-microsoft-office"
 mas "Amphetamine", id: 937984704					# Better up to date Caffeine tool to prevent sleep
 mas "LastPass", id: 926036361						# Password management s
 mas "Todoist", id: 585829637						# Todo list tool
+mas "TogglDesktop", id: 957734279                   # Time Tracking app
 mas "Tomato One", id: 907364780						# Pomodoro timers
 mas "Xcode", id: 497799835							# Apple's developper tools
 
