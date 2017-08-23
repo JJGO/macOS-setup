@@ -83,6 +83,7 @@ brew "sbt"
 brew "node"
 brew "npm"
 brew "nvm"
+brew "yarn"
 
 # Haskell
 brew "ghc"
