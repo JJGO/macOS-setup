@@ -82,6 +82,7 @@ brew "sbt"
 # Node.js
 brew "node"
 brew "npm"
+brew "nvm"
 
 # Haskell
 brew "ghc"
