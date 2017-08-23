@@ -96,6 +96,7 @@ brew "r", args: ['with-openblas']
 
 # DBs
 brew "postgresql"
+brew "redis"
 
 ### EXTRA NICETIES
 
