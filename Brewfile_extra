@@ -94,6 +94,8 @@ brew "golang"
 cask "julia"
 brew "r", args: ['with-openblas']
 
+# DBs
+brew "postgresql"
 
 ### EXTRA NICETIES
 
