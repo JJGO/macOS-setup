@@ -148,7 +148,8 @@ cask "google-chrome"						# Google's web browser
 cask "google-chrome-canary"                 # Google's beta web browser
 cask "chrome-remote-desktop-host"           # Remote control using Google credentials
 cask "firefox"                              # Alternative web browser
-cask "google-drive"							# Google cloud storage
+# cask "google-drive"							# Google cloud storage
+cask "google-backup-and-sync"               # Google drive and photos
 cask "github-desktop"						# Github desktop client (good for diffs)
 cask "iterm2"								# Better than Terminal.app
 cask "karabiner-elements"					# Tool to remap keys like caps-lock
