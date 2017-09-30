@@ -38,6 +38,7 @@ cask "keepassxc"
 cask "kodi"									# Media center for music, tvshows and movies
 cask "lego-digital-designer"                # Lego editing tool
 cask "macdown"								# Simple markdown editor with live preview
+cask "mendeley-desktop"                     # Literature manager
 cask "nosleep"								# Prevents from sleeping with close lid
 cask "openemu"								# Emulator collection
 cask "pdftotext"                            # Pdf to text
