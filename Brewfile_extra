@@ -22,7 +22,6 @@ brew "pipes-sh"
 
 #### NON CORE CASKS ####
 
-# cask "atom" 								# GitHubs editor
 cask "calibre"								# Eboook Management
 cask "chromium"								# Open Source web browser
 cask "ccleaner"								# Cache and temporary files removal

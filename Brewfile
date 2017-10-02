@@ -138,6 +138,7 @@ cask "adium"                                # IM Client
 cask "amethyst"                             # Tiling window manager
 cask "alfred"								# Improved Spotlight
 cask "appcleaner"							# Removes plist along with the app
+cask "atom"                                 # Text editor
 cask "bettertouchtool"						# Macros and gestures (PAID -license)
 cask "borgbackup"                           # Incremental and Deduplication backup tool
 cask "caffeine"                             # Prevents the computer from sleeping
