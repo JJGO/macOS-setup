@@ -164,6 +164,7 @@ cask "pycharm"                              # Use educational license (PAID)
 cask "ext4fuse"
 cask "rambox"                               # messaging and emailing app that combines web apps
 cask "scroll-reverser"						# Tool to invert mousewheel scroll
+cask "selfcontrol"                          # Blacklisting websites
 cask "skim"									# Better PDF tool with Sublime Text integration
 cask "spotify"								# Music streaming
 cask "steam"								# Gaming collection hub
