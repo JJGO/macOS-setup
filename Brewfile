@@ -177,6 +177,7 @@ cask "veracrypt"							# Disk and disk image encryption
 cask "vlc"									# Video Player
 cask "vox"									# Lightweight audio player
 cask "xbox360-controller-driver"			# Drivers for XBOX 360 controller
+cask "zotero"                               # Reference manager
 
 # PAID Casks
 cask "bartender"							# Groups menu bar items (PAID)
