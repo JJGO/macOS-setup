@@ -98,6 +98,8 @@ brew "r", args: ['with-openblas']
 brew "postgresql"
 brew "redis"
 
+brew "swig"
+
 ### EXTRA NICETIES
 
 brew "mono"
