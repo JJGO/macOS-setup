@@ -1,6 +1,7 @@
 autopep8
 beautifulsoup4
 cryptography
+cvxopt
 Cython
 Flask
 gensim
