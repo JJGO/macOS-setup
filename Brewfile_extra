@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 ### EXTRA CLI UTILITIES
 brew "dos2unix"								# Translate newlines between DOS and UNIX
 brew "ccat"                                 # Colorized cat
+brew "cksfv"                                # Utility to check SFV files
 brew "cmus"                                 # Terminal music player
 brew "elinks"								# CLI web browser
 brew "graphviz"								# Graph visualization software
@@ -15,6 +16,7 @@ brew "rclone" 								# Rsync to cloud storage
 brew "subliminal"							# Subtitle renamer
 brew "speedtest_cli"						# Speedtest on CLI
 brew "tldr"                                 # Simpler man pages
+brew "utimer"                               # CLI timer, countdown and stopwatch
 ### MISC
 
 brew "cmatrix"
