@@ -153,6 +153,7 @@ cask "firefox"                              # Alternative web browser
 cask "google-backup-and-sync"               # Google drive and photos
 cask "github-desktop"						# Github desktop client (good for diffs)
 cask "iterm2"								# Better than Terminal.app
+cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
 cask "karabiner-elements"					# Tool to remap keys like caps-lock
 cask "logitech-control-center"				# Drivers for keyboard and mouse
 cask "mactex"								# LateX and TeX
