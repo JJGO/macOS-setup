@@ -19,6 +19,8 @@ nltk
 nose
 numpy
 metakernel
+opencv-python
+opencv-contrib-python
 pandas
 paramiko
 pep8
