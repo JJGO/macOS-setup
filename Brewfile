@@ -49,6 +49,7 @@ brew "bash-completion"						# Bash completion is lacking so this fixes it
 brew "fish"									# Friendly interactive sheell. Good defaults but not POSIX
 brew "zsh"									# Better shell, specially with zPrezto
 brew "zsh-completions"						# General ZSH completions
+brew "mosh"                                 # Mobile Shell
 
 ### WINE
 brew "wine"                                 # For Windows software
