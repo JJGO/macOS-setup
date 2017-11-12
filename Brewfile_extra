@@ -79,6 +79,7 @@ brew "gcc@5", args: ['with-all-languages']
 
 # Java and Scala (order matters)
 cask "java"
+brew "ant"
 brew "scala"
 brew "sbt"
 
