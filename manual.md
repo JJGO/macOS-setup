@@ -33,7 +33,7 @@ https://github.com/herrbischoff/awesome-osx-command-line
 * TODO Setup automatically
 
 ### Users and Groups
-* Change icon
+* Change icon to rebel space icon (Google Drive)
 
 ### Trackpad
 * Setup more gestures
@@ -118,9 +118,8 @@ TODO Fix non spotify songs
 ## Popclip
 * Install extensions
 
-
 ## Matlab
-* Use UMICH ITS account
+* Use MIT account
 
 ## Karabiner Elements
 Caps lock to Backspace
@@ -130,14 +129,9 @@ Once Dropbox has synced
 `mackup restore`
 
 ## Automation
-* Instalar Sonarr (brew)
 * Instalar Jackett
-* Instalar Radarr
-* Instalar Headphones
 * Copiar jackett a /Applications
 * Configurar Sonarr trackers
 * Configurar Radarr trackers
 * Configurar Transmission
 
-* Install 2do
-*
