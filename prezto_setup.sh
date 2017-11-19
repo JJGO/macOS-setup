@@ -12,6 +12,3 @@ for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
   ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 done
 
-# Install https://github.com/supercrabtree/k
-mkdir -p $HOME/bin/k
-git clone git@github.com:supercrabtree/k.git $HOME/bin/k
