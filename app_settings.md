@@ -4,7 +4,7 @@ App Settings
 ## System
 * Configure active corners
 
-## Airmail
+## Mail.app
 * Configure accounts
 
 ## iTerm
@@ -19,22 +19,16 @@ App Settings
 * Alfred-Powerpack
 * Carbon-Copy-Cloner
 * Bartender
-* iA Writer
-* 2Do
-* Paste
 * VMware_Fusion_PRO
-* Airmail
 * 1Password
 * Microsoft_Office_2016
 * PopClip
 * Path Finder
-* Deliveries
-* Downie
 * Fantastical
 * DaisyDisk
 * The Archive Browser
 * Dash
-* Mathworks_Matlab_R2016b
+* Mathworks_Matlab_R2017b
 * Transmit
 * WiFExp22
 * Kaleidoscope
