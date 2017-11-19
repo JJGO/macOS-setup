@@ -9,7 +9,6 @@ flake8
 Flask
 h5py
 hyperopt
-howdoi
 jupyter
 jupyterthemes
 librosa
