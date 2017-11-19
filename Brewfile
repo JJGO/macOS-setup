@@ -52,9 +52,9 @@ brew "zsh-completions"                      # General ZSH completions
 brew "mosh"                                 # Mobile Shell
 
 ### WINE
+cask "xquartz"                              # DEP: WineHQ dependency
 brew "wine"                                 # For Windows software
 brew "winetricks"                           # Extra wine utils
-cask "xquartz"                              # DEP: WineHQ dependency
 cask "wine-stable"                          # GUI Wine interface
 cask "wineskin-winery"                      # Wine wrapper
 cask "playonmac"                            # Wine wrapper with nice UI
@@ -76,7 +76,6 @@ brew "lua"
 ### EDITORS
 # Widely used CLI editors
 brew "vim", args: ['override-system-vi', 'with-python3']
-brew "macvim", args: ['with-python3']
 brew "neovim"
 brew "emacs", args: ['HEAD', 'use-git-head', 'cocoa', 'srgb']
 cask "emacs"
@@ -117,6 +116,7 @@ brew "terminal-notifier"                    # Enable terminal notifications for 
 brew "tig"                                  # text-mode interface for git
 brew "thefuck"                              # To correct mistypes in commands
 brew "the_silver_searcher"                  # Search similar to ack but faster
+cask "osxfuse"                              # Dependency of sshfs
 brew "sshfs"                                # TO mount disks over SSH
 brew "doxygen"                              # tmux dependency
 brew "tmux", args: ['with-utf8proc']        # Terminal multiplexer and server
@@ -139,6 +139,7 @@ brew "pipes-sh"
 
 tap "caskroom/cask"
 tap "caskroom/versions"
+tap "caskroom/drivers"
 
 cask "amethyst"                             # Tiling window manager
 cask "alfred"                               # Improved Spotlight
@@ -152,16 +153,14 @@ cask "google-chrome-canary"                 # Google's beta web browser
 cask "chrome-remote-desktop-host"           # Remote control using Google credentials
 cask "firefox"                              # Alternative web browser
 cask "google-backup-and-sync"               # Google drive and photos
-cask "github-desktop"                       # Github desktop client (good for diffs)
 cask "iterm2"                               # Better than Terminal.app
 cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
 cask "karabiner-elements"                   # Tool to remap keys like caps-lock
 cask "logitech-control-center"              # Drivers for keyboard and mouse
+cask "logitech-unifying"                    # Drivers for keyboard and mouse
 cask "mactex"                               # LateX and TeX
-cask "malwarebytes-anti-malware"            # Remove antimalware
+cask "malwarebytes"                         # Remove antimalware
 cask "onyx"                                 # Tweak tool for OS
-cask "osxfuse"
-cask "ext4fuse"
 cask "scroll-reverser"                      # Tool to invert mousewheel scroll
 cask "selfcontrol"                          # Blacklisting websites
 cask "skim"                                 # Better PDF tool with Sublime Text integration
@@ -175,13 +174,13 @@ cask "tunnelblick"                          # OpenVPN client
 cask "veracrypt"                            # Disk and disk image encryption
 cask "vlc"                                  # Video Player
 cask "vox"                                  # Lightweight audio player
-cask "xbox360-controller-driver"            # Drivers for XBOX 360 controller
+cask "xbox360-controller-driver-unofficial" # Drivers for XBOX 360 controller
 
 # PAID Casks
 cask "bartender"                            # Groups menu bar items (PAID)
 cask "carbon-copy-cloner"                   # Bulk copy and image creation (PAID)
 cask "daisydisk"                            # Handy disk space analyzer (PAID)
-cask "parangon-ntfs"                        # NTFS write support (PAID)
+cask "paragon-ntfs"                        # NTFS write support (PAID)
 cask "vmware-fusion"                        # Full fledged user friendly VM (PAID)
 
 # Quick Look plugins

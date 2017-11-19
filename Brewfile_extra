@@ -8,8 +8,10 @@ brew "cksfv"                                # Utility to check SFV files
 brew "cloc"                                 # Count lines of code
 brew "cmus"                                 # Terminal music player
 brew "colordiff"                            # Colored diff
+brew "ext4fuse"                             # To mount Linux drives
 brew "hub"                                  # Perform GitHub actions from the CLI
 brew "lastpass-cli", args: ['with-pinentry', 'with-doc'] # Lastpass from terminal
+brew "macvim", args: ['with-python3']
 brew "mutt", args: ['with-trash-patch']     # Email Client
 brew "pass"                                 # UNIX password manager based on gpg
 brew "speedtest_cli"                        # Speedtest on CLI
@@ -29,6 +31,7 @@ cask "coconutbattery"                       # Displays battery health
 cask "docker"                               # Containerization tool
 cask "filebot"                              # TVshow/Movie renamer
 cask "gfxcardstatus"                        # Changes the dedicated and internal graphics
+cask "github"                               # Github desktop client (good for diffs)
 cask "handbrake"                            # For video transcoding and conversion
 cask "hazel"                                # Automate moving files
 cask "xquartz"                              # DEP: Inkscape dependency
