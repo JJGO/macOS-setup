@@ -71,7 +71,6 @@ brew "rbenv"
 brew "ruby-build"
 
 brew "perl"
-brew "lua"
 
 ### EDITORS
 # Widely used CLI editors
