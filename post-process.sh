@@ -50,35 +50,22 @@ winetricks settings fontsmooth=rgb
 
 # Disable recently played videos
 defaults write org.videolan.vlc NSRecentDocumentsLimit 0
-defaults delete org.videolan.vlc.LSSharedFileList RecentDocuments
+# defaults delete org.videolan.vlc.LSSharedFileList RecentDocuments
 defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAmount 0
 
 # Remove anything previous
-defaults delete org.videolan.vlc recentlyPlayedMedia
-defaults delete org.videolan.vlc recentlyPlayedMediaList
+# defaults delete org.videolan.vlc recentlyPlayedMedia
+# defaults delete org.videolan.vlc recentlyPlayedMediaList
 
 
 ### TMUXINATOR ###
-MUX_COMPLETION="/usr/local/lib/ruby/gems/2.4.0/gems/tmuxinator-0.9.0/completion"
+MUX_COMPLETION="/usr/local/lib/ruby/gems/2.4.0/gems/tmuxinator-0.10.0/completion"
 mkdir -p ~/.bin/
 cp "$MUX_COMPLETION/tmuxinator.bash" ~/.bin/
 cp "$MUX_COMPLETION/tmuxinator.zsh"  ~/.bin/
 cp "$MUX_COMPLETION/tmuxinator.fish" ~/.bin/
 mkdir -p ~/.config/fish/completions/
 cp ~/.bin/tmuxinator.fish ~/.config/fish/completions/
-
-### INSTALL MPV  with 60 fps###
-# https://www.reddit.com/r/osx/comments/4ljbdq/mpv_tutorial_and_60_fps_playback_on_os_x/
-brew install --without-harfbuzz libass
-brew install --with-rtmpdump --with-openssl --with-libass --with-libbs2b --with-rubberband ffmpeg
-brew install --with-vapoursynth --with-libarchive --with-bundle mpv
-brew install mvtools
-brew install ffms2
-brew install subliminal
-brew linkapps mpv
-
-# Enable Trim on third party SSD
-sudo trimforce enable
 
 # Install fn-toggle app
 cd /tmp
@@ -91,3 +78,6 @@ make install
 git clone https://github.com/qw3rtman/git-fire /tmp/git-fire
 mkdir -p $HOME/bin
 cp /tmp/git-fire/git-fire $HOME/bin
+
+# Enable Trim on third party SSD
+sudo trimforce enable
