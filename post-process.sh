@@ -80,4 +80,4 @@ mkdir -p $HOME/bin
 cp /tmp/git-fire/git-fire $HOME/bin
 
 # Enable Trim on third party SSD
-sudo trimforce enable
+# sudo trimforce enable
