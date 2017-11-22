@@ -34,6 +34,9 @@ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 
+# Allow third party software
+sudo spctl --master-enable
+
 # Setup Brew bundle for running Brewfiles
 brew tap Homebrew/bundle && brew bundle
 
