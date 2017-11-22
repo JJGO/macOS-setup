@@ -19,6 +19,8 @@ mv Colemak.keylayout ~/Library/Keyboard\ Layouts/
 # ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
 # Install Package Control
+subl & # Needs to launch to generate
+sleep 2
 SUBL_ROOT="$HOME/Library/Application Support/Sublime Text 3"
 curl 'https://packagecontrol.io/Package%20Control.sublime-package' -o "$SUBL_ROOT/Installed Packages/Package Control.sublime-package"
 
@@ -67,6 +69,9 @@ cp "$MUX_COMPLETION/tmuxinator.fish" ~/.bin/
 mkdir -p ~/.config/fish/completions/
 cp ~/.bin/tmuxinator.fish ~/.config/fish/completions/
 
+# Install Fuzzy clock
+unzip software/FuzzyClock.zip -d /Applications
+
 # Install fn-toggle app
 cd /tmp
 git clone https://github.com/jakubroztocil/macos-fn-toggle
@@ -82,5 +87,4 @@ cp /tmp/git-fire/git-fire $HOME/bin
 # Enable Trim on third party SSD
 # sudo trimforce enable
 
-# Install Fuzzy clock
-unzip software/FuzzyClock.zip -d /Applications
+cd -
