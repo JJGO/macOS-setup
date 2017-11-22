@@ -36,14 +36,20 @@ fi
 
 # Install latest stable python2
 LATEST_PYTHON2=$(pyenv install -l | grep -oP '^\s+(2.*\d)$' | sed 's/ //g' | tail -n 1)
+CFLAGS="-I$(brew --prefix openssl)/include" \
+LDFLAGS="-L$(brew --prefix openssl)/lib" \
 pyenv install -s $LATEST_PYTHON2
 
 # Install latest stable python3
 LATEST_PYTHON3=$(pyenv install -l | grep -oP '^\s+(3.*\d)$' | sed 's/ //g' | tail -n 1)
+CFLAGS="-I$(brew --prefix openssl)/include" \
+LDFLAGS="-L$(brew --prefix openssl)/lib" \
 pyenv install -s $LATEST_PYTHON3
 
 # Install full anaconda and packages
 LATEST_ANACONDA=$(pyenv install -l | grep -oP '^\s+(anaconda.*)' | sed 's/ //g' | tail -n 1)
+CFLAGS="-I$(brew --prefix openssl)/include" \
+LDFLAGS="-L$(brew --prefix openssl)/lib" \
 pyenv install -s $LATEST_ANACONDA
 pyenv global $LATEST_ANACONDA
 
