@@ -65,7 +65,6 @@ cask "wifi-explorer"                        # Look for wifi networks power and c
 
 
 ### Mac App Store Installs
-mas "MPlayerX", id: 421131143                       # Alternative Media player (for conflicts errors mostly)
 mas "Who's On My WiFi", id: 909760813               # Easily search devices on wifi and store MAC addresses
 
 ### PROGRAMMING LANGUAGES
