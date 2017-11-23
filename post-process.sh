@@ -4,9 +4,8 @@ set -e 			# Exit on error
 set -o pipefail # Exit on pipe error
 set -x 			# Enable verbosity
 
-# Clear the cluttered dock
-dockutil --remove all
-# TODO put my apps here with dockutil
+# Setup the dock
+./dock.sh
 
 # Install colemak keyboard
 wget https://colemak.com/pub/mac/Colemak.keylayout
