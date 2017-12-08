@@ -39,6 +39,7 @@ requests
 sacred
 scipy
 scikit-learn
+scrapy
 seaborn
 sympy
 tensorboard
