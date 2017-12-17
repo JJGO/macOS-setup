@@ -35,7 +35,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew update
 
 # Allow third party software
-sudo spctl --master-enable
+sudo spctl --master-disable
 
 # Setup Brew bundle for running Brewfiles
 brew tap Homebrew/bundle && brew bundle
@@ -71,6 +71,9 @@ while true; do
         * ) echo "Please answer yes or no.";;
     esac
 done
+
+# Disable third party extensions
+sudo spctl --master-enable
 
 
 # Clean cached files and pkgs

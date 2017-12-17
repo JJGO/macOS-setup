@@ -60,7 +60,7 @@ defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAm
 
 
 ### TMUXINATOR ###
-MUX_COMPLETION="/usr/local/lib/ruby/gems/2.4.0/gems/tmuxinator-0.10.0/completion"
+MUX_COMPLETION="/usr/local/lib/ruby/gems/2.4.0/gems/tmuxinator-0.10.1/completion"
 mkdir -p ~/.bin/
 cp "$MUX_COMPLETION/tmuxinator.bash" ~/.bin/
 cp "$MUX_COMPLETION/tmuxinator.zsh"  ~/.bin/

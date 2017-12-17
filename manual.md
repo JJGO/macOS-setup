@@ -1,52 +1,99 @@
+# Pre-Install Instructions
+
+1. Make sure that 
+	- format: APFS
+	- user: josejavier
+	- FileVault is On
+
+2. Clone Git Repo http://github.com/jjgo/macos-setup
+3. Disable sleeping display before running script
+4. Enable System extensions during installation (one time thing)
+5. Enable sleeping display (10 min) after big installation
+
 Manual install
 ==============
 
 CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 
-
-## Reference
-https://github.com/herrbischoff/awesome-osx-command-line
-
-## Scroll reverser
-* Check Start at login
-* Uncheck Reverse Trackpad
-* Uncheck Reverse Tablet
+## Google Chrome
+* Login with user
 
 
 ## System Preferences
 
+### General
+* Use dark menu bar and dock
 
 ### Wallpaper and Screensaver
 * Use wallpapers from Google Drive
 * Add wallpapers from [awesome collection](https://github.com/aharris88/awesome-macos-screensavers)
 * Setup hot corners (press alt so they activate only when alt is pressed)
 
+### Mission Control 
+* Uncheck: Automatically rearrange Spaces based on most recent use
+* Hot Corners
+	- Up left: Mission Control
+	- Down left + alt: Sleep display
+
+### Language and Region
+* Language English
+* Region: Spain (should make evrything ISO)
+* Advanced General
+	- Grouping: Space
+	- Decimal: .
+	- Currency: US Dollar
+* Advanced Dates
+	- ISO 8601 for short and medium
+
+### Security and Privacy
+* Require password inmediately
+
+### Trackpad
+* Swipe between pages with 3 fingers
+* Swipe between full-screen apps with 4 fingers
+* Uncheck notification center
+* Mission control with 4 fingers
+* App expose with 4 fingers
+* Uncheck launchpad
+
 ### Notifications
-* Enable Do Not disturb mode
+* Enable Do Not disturb mode from 22-7 and when display is sleeping
+
+### Energy saver
+* Check turn display off after 10 min
 
 ### Keyboard
 * Show keyboard visor
 * Add Spanish ISO, Colemak
 * Disable speech dictation
 
-### App Store
-* TODO Setup automatically
-
-### Users and Groups
-* Change icon to rebel space icon (Google Drive)
-
-### Trackpad
-* Setup more gestures
+### Printers and Scanners
+* Add Phaser 6300DN
 
 ### Sound
 * Sosumi as error sound (default: funk)
 * Show sound in menu bar
 
 ### Internet Accounts
-* Add google
+* Google: Mail, Contacts, Calendat
+* Umich: Mail
+* MIT Google: mail
+* Contact: mail
 
-## Notification Center
-Setup widgets and remove default ones
+### Touch ID
+* Add more fingers
+
+### Users and Groups
+* Change icon to rebel space icon (Google Drive)
+
+
+Third party apps
+================
+
+## Scroll reverser
+* Check Start at login
+* Uncheck Reverse Trackpad
+* Uncheck Reverse Tablet
 
 ## Fix permissions of Macintosh HD
  sudo chown -R $(whoami) /Volumes/Macintosh\ HD
@@ -98,16 +145,14 @@ TODO Fix non spotify songs
 * Import Biblioteca Tecnica
 
 ## License
-* Airmail
 * Alfred
+* Bartender
 * DaisyDisk
 * Dash
-* Downie
 * Hazel - import rules
-* iA Writer
-* iStudiez
 * Kaleidoscope
 * Microsoft Office
+* Paragon NTFS
 * Pixelmator
 * Popclip
 * Transmit
@@ -135,3 +180,5 @@ Once Dropbox has synced
 * Configurar Radarr trackers
 * Configurar Transmission
 
+## Reference
+https://github.com/herrbischoff/awesome-osx-command-line
