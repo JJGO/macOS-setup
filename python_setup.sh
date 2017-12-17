@@ -85,5 +85,8 @@ if [ ! -d "$(pyenv root)/plugins/pyenv-which-ext" ]; then
 fi
 
 
+# Set jupyter theme
+jt -t monokai -fs 11 -tfs 12 -nfs 14 -cellw 70% -T
+
 # Create Python Environment
 # conda-env create environment.yml
