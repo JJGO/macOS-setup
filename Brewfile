@@ -94,7 +94,6 @@ brew "handbrake"                            # For video transcoding and conversi
 brew "hardlink-osx"                         # Hard link functionality on macOS
 brew "htop"                                 # Display system usage
 brew "imagemagick", args: ['with-librsvg', 'with-fontconfig'] # Good image editing software
-brew "irssi"                                # IRC Client
 brew "mas"                                  # Install software from app store
 brew "mackup"                               # Configuration Syncer
 brew "mkvtoolnix", args: ['with-qt5']       # Mkv tools
@@ -160,8 +159,10 @@ cask "logitech-unifying"                    # Drivers for keyboard and mouse
 cask "mactex"                               # LateX and TeX
 cask "malwarebytes"                         # Remove antimalware
 cask "onyx"                                 # Tweak tool for OS
+cask "paintbrush"                           # MS paint equivalent
 cask "scroll-reverser"                      # Tool to invert mousewheel scroll
 cask "selfcontrol"                          # Blacklisting websites
+cask "slack"                                # Slack client
 cask "skim"                                 # Better PDF tool with Sublime Text integration
 cask "spotify"                              # Music streaming
 cask "steam"                                # Gaming collection hub
@@ -189,7 +190,7 @@ cask "qlmarkdown"
 cask "quicklook-json"
 cask "qlprettypatch"
 cask "quicklook-csv"
-cask "betterzipql"
+cask "hetimazipql"
 cask "qlimagesize"
 cask "webpquicklook"
 cask "suspicious-package"
@@ -219,11 +220,5 @@ tap 'colindean/fonts-nonfree'
 cask "font-microsoft-office"
 
 ### Mac App Store Installs
-mas "Amphetamine", id: 937984704                    # Better up to date Caffeine tool to prevent sleep
-mas "LastPass", id: 926036361                       # Password management s
-mas "Todoist", id: 585829637                        # Todo list tool
-mas "TogglDesktop", id: 957734279                   # Time Tracking app
-mas "Tomato One", id: 907364780                     # Pomodoro timers
 mas "Xcode", id: 497799835                          # Apple's developper tools
-
 
