@@ -72,7 +72,7 @@ mas "Who's On My WiFi", id: 909760813               # Easily search devices on w
 
 # C C++
 brew "gcc", args: ['with-all-languages']   # Get GCC compiler (macOS default is clang)
-brew "gcc@5", args: ['with-all-languages']
+# brew "gcc@5", args: ['with-all-languages']
 
 # Java and Scala (order matters)
 cask "java"
