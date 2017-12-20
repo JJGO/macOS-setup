@@ -20,6 +20,7 @@ brew "utimer"                               # CLI timer, countdown and stopwatch
 
 #### NON CORE CASKS ####
 cask "borgbackup"                           # Incremental and Deduplication backup tool
+cask "brave"								# Adblocker private browser
 cask "calibre"                              # Eboook Management
 cask "chromium"                             # Open Source web browser
 cask "ccleaner"                             # Cache and temporary files removal
