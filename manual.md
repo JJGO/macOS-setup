@@ -1,6 +1,6 @@
 # Pre-Install Instructions
 
-1. Make sure that 
+1. Make sure that
 	- format: APFS
 	- user: josejavier
 	- FileVault is On
@@ -15,8 +15,7 @@ Manual install
 
 CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 
-## Google Chrome
-* Login with user
+
 
 
 ## System Preferences
@@ -29,7 +28,7 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 * Add wallpapers from [awesome collection](https://github.com/aharris88/awesome-macos-screensavers)
 * Setup hot corners (press alt so they activate only when alt is pressed)
 
-### Mission Control 
+### Mission Control
 * Uncheck: Automatically rearrange Spaces based on most recent use
 * Hot Corners
 	- Up left: Mission Control
@@ -85,37 +84,55 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 
 ### Users and Groups
 * Change icon to rebel space icon (Google Drive)
-
+* Add Fuzzy Clock to Login Items
 
 Third party apps
 ================
+
+## Google Chrome
+* Login with user
+* Login into extensions
+* Load Stylish JSON
+
+## Firefox
+* Login with Firefox Sycnc
+* Load Stylish JSON
 
 ## Scroll reverser
 * Check Start at login
 * Uncheck Reverse Trackpad
 * Uncheck Reverse Tablet
 
-## Fix permissions of Macintosh HD
- sudo chown -R $(whoami) /Volumes/Macintosh\ HD
+## MATLAB
+* Install latest release form Mathworks using edu account
 
 ## iTerm
 Set iTerm to use dot file config and save to it item
-Change icon with icns in dotfiles
+Change icon with ic ns in dotfiles
 Save .scpt as .app and it in menubar
 
-## Authy
-Login
+## BetterTouchTool
+* Import Preferences from dotfiles
+* Add license
 
 ## Dropbox
-Login
-
+* Login
+* Disable all notifications
+ 
 ## Google Drive
-Login
+* Login
+* Set up wallpapers
 
 ## Better Touch Tool
 Enable Accesibility
 import license
-Load configuration file form ~/.dotfiles
+
+## Flux
+* Configure
+
+## MIT Certs
+MIT https://ist.mit.edu/certificates
+CSAIL http://tig.csail.mit.edu/wiki/TIG/CertificatesIntro
 
 ## Vim
 <!-- Install bundle -->
@@ -125,19 +142,29 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 mkdir -p ~/.vim/colors/
 curl "https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim" -o ~/.vim/colors/molokai.vim
 
+## Bitwarden
+* Chrome Login
+* Lock->1 Minute
+
+## Authy
+* Login
+* Add Master Password
 
 ## Telegram
-Login with Phone number and activation code
+* Login with Phone number and activation code
+* Dark Mode On
 
 ## Alfred
-* Import workflows
+* Update workflows https://github.com/derimagia/awesome-alfred-workflows
+* Enable Clipboard
 * Use settings from Dropbox
 * Setup spotifu miniplayer `http://alfred-spotify-mini-player.com/`
 
 ## Spotify
-Login
-TODO Fix non spotify songs
+* Login
 
+## Todoist
+* Login
 
 ## Calibre
 * Use Macintosh HD library
@@ -147,8 +174,10 @@ TODO Fix non spotify songs
 ## License
 * Alfred
 * Bartender
+* Bear
 * DaisyDisk
 * Dash
+* Fantastical
 * Hazel - import rules
 * Kaleidoscope
 * Microsoft Office
@@ -160,14 +189,39 @@ TODO Fix non spotify songs
 * VMWareFusion
 * WifiExplorer
 
-## Popclip
-* Install extensions
+## Sublime Text
+* Clone Settings from Repo
+* Check linter is working
+* Check latextools is working + configure skim
+
+## Transmit
+* Import servers
+
+## Tunnelblick
+* Import VPN connections
+
+## Bartender
+* Launch at login
+* Dont Check for Updates automatically
+* License
+* Choose apps to hide
 
 ## Matlab
 * Use MIT account
 
+## PyCharm
+* Activate EDU license
+
+## Hazel
+* Import config
+
 ## Karabiner Elements
-Caps lock to Backspace
+* Caps lock to Backspace
+* Menu to right_command
+
+## Carbon Copy Cloner
+* Setup Backup
+* Setup Email
 
 ## Recover Config
 Once Dropbox has synced

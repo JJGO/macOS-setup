@@ -9,11 +9,11 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Look for developer tools (needed for Homebrew)
 xcode-select -p
 if [ $? -eq 0 ]; then
-  	echo "Found XCode Tools"
+    echo "Found XCode Tools"
 else
-  	echo "Installing XCode Tools"
-  
-	xcode-select --install
+    echo "Installing XCode Tools"
+
+    xcode-select --install
 fi
 
 # Flags
