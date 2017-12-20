@@ -18,3 +18,11 @@ duti -s com.sublimetext.3 .h    all
 
 # Notes
 duti -s pro.writer.mac    .md   all
+
+
+# Videos 
+duti -s org.videolan.vlc .mp4 all
+duti -s org.videolan.vlc .m4v all
+duti -s org.videolan.vlc .mkv all
+duti -s org.videolan.vlc .avi all
+duti -s org.videolan.vlc .mov all
