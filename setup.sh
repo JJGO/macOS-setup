@@ -59,6 +59,9 @@ bundle install
 # Setup file extensions
 ./file_extensions.sh
 
+# Launch Agents
+./launch_setup.sh
+
 # Run post-processing script
 ./post-process.sh
 
