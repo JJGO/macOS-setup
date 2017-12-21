@@ -4,7 +4,7 @@ ruby RUBY_VERSION
 
 gem 'tmuxinator'	# Config tmux sessions
 gem 'lolcat'		# Rainbow color anything
-gem 'rmate'         # Ssh textmate
+
 # Jekyll gems
 gem 'jekyll'
 gem 'kramdown'
