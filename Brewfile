@@ -109,6 +109,7 @@ brew "qpdf"                                 # Pdf CLI utility
 brew "ranger"                               # Console file manager with VI key bindings
 brew "ripgrep"                              # Search similar to ag but faster
 brew "rclone"                               # Rsync to cloud storage
+brew "rmate"                                # Remote TextMate for SSH sublime
 brew "subliminal"                           # Subtitle renamer
 brew "terminal-notifier"                    # Enable terminal notifications for scripts
 brew "tig"                                  # text-mode interface for git
