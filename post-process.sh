@@ -24,9 +24,8 @@ SUBL_ROOT="$HOME/Library/Application Support/Sublime Text 3"
 curl 'https://packagecontrol.io/Package%20Control.sublime-package' -o "$SUBL_ROOT/Installed Packages/Package Control.sublime-package"
 
 # Clone my sublime settings into the User folder
-# TODO Fix sublime packages
-# rm -rf "$SUBL_ROOT/Packages/User"
-# git clone "https://github.com/JJGO/sublime-settings" "$SUBL_ROOT/Packages/User"
+rm -rf "$SUBL_ROOT/Packages/User"
+git clone "https://github.com/JJGO/sublime-settings" "$SUBL_ROOT/Packages/User"
 
 ### GIT CONFIG ###
 
