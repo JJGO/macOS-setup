@@ -17,10 +17,10 @@ duti -s com.sublimetext.3 .cpp  all
 duti -s com.sublimetext.3 .h    all
 
 # Notes
-duti -s pro.writer.mac    .md   all
+duti -s com.sublimetext.3 .md   all
 
 
-# Videos 
+# Videos
 duti -s org.videolan.vlc .mp4 all
 duti -s org.videolan.vlc .m4v all
 duti -s org.videolan.vlc .mkv all
