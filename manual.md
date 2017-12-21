@@ -47,6 +47,10 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 ### Security and Privacy
 * Require password inmediately
 
+
+### Mouse
+* Tracking speed 3rd notch from the right
+
 ### Trackpad
 * Swipe between pages with 3 fingers
 * Swipe between full-screen apps with 4 fingers
@@ -159,6 +163,7 @@ curl "https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 * Enable Clipboard
 * Use settings from Dropbox
 * Setup spotifu miniplayer `http://alfred-spotify-mini-player.com/`
+* Enable Accesibility text expansion
 
 ## Spotify
 * Login
@@ -188,6 +193,13 @@ curl "https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 * Ulysses
 * VMWareFusion
 * WifiExplorer
+
+## Mail App
+* Configure jjgo.mit@gmail.com to show as jjgo@mit.edu
+
+## Amethyst
+* Launch at login
+* Enable accesibility settings
 
 ## Sublime Text
 * Clone Settings from Repo
