@@ -26,3 +26,7 @@ duti -s org.videolan.vlc .m4v all
 duti -s org.videolan.vlc .mkv all
 duti -s org.videolan.vlc .avi all
 duti -s org.videolan.vlc .mov all
+
+# eBooks
+duti -s net.kovidgoyal.calibre .epub all
+duti -s net.kovidgoyal.calibre .mobi all
