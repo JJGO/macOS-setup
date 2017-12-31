@@ -83,7 +83,6 @@ cask "emacs"
 brew "ack"                                  # Better grep
 brew "atool"                                # A script for managing file archives (aunpack)
 brew "aspell", args: ['with-lang-es']       # Spell checker
-
 brew "dockutil"                             # Manages the dock icons
 brew "duti"                                 # Set default document and URL handlers
 brew "elinks"                               # CLI web browser
@@ -152,6 +151,7 @@ cask "flux"                                 # Changes temperature color based on
 cask "google-chrome"                        # Google's web browser
 cask "google-chrome-canary"                 # Google's beta web browser
 cask "chrome-remote-desktop-host"           # Remote control using Google credentials
+cask "filezilla"                            # FTP client
 cask "firefox"                              # Alternative web browser
 cask "google-backup-and-sync"               # Google drive and photos
 cask "iterm2"                               # Better than Terminal.app
