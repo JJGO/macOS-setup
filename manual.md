@@ -173,7 +173,7 @@ curl "https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 
 ## Calibre
 * Use Macintosh HD library
-* Setup email from Tolsimir5@gmail.com
+* Setup email from Tolsimir5@gmail.com (hostname: imap.gmail.com, port:587, user:<foo>@gmail.com, encryption: TLS)
 * Import Biblioteca Tecnica
 
 ## License
@@ -235,9 +235,8 @@ curl "https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 * Setup Backup
 * Setup Email
 
-## Recover Config
-Once Dropbox has synced
-`mackup restore`
+## Steam
+* Install games
 
 ## Automation
 * Instalar Jackett
@@ -245,6 +244,12 @@ Once Dropbox has synced
 * Configurar Sonarr trackers
 * Configurar Radarr trackers
 * Configurar Transmission
+
+## Adguard
+* Import blacklist
+
+## Selfcontrol
+* Import blacklist
 
 ## Reference
 https://github.com/herrbischoff/awesome-osx-command-line

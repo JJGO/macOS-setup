@@ -140,6 +140,7 @@ tap "caskroom/cask"
 tap "caskroom/versions"
 tap "caskroom/drivers"
 
+cask "adguard"                              # System Wide ad-blocker
 cask "amethyst"                             # Tiling window manager
 cask "alfred"                               # Improved Spotlight
 cask "appcleaner"                           # Removes plist along with the app
