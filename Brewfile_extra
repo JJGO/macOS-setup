@@ -25,6 +25,7 @@ cask "calibre"                              # Eboook Management
 cask "chromium"                             # Open Source web browser
 cask "ccleaner"                             # Cache and temporary files removal
 cask "coconutbattery"                       # Displays battery health
+cask "discord"                              # Discord desktop app
 cask "docker"                               # Containerization tool
 cask "filebot"                              # TVshow/Movie renamer
 cask "gfxcardstatus"                        # Changes the dedicated and internal graphics
