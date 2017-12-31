@@ -57,6 +57,11 @@ defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAm
 # defaults delete org.videolan.vlc recentlyPlayedMedia
 # defaults delete org.videolan.vlc recentlyPlayedMediaList
 
+### SelfControl
+# Intervals of one hour up to a week
+~/macOS-setup ❯❯❯ defaults write org.eyebeam.SelfControl MaxBlockLength -int 10080                         master ✱
+~/macOS-setup ❯❯❯ defaults write org.eyebeam.SelfControl BlockLengthInterval -int 60
+
 
 ### TMUXINATOR ###
 MUX_COMPLETION="/usr/local/lib/ruby/gems/2.4.0/gems/tmuxinator-0.10.1/completion"
