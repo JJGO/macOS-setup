@@ -98,6 +98,11 @@ cask "julia"
 brew "r", args: ['with-openblas']
 brew "lua"
 
+# Docker
+brew "docker"                               # Docker Containers
+brew "docker-compose"
+brew "docker-swarm"
+
 ### EXTRA NICETIES
 
 
