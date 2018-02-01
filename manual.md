@@ -93,6 +93,9 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 Third party apps
 ================
 
+## 360Controller
+[Controller](https://github.com/360Controller/360Controller/releases)
+
 ## Google Chrome
 * Login with user
 * Login into extensions
