@@ -14,6 +14,7 @@ brew "mutt", args: ['with-trash-patch']     # Email Client
 brew "pass"                                 # UNIX password manager based on gpg
 brew "speedtest_cli"                        # Speedtest on CLI
 brew "switchaudio-osx"                      # Switch audio input/output
+brew "timidity"                             # CLI tool for MIDI files
 brew "tldr"                                 # Simpler man pages
 brew "utimer"                               # CLI timer, countdown and stopwatch
 
