@@ -95,6 +95,7 @@ brew "htop"                                 # Display system usage
 brew "imagemagick", args: ['with-librsvg', 'with-fontconfig'] # Good image editing software
 brew "mas"                                  # Install software from app store
 brew "mackup"                               # Configuration Syncer
+brew "cmark"                                # Mkvtoolnix dependency
 brew "mkvtoolnix", args: ['with-qt5']       # Mkv tools
 brew "media-info"                           # Media info for videos
 brew "minicom"                              # Serial port communication
@@ -147,13 +148,14 @@ cask "authy"								# 2FA App
 cask "bettertouchtool"                      # Macros and gestures (PAID -license)
 cask "caffeine"                             # Prevents the computer from sleeping
 cask "dropbox"                              # Cloud storage with syncing
+cask "etrecheck"                            # System maintenance
+cask "filezilla"                            # FTP client
+cask "firefox"                              # Alternative web browser
 cask "flux"                                 # Changes temperature color based on time of day
 cask "google-chrome"                        # Google's web browser
 cask "google-chrome-canary"                 # Google's beta web browser
-cask "chrome-remote-desktop-host"           # Remote control using Google credentials
-cask "filezilla"                            # FTP client
-cask "firefox"                              # Alternative web browser
 cask "google-backup-and-sync"               # Google drive and photos
+cask "chrome-remote-desktop-host"           # Remote control using Google credentials
 cask "iterm2"                               # Better than Terminal.app
 cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
 cask "karabiner-elements"                   # Tool to remap keys like caps-lock
