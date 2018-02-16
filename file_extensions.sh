@@ -15,6 +15,7 @@ duti -s com.sublimetext.3 .bib  all
 duti -s com.sublimetext.3 .c    all
 duti -s com.sublimetext.3 .cpp  all
 duti -s com.sublimetext.3 .h    all
+duti -s com.sublimetext.3 .go   all
 
 # Notes
 duti -s com.sublimetext.3 .md   all
