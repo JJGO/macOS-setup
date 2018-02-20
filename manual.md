@@ -170,6 +170,7 @@ curl "https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 
 ## Spotify
 * Login
+* Connect to Last.fm
 
 ## Todoist
 * Login
