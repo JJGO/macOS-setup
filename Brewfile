@@ -88,17 +88,21 @@ brew "duti"                                 # Set default document and URL handl
 brew "elinks"                               # CLI web browser
 brew "fasd"                                 # Fasd offers quick access to files and directories
 brew "fdupes"                               # CLI duplicate finder
+brew "fzf"                                  # Fuzzy finder
+brew "fzy"                                  # Another Fuzzy finder
 brew "graphviz"                             # Graph visualization software
 brew "handbrake"                            # For video transcoding and conversion
 brew "hardlink-osx"                         # Hard link functionality on macOS
 brew "htop"                                 # Display system usage
 brew "imagemagick", args: ['with-librsvg', 'with-fontconfig'] # Good image editing software
+brew "lnav"                                 # Log viewer
 brew "mas"                                  # Install software from app store
 brew "mackup"                               # Configuration Syncer
 brew "cmark"                                # Mkvtoolnix dependency
 brew "mkvtoolnix", args: ['with-qt5']       # Mkv tools
 brew "media-info"                           # Media info for videos
 brew "minicom"                              # Serial port communication
+brew "moreutils"                            # Some extra niceties including parallel
 brew "ncdu"                                 # Storage analyzer
 brew "nmap"                                 # Network management package
 brew "pandoc"                               # Document conversion
@@ -163,6 +167,7 @@ cask "logitech-control-center"              # Drivers for keyboard and mouse
 cask "logitech-unifying"                    # Drivers for keyboard and mouse
 cask "mactex"                               # LateX and TeX
 cask "malwarebytes"                         # Remove antimalware
+cask "meld"                                 # Diff/Merge tool
 cask "onyx"                                 # Tweak tool for OS
 cask "paintbrush"                           # MS paint equivalent
 cask "scroll-reverser"                      # Tool to invert mousewheel scroll
