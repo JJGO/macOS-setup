@@ -88,5 +88,8 @@ fi
 # Set jupyter theme
 jt -t monokai -fs 11 -tfs 12 -nfs 14 -cellw 70% -T
 
+conda install -c -y conda-forge jupyter_contrib_nbextensions
+conda install -c -y conda-forge jupyter_nbextensions_configurator
+
 # Create Python Environment
 # conda-env create environment.yml
