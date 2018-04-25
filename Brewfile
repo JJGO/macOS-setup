@@ -174,6 +174,7 @@ cask "scroll-reverser"                      # Tool to invert mousewheel scroll
 cask "selfcontrol"                          # Blacklisting websites
 cask "slack"                                # Slack client
 cask "skim"                                 # Better PDF tool with Sublime Text integration
+cask "soda-player"                          # To play torrent and ace streams
 cask "spotify"                              # Music streaming
 cask "steam"                                # Gaming collection hub
 cask "sublime-text"                         # Multipurpose text editor
