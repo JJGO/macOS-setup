@@ -160,6 +160,7 @@ cask "google-chrome"                        # Google's web browser
 cask "google-chrome-canary"                 # Google's beta web browser
 cask "google-backup-and-sync"               # Google drive and photos
 cask "chrome-remote-desktop-host"           # Remote control using Google credentials
+cask "iina"                                 # Video player with nicer configs than VLC
 cask "iterm2"                               # Better than Terminal.app
 cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
 cask "karabiner-elements"                   # Tool to remap keys like caps-lock
