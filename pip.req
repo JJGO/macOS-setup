@@ -42,6 +42,7 @@ scikit-learn
 scrapy
 seaborn
 sympy
+tabulate
 tensorboard
 tensorflow
 theano
