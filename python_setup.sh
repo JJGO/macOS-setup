@@ -63,12 +63,6 @@ if [ -f conda.req ]; then
     conda install --yes --file conda.req
 fi
 
-# For jupyter extensions
-conda install -c conda-forge jupyter_contrib_nbextensions
-conda install -c conda-forge jupyter_nbextensions_configurator
-
-open "https://ndres.me/post/best-jupyter-notebook-extensions"
-
 # Set latest anaconda as default
 pyenv global $LATEST_ANACONDA
 
@@ -94,8 +88,11 @@ fi
 # Set jupyter theme
 jt -t monokai -fs 11 -tfs 12 -nfs 14 -cellw 70% -T
 
-conda install -c -y conda-forge jupyter_contrib_nbextensions
-conda install -c -y conda-forge jupyter_nbextensions_configurator
+# For jupyter extensions
+conda install -y -c conda-forge jupyter_contrib_nbextensions
+conda install -y -c conda-forge jupyter_nbextensions_configurator
+
+open "https://ndres.me/post/best-jupyter-notebook-extensions"
 
 # Create Python Environment
 # conda-env create environment.yml
