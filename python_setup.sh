@@ -32,7 +32,7 @@ else
         echo 'if command -v pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi' >> ~/.zshenv
     fi
 fi
-    
+
 
 # Install latest stable python2
 LATEST_PYTHON2=$(pyenv install -l | grep -oP '^\s+(2.*\d)$' | sed 's/ //g' | tail -n 1)
@@ -62,6 +62,12 @@ fi
 if [ -f conda.req ]; then
     conda install --yes --file conda.req
 fi
+
+# For jupyter extensions
+conda install -c conda-forge jupyter_contrib_nbextensions
+conda install -c conda-forge jupyter_nbextensions_configurator
+
+open "https://ndres.me/post/best-jupyter-notebook-extensions"
 
 # Set latest anaconda as default
 pyenv global $LATEST_ANACONDA
@@ -93,3 +99,10 @@ conda install -c -y conda-forge jupyter_nbextensions_configurator
 
 # Create Python Environment
 # conda-env create environment.yml
+
+# Install local user python packages
+mkdir -p $HOME/python-libs
+cd $HOME/python-libs
+git clone git@github.com:JJGO/Sylphrena.git
+git clone git@github.com:JJGO/kirin.git
+cd -
