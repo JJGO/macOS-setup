@@ -64,6 +64,7 @@ cask "wifi-explorer"                        # Look for wifi networks power and c
 mas "1Password", id: 443987910
 mas "Amphetamine", id: 937984704                    # Better up to date Caffeine tool to prevent sleep
 mas "LastPass", id: 926036361                       # Password management s
+mas "Mathpix Snipping Tool", id: 1349670778         # Capture LaTeX formulas
 mas "Microsoft OneNote", id:784801555 	            # Microsoft OneNote
 mas "Todoist", id: 585829637                        # Todo list tool
 mas "TogglDesktop", id: 957734279                   # Time Tracking app
