@@ -128,6 +128,11 @@ brew "trash"                                # To use OS trash instead of rm fore
 brew "unison"                               # Sync both ways folders
 brew "youtube-dl"                           # Download YouTube (and others) from CLI
 
+### chunkwm
+tap 'crisidev/homebrew-chunkwm'
+brew 'chunkwm'
+brew 'koekeishiya/formulae/skhd'
+
 ### MISC
 brew "archey"
 brew "cowsay"
