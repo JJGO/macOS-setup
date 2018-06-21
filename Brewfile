@@ -83,6 +83,7 @@ cask "emacs"
 brew "ack"                                  # Better grep
 brew "atool"                                # A script for managing file archives (aunpack)
 brew "aspell", args: ['with-lang-es']       # Spell checker
+brew "autossh"                              # Persistent SSH port forwarding
 brew "bat"                                  # Improved cat with highlight and paging
 brew "dockutil"                             # Manages the dock icons
 brew "duti"                                 # Set default document and URL handlers
