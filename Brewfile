@@ -183,10 +183,12 @@ cask "onyx"                                 # Tweak tool for OS
 cask "paintbrush"                           # MS paint equivalent
 cask "scroll-reverser"                      # Tool to invert mousewheel scroll
 cask "selfcontrol"                          # Blacklisting websites
+cask "signal"                               # Encrypted messaging app
 cask "slack"                                # Slack client
 cask "skim"                                 # Better PDF tool with Sublime Text integration
 cask "soda-player"                          # To play torrent and ace streams
 cask "spotify"                              # Music streaming
+cask "standard-notes"                       # Encrypted note taking app
 cask "steam"                                # Gaming collection hub
 cask "sublime-text"                         # Multipurpose text editor
 cask "telegram"                             # Instant messaging with sync across devices
