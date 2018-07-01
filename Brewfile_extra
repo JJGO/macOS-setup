@@ -3,7 +3,6 @@ cask_args appdir: '/Applications'
 ### EXTRA CLI UTILITIES
 brew "aria2"                                # CLI downloader with torrent support
 brew "dos2unix"                             # Translate newlines between DOS and UNIX
-brew "ccat"                                 # Colorized cat
 brew "cksfv"                                # Utility to check SFV files
 brew "cloc"                                 # Count lines of code
 brew "cmus"                                 # Terminal music player
@@ -56,7 +55,6 @@ cask "xld"                                  # Convert flac files
 cask "dash"                                 # Offline programming reference (PAID)
 cask "kaleidoscope"                         # Visual comparison tool (text, image...)
 cask "serial"                               # Serial port console (PAID)
-# cask "the-archive-browser"                # Preview compressed files (PAID)
 cask "wifi-explorer"                        # Look for wifi networks power and channels (PAID)
 
 
