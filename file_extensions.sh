@@ -22,11 +22,11 @@ duti -s com.sublimetext.3 .md   all
 
 
 # Videos
-duti -s org.videolan.vlc .mp4 all
-duti -s org.videolan.vlc .m4v all
-duti -s org.videolan.vlc .mkv all
-duti -s org.videolan.vlc .avi all
-duti -s org.videolan.vlc .mov all
+duti -s io.mpv .mp4 all
+duti -s io.mpv .m4v all
+duti -s io.mpv .mkv all
+duti -s io.mpv .avi all
+duti -s io.mpv .mov all
 
 # eBooks
 duti -s net.kovidgoyal.calibre .epub all
