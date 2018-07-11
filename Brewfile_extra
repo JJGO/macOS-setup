@@ -45,6 +45,7 @@ cask "pycharm"                              # Use educational license (PAID)
 cask "rambox"                               # messaging and emailing app that combines web apps
 cask "skype"                                # Video calls
 cask "sourcetree"                           # Git visualization tool
+cask "ticktick"                             # Alternative todo app
 cask "torbrowser"                           # Anonymized browser
 cask "virtualbox"                           # Virtual machines
 cask "vagrant"                              # Automated VM management/deployment
