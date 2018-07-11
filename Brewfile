@@ -227,6 +227,9 @@ cask "qladdict"
 tap 'caskroom/fonts'
 cask "font-anonymous-pro"
 cask "font-dejavu-sans"
+cask "font-comic-neue"
+cask "font-computer-modern"
+cask "font-ibm-plex"
 cask "font-fira-code"
 cask "font-fira-mono"
 cask "font-hack"
@@ -234,10 +237,12 @@ cask "font-hasklig"
 cask "font-inconsolata"
 cask "font-iosevka"
 cask "font-menlo-for-powerline"
+cask "font-monoid"
 cask "font-source-code-pro"
 cask "font-source-sans-pro"
 cask "font-terminus"
 cask "font-times-new-roman"
+
 
 tap 'colindean/fonts-nonfree'
 cask "font-microsoft-office"
