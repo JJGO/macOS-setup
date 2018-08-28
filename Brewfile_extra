@@ -43,6 +43,7 @@ cask "openemu"                              # Emulator collection
 cask "postman"                              # Debugger for GET/POST requests
 cask "pycharm"                              # Use educational license (PAID)
 cask "rambox"                               # messaging and emailing app that combines web apps
+cask "simple-comic"
 cask "skype"                                # Video calls
 cask "sourcetree"                           # Git visualization tool
 cask "ticktick"                             # Alternative todo app
