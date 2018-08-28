@@ -91,6 +91,8 @@ jt -t monokai -fs 11 -tfs 12 -nfs 14 -cellw 70% -T
 # For jupyter extensions
 conda install -y -c conda-forge jupyter_contrib_nbextensions
 conda install -y -c conda-forge jupyter_nbextensions_configurator
+conda install -y -c conda-forge ipywidgets
+jupyter nbextension enable --py widgetsnbextension
 
 open "https://ndres.me/post/best-jupyter-notebook-extensions"
 
