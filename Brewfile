@@ -65,6 +65,7 @@ brew "pyenv"                                # Python version management
 brew "pyenv-virtualenv"                     # For managing virtual envs
 brew "pyenv-ccache"                         # Make Python build faster
 brew "pyenv-which-ext"                      # Integrate pyenv and system commands (looks up commands in other python versions)
+brew "pipenv"                               # TODO: use pipenv instead of pyenv
 
 brew "ruby"
 brew "rbenv"
@@ -98,6 +99,7 @@ brew "hardlink-osx"                         # Hard link functionality on macOS
 brew "htop"                                 # Display system usage
 brew "imagemagick", args: ['with-librsvg', 'with-fontconfig'] # Good image editing software
 brew "lnav"                                 # Log viewer
+brew "lftp"                                 # Terminal FTP client
 brew "mas"                                  # Install software from app store
 brew "mackup"                               # Configuration Syncer
 brew "cmark"                                # Mkvtoolnix dependency
