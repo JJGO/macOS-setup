@@ -86,6 +86,7 @@ brew "atool"                                # A script for managing file archive
 brew "aspell", args: ['with-lang-es']       # Spell checker
 brew "autossh"                              # Persistent SSH port forwarding
 brew "bat"                                  # Improved cat with highlight and paging
+brew "bitwarden-cli"                        # Bitwarden CLI utility
 brew "dockutil"                             # Manages the dock icons
 brew "duti"                                 # Set default document and URL handlers
 brew "elinks"                               # CLI web browser
@@ -159,6 +160,7 @@ cask "alfred"                               # Improved Spotlight
 cask "appcleaner"                           # Removes plist along with the app
 cask "authy"								# 2FA App
 cask "bettertouchtool"                      # Macros and gestures (PAID -license)
+cask "bitwarden"                            # Password manager of choice
 cask "caffeine"                             # Prevents the computer from sleeping
 cask "dropbox"                              # Cloud storage with syncing
 cask "etrecheck"                            # System maintenance
