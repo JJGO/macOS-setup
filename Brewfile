@@ -163,6 +163,7 @@ cask "bettertouchtool"                      # Macros and gestures (PAID -license
 cask "bitwarden"                            # Password manager of choice
 cask "caffeine"                             # Prevents the computer from sleeping
 cask "dropbox"                              # Cloud storage with syncing
+cask "etcher"                               # Tool for flashing USB/SD/&c from .img/.iso
 cask "etrecheck"                            # System maintenance
 cask "filezilla"                            # FTP client
 cask "firefox"                              # Alternative web browser
