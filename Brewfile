@@ -176,6 +176,7 @@ cask "iina"                                 # Video player with nicer configs th
 cask "iterm2"                               # Better than Terminal.app
 cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
 cask "karabiner-elements"                   # Tool to remap keys like caps-lock
+cask "keybase"                              # Keybase macOS client
 cask "kitty"                                # Terminal emulator with GPU acceleration
 cask "logitech-control-center"              # Drivers for keyboard and mouse
 cask "logitech-options"                     # Drivers for keyboard and mouse
