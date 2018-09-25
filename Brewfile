@@ -91,6 +91,7 @@ brew "dockutil"                             # Manages the dock icons
 brew "duti"                                 # Set default document and URL handlers
 brew "elinks"                               # CLI web browser
 brew "fasd"                                 # Fasd offers quick access to files and directories
+brew "fd"                                   # Fast alternative to find
 brew "fdupes"                               # CLI duplicate finder
 brew "fzf"                                  # Fuzzy finder
 brew "fzy"                                  # Another Fuzzy finder
