@@ -97,7 +97,8 @@ brew "yarn"
 brew "ghc"
 brew "cabal-install"
 
-# Go, Julia, R
+# Rust, Go, Julia, R
+brew "rust"
 brew "golang"
 cask "julia"
 brew "r", args: ['with-openblas']
