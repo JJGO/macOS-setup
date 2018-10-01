@@ -62,6 +62,9 @@ bundle install
 # Launch Agents
 ./launch_setup.sh
 
+# Install rust
+curl https://sh.rustup.rs -sSf | sh
+
 # Run post-processing script
 ./post-process.sh
 
