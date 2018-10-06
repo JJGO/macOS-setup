@@ -59,8 +59,8 @@ defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAm
 
 ### SelfControl
 # Intervals of one hour up to a week
-~/macOS-setup ❯❯❯ defaults write org.eyebeam.SelfControl MaxBlockLength -int 10080                         master ✱
-~/macOS-setup ❯❯❯ defaults write org.eyebeam.SelfControl BlockLengthInterval -int 60
+defaults write org.eyebeam.SelfControl MaxBlockLength -int 10080                         master ✱
+defaults write org.eyebeam.SelfControl BlockLengthInterval -int 60
 
 
 ### TMUXINATOR ###

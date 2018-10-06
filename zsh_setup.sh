@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e 			# Exit on error 
+set -e 			# Exit on error
 set -o pipefail # Exit on pipe error
 set -x 			# Enable verbosity
 
@@ -8,7 +8,7 @@ set -x 			# Enable verbosity
 command -v zsh | sudo tee -a /etc/shells
 
 # Changing Default Shell
-chsh -s /usr/local/bin/zsh
+chsh -s $(command -v zsh)
 
 # Install powerline fonts
 git clone https://github.com/powerline/fonts.git ~/Git/powerline-fonts
