@@ -32,20 +32,21 @@ cask "docker"                               # Containerization tool
 cask "filebot"                              # TVshow/Movie renamer
 cask "gfxcardstatus"                        # Changes the dedicated and internal graphics
 cask "github"                               # Github desktop client (good for diffs)
-cask "handbrake"                            # For video transcoding and conversion
+# cask "handbrake"                            # For video transcoding and conversion
 cask "hazel"                                # Automate moving files
 cask "xquartz"                              # DEP: Inkscape dependency
 cask "inkscape"                             # Vector graphics
 cask "kodi"                                 # Media center for music, tvshows and movies
 cask "macdown"                              # Simple markdown editor with live preview
 cask "mendeley"                             # Literature manager
-cask "musicbrainz-picard"                   # Music Tagger and Renamer
+# cask "musicbrainz-picard"                   # Music Tagger and Renamer
 # cask "nosleep"                            # Prevents from sleeping with close lid
 cask "openemu"                              # Emulator collection
 cask "postman"                              # Debugger for GET/POST requests
 cask "pycharm"                              # Use educational license (PAID)
-cask "rambox"                               # messaging and emailing app that combines web apps
-cask "simple-comic"
+# cask "rambox"                               # messaging and emailing app that combines web apps
+cask "simple-comic"                         # Comic viewer
+cask "sublime-merge"                        # Sublime merge tool
 cask "skype"                                # Video calls
 cask "sourcetree"                           # Git visualization tool
 cask "ticktick"                             # Alternative todo app
@@ -54,6 +55,7 @@ cask "virtualbox"                           # Virtual machines
 cask "vagrant"                              # Automated VM management/deployment
 cask "vagrant-manager"                      #  helps you manage all your virtual machines in one place directly from the menubar
 cask "xld"                                  # Convert flac files
+cask "yacreader"                            # Comic reader
 
 # PAID Casks
 cask "dash"                                 # Offline programming reference (PAID)
@@ -63,9 +65,7 @@ cask "wifi-explorer"                        # Look for wifi networks power and c
 
 
 ### Mac App Store Installs
-mas "1Password", id: 443987910
 mas "Amphetamine", id: 937984704                    # Better up to date Caffeine tool to prevent sleep
-mas "LastPass", id: 926036361                       # Password management s
 mas "Mathpix Snipping Tool", id: 1349670778         # Capture LaTeX formulas
 mas "Microsoft OneNote", id:784801555 	            # Microsoft OneNote
 mas "Todoist", id: 585829637                        # Todo list tool
@@ -125,5 +125,5 @@ brew "subliminal"
 
 # AUTODL
 brew "mono"
-cask "sonarr"
-cask "radarr"
+# cask "sonarr"
+# cask "radarr"

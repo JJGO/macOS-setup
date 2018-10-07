@@ -96,7 +96,6 @@ brew "fdupes"                               # CLI duplicate finder
 brew "fzf"                                  # Fuzzy finder
 brew "fzy"                                  # Another Fuzzy finder
 brew "graphviz"                             # Graph visualization software
-brew "handbrake"                            # For video transcoding and conversion
 brew "hardlink-osx"                         # Hard link functionality on macOS
 brew "htop"                                 # Display system usage
 brew "imagemagick", args: ['with-librsvg', 'with-fontconfig'] # Good image editing software
