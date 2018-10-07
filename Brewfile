@@ -172,7 +172,6 @@ cask "google-chrome"                        # Google's web browser
 cask "google-chrome-canary"                 # Google's beta web browser
 cask "google-backup-and-sync"               # Google drive and photos
 cask "chrome-remote-desktop-host"           # Remote control using Google credentials
-cask "iina"                                 # Video player with nicer configs than VLC
 cask "iterm2"                               # Better than Terminal.app
 cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
 cask "karabiner-elements"                   # Tool to remap keys like caps-lock
@@ -183,17 +182,13 @@ cask "logitech-options"                     # Drivers for keyboard and mouse
 cask "logitech-unifying"                    # Drivers for keyboard and mouse
 cask "mactex"                               # LateX and TeX
 cask "malwarebytes"                         # Remove antimalware
-cask "meld"                                 # Diff/Merge tool
 cask "onyx"                                 # Tweak tool for OS
 cask "paintbrush"                           # MS paint equivalent
 cask "scroll-reverser"                      # Tool to invert mousewheel scroll
 cask "selfcontrol"                          # Blacklisting websites
-cask "signal"                               # Encrypted messaging app
 cask "slack"                                # Slack client
 cask "skim"                                 # Better PDF tool with Sublime Text integration
-cask "soda-player"                          # To play torrent and ace streams
 cask "spotify"                              # Music streaming
-cask "standard-notes"                       # Encrypted note taking app
 cask "steam"                                # Gaming collection hub
 cask "sublime-text"                         # Multipurpose text editor
 cask "telegram"                             # Instant messaging with sync across devices
@@ -202,7 +197,6 @@ cask "transmission"                         # Torrent client
 cask "tunnelblick"                          # OpenVPN client
 cask "veracrypt"                            # Disk and disk image encryption
 cask "vlc"                                  # Video Player
-cask "vox"                                  # Lightweight audio player
 cask "xbox360-controller-driver-unofficial" # Drivers for XBOX 360 controller
 
 # PAID Casks
