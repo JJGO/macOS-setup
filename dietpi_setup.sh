@@ -88,3 +88,9 @@ cargo install bat
 
 # Remove annoying motd
 sudo echo "" > /etc/motd
+
+# Borg Backup
+wget https://github.com/borgbackup/borg/releases/download/1.1.7/borg-linux64 -O borg
+sudo chown root:root borg
+sudo chmod 755 borg
+sudo mv borg /usr/bin
