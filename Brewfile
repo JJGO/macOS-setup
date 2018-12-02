@@ -161,6 +161,7 @@ cask "appcleaner"                           # Removes plist along with the app
 cask "authy"								# 2FA App
 cask "bettertouchtool"                      # Macros and gestures (PAID -license)
 cask "bitwarden"                            # Password manager of choice
+cask "bitbar"                               # Menu custom script display
 cask "caffeine"                             # Prevents the computer from sleeping
 cask "dropbox"                              # Cloud storage with syncing
 cask "etcher"                               # Tool for flashing USB/SD/&c from .img/.iso
