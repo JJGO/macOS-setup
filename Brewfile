@@ -227,6 +227,8 @@ cask "qladdict"
 # Fonts
 tap 'caskroom/fonts'
 cask "font-anonymous-pro"
+cask "font-charter"
+cask "font-cooper-hewitt"
 cask "font-dejavu-sans"
 cask "font-comic-neue"
 cask "font-computer-modern"
@@ -242,6 +244,7 @@ cask "font-menlo-for-powerline"
 cask "font-monoid"
 cask "font-source-code-pro"
 cask "font-source-sans-pro"
+cask "font-source-serif-pro"
 cask "font-terminus"
 cask "font-times-new-roman"
 
