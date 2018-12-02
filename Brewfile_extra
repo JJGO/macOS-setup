@@ -21,6 +21,7 @@ brew "utimer"                               # CLI timer, countdown and stopwatch
 
 
 #### NON CORE CASKS ####
+cask "adobe-acrobat-reader"                 # To fill forms only compatible with Adobe Acrobat
 cask "borgbackup"                           # Incremental and Deduplication backup tool
 cask "brave"								# Adblocker private browser
 cask "calibre"                              # Eboook Management
