@@ -87,6 +87,7 @@ brew "aspell", args: ['with-lang-es']       # Spell checker
 brew "autossh"                              # Persistent SSH port forwarding
 brew "bat"                                  # Improved cat with highlight and paging
 brew "bitwarden-cli"                        # Bitwarden CLI utility
+brew "diff-so-fancy"                        # More colorful diff
 brew "dockutil"                             # Manages the dock icons
 brew "duti"                                 # Set default document and URL handlers
 brew "elinks"                               # CLI web browser
@@ -111,7 +112,6 @@ brew "moreutils"                            # Some extra niceties including para
 brew "ncdu"                                 # Storage analyzer
 brew "nmap"                                 # Network management package
 brew "pandoc"                               # Document conversion
-brew "peco"                                 # Simplistic interactive CLI filtering tool
 brew "plowshare"                            # CLI Hoster Downloader
 brew "pv"                                   # Monitor the progress of data through a pipe.
 brew "qpdf"                                 # Pdf CLI utility
@@ -143,7 +143,6 @@ brew "cowsay"
 brew "fortune"
 brew "figlet"
 brew "neofetch"
-brew "screenfetch"
 brew "sl"
 brew "gti"
 brew "cmatrix"
@@ -162,6 +161,7 @@ cask "authy"								# 2FA App
 cask "bettertouchtool"                      # Macros and gestures (PAID -license)
 cask "bitwarden"                            # Password manager of choice
 cask "bitbar"                               # Menu custom script display
+cask "borgbackup"                           # Incremental and Deduplication backup tool
 cask "caffeine"                             # Prevents the computer from sleeping
 cask "dropbox"                              # Cloud storage with syncing
 cask "etcher"                               # Tool for flashing USB/SD/&c from .img/.iso
