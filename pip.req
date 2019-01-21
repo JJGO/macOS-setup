@@ -25,6 +25,7 @@ paramiko
 pep8
 Pillow
 pint
+proselint
 pyautogui
 pycrypto
 pydot-ng
