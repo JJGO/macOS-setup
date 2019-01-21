@@ -15,18 +15,14 @@ brew "mutt", args: ['with-trash-patch']     # Email Client
 brew "pass"                                 # UNIX password manager based on gpg
 brew "speedtest_cli"                        # Speedtest on CLI
 brew "switchaudio-osx"                      # Switch audio input/output
-brew "timidity"                             # CLI tool for MIDI files
 brew "tldr"                                 # Simpler man pages
-brew "utimer"                               # CLI timer, countdown and stopwatch
 
 
 #### NON CORE CASKS ####
 cask "adobe-acrobat-reader"                 # To fill forms only compatible with Adobe Acrobat
-cask "borgbackup"                           # Incremental and Deduplication backup tool
 cask "brave"								# Adblocker private browser
 cask "calibre"                              # Eboook Management
 cask "chromium"                             # Open Source web browser
-cask "ccleaner"                             # Cache and temporary files removal
 cask "coconutbattery"                       # Displays battery health
 cask "discord"                              # Discord desktop app
 cask "docker"                               # Containerization tool
@@ -44,6 +40,7 @@ cask "mendeley"                             # Literature manager
 cask "openemu"                              # Emulator collection
 cask "postman"                              # Debugger for GET/POST requests
 cask "pycharm"                              # Use educational license (PAID)
+cask "obs"                                  # Screen recording/streaming software
 cask "signal"                               # Encrypted messaging app
 cask "simple-comic"                         # Comic viewer
 cask "sublime-merge"                        # Sublime merge tool
