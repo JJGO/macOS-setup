@@ -10,6 +10,7 @@ brew "cmus"                                 # Terminal music player
 brew "colordiff"                            # Colored diff
 brew "ext4fuse"                             # To mount Linux drives
 brew "fonttools"                            # Tools to manage fonts
+brew "geckodriver"                          # Firefox webdriver
 brew "hub"                                  # Perform GitHub actions from the CLI
 brew "mutt", args: ['with-trash-patch']     # Email Client
 brew "pass"                                 # UNIX password manager based on gpg
