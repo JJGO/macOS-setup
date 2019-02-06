@@ -51,7 +51,7 @@ cask "soda-player"                          # To play torrent and ace streams
 cask "sourcetree"                           # Git visualization tool
 cask "standard-notes"                       # Encrypted note taking app
 cask "ticktick"                             # Alternative todo app
-cask "torbrowser"                           # Anonymized browser
+cask "tor-browser"                          # Anonymized browser
 cask "virtualbox"                           # Virtual machines
 cask "vagrant"                              # Automated VM management/deployment
 cask "vagrant-manager"                      #  helps you manage all your virtual machines in one place directly from the menubar
