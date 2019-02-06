@@ -169,6 +169,7 @@ cask "etrecheck"                            # System maintenance
 cask "filezilla"                            # FTP client
 cask "firefox"                              # Alternative web browser
 cask "flux"                                 # Changes temperature color based on time of day
+cask "gmvault"                              # To backup gmail accounts
 cask "google-chrome"                        # Google's web browser
 cask "google-chrome-canary"                 # Google's beta web browser
 cask "google-backup-and-sync"               # Google drive and photos
