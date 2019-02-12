@@ -43,6 +43,7 @@ cask "postman"                              # Debugger for GET/POST requests
 cask "protonvpn"                            # Proton VPN
 cask "pycharm"                              # Use educational license (PAID)
 cask "obs"                                  # Screen recording/streaming software
+cask "rescuetime"                           # Time tracking & productivity
 cask "signal"                               # Encrypted messaging app
 cask "simple-comic"                         # Comic viewer
 cask "sublime-merge"                        # Sublime merge tool
