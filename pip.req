@@ -39,6 +39,7 @@ pytest
 pytest-cov
 requests
 sacred
+scdl
 selenium
 scipy
 scikit-learn
