@@ -2,7 +2,6 @@
 # Brewfile
 
 tap 'homebrew/science'
-tap 'homebrew/fuse'
 
 cask_args appdir: '/Applications'
 
@@ -256,3 +255,4 @@ cask "font-microsoft-office"
 ### Mac App Store Installs
 mas "Xcode", id: 497799835                          # Apple's developper tools
 
+mas "WireGuard", id: 1451685025                     # Wireguard macOS client
