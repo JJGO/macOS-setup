@@ -200,7 +200,8 @@ cask "tunnelblick"                          # OpenVPN client
 cask "veracrypt"                            # Disk and disk image encryption
 cask "vlc"                                  # Video Player
 cask "xbox360-controller-driver-unofficial" # Drivers for XBOX 360 controller
-
+cask "yubico-yubikey-manager"               # Manager for yubikeys
+cask "yubico-authenticator"                 # TOTP authenticator based on yubikeys
 # PAID Casks
 cask "bartender"                            # Groups menu bar items (PAID)
 cask "carbon-copy-cloner"                   # Bulk copy and image creation (PAID)
