@@ -24,6 +24,7 @@ duti -s com.sublimetext.3 .md   all
 # Videos
 duti -s io.mpv .mp4 all
 duti -s io.mpv .m4v all
+duti -s io.mpv .webm all
 duti -s io.mpv .mkv all
 duti -s io.mpv .avi all
 duti -s io.mpv .mov all
