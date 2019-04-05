@@ -166,13 +166,11 @@ cask "caffeine"                             # Prevents the computer from sleepin
 cask "dropbox"                              # Cloud storage with syncing
 cask "etcher"                               # Tool for flashing USB/SD/&c from .img/.iso
 cask "etrecheck"                            # System maintenance
-cask "filezilla"                            # FTP client
 cask "firefox"                              # Alternative web browser
 cask "flux"                                 # Changes temperature color based on time of day
 cask "gmvault"                              # To backup gmail accounts
 cask "google-chrome"                        # Google's web browser
 cask "google-chrome-canary"                 # Google's beta web browser
-cask "google-backup-and-sync"               # Google drive and photos
 cask "chrome-remote-desktop-host"           # Remote control using Google credentials
 cask "iterm2"                               # Better than Terminal.app
 cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
@@ -206,7 +204,7 @@ cask "yubico-authenticator"                 # TOTP authenticator based on yubike
 cask "bartender"                            # Groups menu bar items (PAID)
 cask "carbon-copy-cloner"                   # Bulk copy and image creation (PAID)
 cask "daisydisk"                            # Handy disk space analyzer (PAID)
-cask "paragon-ntfs"                        # NTFS write support (PAID)
+cask "paragon-ntfs"                         # NTFS write support (PAID)
 cask "vmware-fusion"                        # Full fledged user friendly VM (PAID)
 
 # Quick Look plugins
