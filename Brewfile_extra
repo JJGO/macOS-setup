@@ -27,6 +27,7 @@ cask "chromium"                             # Open Source web browser
 cask "coconutbattery"                       # Displays battery health
 cask "discord"                              # Discord desktop app
 cask "docker"                               # Containerization tool
+cask "eqmac"                                # System Wide Equalizer
 cask "filebot"                              # TVshow/Movie renamer
 cask "gfxcardstatus"                        # Changes the dedicated and internal graphics
 cask "hazel"                                # Automate moving files
@@ -43,10 +44,11 @@ cask "obs"                                  # Screen recording/streaming softwar
 cask "rescuetime"                           # Time tracking & productivity
 cask "signal"                               # Encrypted messaging app
 cask "simple-comic"                         # Comic viewer
-cask "sublime-merge"                        # Sublime merge tool
 cask "skype"                                # Video calls
 cask "soda-player"                          # To play torrent and ace streams
 cask "sourcetree"                           # Git visualization tool
+cask "sublime-merge"                        # Sublime merge tool
+cask "syncplay"                             # Synced playback over network
 cask "ticktick"                             # Alternative todo app
 cask "tor-browser"                          # Anonymized browser
 cask "virtualbox"                           # Virtual machines
