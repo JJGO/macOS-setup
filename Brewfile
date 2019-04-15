@@ -26,6 +26,7 @@ brew "lsof"
 brew "make", args: ['with-default-names']
 brew "nano"
 brew "openssh"
+brew "pstree"
 brew "readline"
 brew "rename"
 brew "rsync"
@@ -165,7 +166,7 @@ cask "borgbackup"                           # Incremental and Deduplication back
 cask "caffeine"                             # Prevents the computer from sleeping
 cask "dropbox"                              # Cloud storage with syncing
 cask "etcher"                               # Tool for flashing USB/SD/&c from .img/.iso
-cask "etrecheck"                            # System maintenance
+cask "etrecheckpro"                         # System maintenance
 cask "firefox"                              # Alternative web browser
 cask "flux"                                 # Changes temperature color based on time of day
 cask "gmvault"                              # To backup gmail accounts
