@@ -12,7 +12,9 @@ brew "ext4fuse"                             # To mount Linux drives
 brew "fonttools"                            # Tools to manage fonts
 brew "geckodriver"                          # Firefox webdriver
 brew "hub"                                  # Perform GitHub actions from the CLI
+brew "magic-wormhole"                       # CLI tool to share files securely
 brew "mutt", args: ['with-trash-patch']     # Email Client
+brew "nethogs"                              # Network analyzer
 brew "pass"                                 # UNIX password manager based on gpg
 brew "speedtest_cli"                        # Speedtest on CLI
 brew "switchaudio-osx"                      # Switch audio input/output
