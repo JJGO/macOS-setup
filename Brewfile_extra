@@ -17,6 +17,7 @@ brew "mutt", args: ['with-trash-patch']     # Email Client
 brew "nethogs"                              # Network analyzer
 brew "pass"                                 # UNIX password manager based on gpg
 brew "speedtest_cli"                        # Speedtest on CLI
+brew "stress"                               # Creates several types of compute stress
 brew "switchaudio-osx"                      # Switch audio input/output
 brew "tldr"                                 # Simpler man pages
 
@@ -121,7 +122,7 @@ brew "docker-swarm"
 # https://www.reddit.com/r/osx/comments/4ljbdq/mpv_tutorial_and_60_fps_playback_on_os_x/
 brew "libass", args: ['without-harfbuzz']
 brew "ffmpeg", args: ['with-rtmpdump', 'with-openssl', 'with-libass', 'with-libbs2b', 'with-rubberband']
-brew "mpv", args: ['with-vapoursynth', 'with-libarchive', 'with-bundle', 'with-bluray-support', 'with-libdvdread', 'with-little-cms2', 'with-lua']
+# brew "mpv", args: ['with-vapoursynth', 'with-libarchive', 'with-bundle', 'with-bluray-support', 'with-libdvdread', 'with-little-cms2', 'with-lua']
 cask "mpv"
 brew "mvtools"
 brew "ffms2"
