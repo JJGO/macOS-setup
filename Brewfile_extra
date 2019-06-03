@@ -58,6 +58,7 @@ cask "tor-browser"                          # Anonymized browser
 cask "virtualbox"                           # Virtual machines
 cask "vagrant"                              # Automated VM management/deployment
 cask "vagrant-manager"                      #  helps you manage all your virtual machines in one place directly from the menubar
+cask "vorta"                                # Borg Wrapper, scheduler and menu item
 cask "vox"                                  # Lightweight audio player
 cask "xld"                                  # Convert flac files
 cask "yacreader"                            # Comic reader
