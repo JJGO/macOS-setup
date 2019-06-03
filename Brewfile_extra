@@ -45,6 +45,7 @@ cask "postman"                              # Debugger for GET/POST requests
 cask "protonvpn"                            # Proton VPN
 cask "obs"                                  # Screen recording/streaming software
 cask "rescuetime"                           # Time tracking & productivity
+cask "seafile-client"                       # Seafile MAC client
 cask "signal"                               # Encrypted messaging app
 cask "simple-comic"                         # Comic viewer
 cask "skype"                                # Video calls
