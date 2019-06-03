@@ -8,6 +8,7 @@ brew "cksfv"                                # Utility to check SFV files
 brew "cloc"                                 # Count lines of code
 brew "cmus"                                 # Terminal music player
 brew "colordiff"                            # Colored diff
+brew "expect"                               # To write scripts that expect interaction
 brew "ext4fuse"                             # To mount Linux drives
 brew "fonttools"                            # Tools to manage fonts
 brew "geckodriver"                          # Firefox webdriver
