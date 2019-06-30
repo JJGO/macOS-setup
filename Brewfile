@@ -204,9 +204,7 @@ cask "yubico-yubikey-manager"               # Manager for yubikeys
 cask "yubico-authenticator"                 # TOTP authenticator based on yubikeys
 # PAID Casks
 cask "bartender"                            # Groups menu bar items (PAID)
-cask "carbon-copy-cloner"                   # Bulk copy and image creation (PAID)
 cask "daisydisk"                            # Handy disk space analyzer (PAID)
-cask "paragon-ntfs"                         # NTFS write support (PAID)
 cask "vmware-fusion"                        # Full fledged user friendly VM (PAID)
 
 # Quick Look plugins

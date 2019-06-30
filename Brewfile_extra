@@ -34,7 +34,6 @@ cask "docker"                               # Containerization tool
 cask "eqmac"                                # System Wide Equalizer
 cask "filebot"                              # TVshow/Movie renamer
 cask "gfxcardstatus"                        # Changes the dedicated and internal graphics
-cask "hazel"                                # Automate moving files
 cask "iina"                                 # Video player with nicer configs than VLC
 cask "xquartz"                              # DEP: Inkscape dependency
 cask "inkscape"                             # Vector graphics
@@ -45,7 +44,6 @@ cask "obs"                                  # Screen recording/streaming softwar
 cask "openemu"                              # Emulator collection
 cask "pock"                                 # Dock in touchbar
 cask "postman"                              # Debugger for GET/POST requests
-cask "protonvpn"                            # Proton VPN
 cask "rescuetime"                           # Time tracking & productivity
 cask "seafile-client"                       # Seafile MAC client
 cask "signal"                               # Encrypted messaging app
