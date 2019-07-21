@@ -34,6 +34,8 @@ paramiko
 pep8
 Pillow
 pint
+playsound
+pmsensor
 powerline-status
 proselint
 pyautogui
@@ -61,7 +63,9 @@ sympy
 tabulate
 tensorboard
 tensorflow
+togglCli
 tqdm
 uncertainties
 virtualenv
 virtualenvwrapper
+watchdog
