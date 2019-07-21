@@ -51,6 +51,7 @@ pyserial
 pytest
 pytest-cov
 python-magic
+pytorchviz
 requests
 sacred
 scikit-learn
