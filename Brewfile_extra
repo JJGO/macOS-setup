@@ -47,6 +47,7 @@ cask "pock"                                 # Dock in touchbar
 cask "postman"                              # Debugger for GET/POST requests
 cask "rescuetime"                           # Time tracking & productivity
 cask "seafile-client"                       # Seafile MAC client
+cask "sequel-pro"                           # SQL frontend
 cask "signal"                               # Encrypted messaging app
 cask "simple-comic"                         # Comic viewer
 cask "skype"                                # Video calls
