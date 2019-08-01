@@ -1,13 +1,11 @@
 autopep8
 beautifulsoup4
 black
-coursera-dl
 coverage
 cryptography
 cvxopt
 Cython
 docopt
-edx-dl
 feedgen
 ffmpeg-python
 flake8
@@ -15,7 +13,6 @@ Flask
 Glances
 graphviz
 h5py
-hyperopt
 jupyter
 jupyterthemes
 keras
