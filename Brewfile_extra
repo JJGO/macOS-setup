@@ -134,3 +134,10 @@ brew "subliminal"
 
 # AUTODL
 brew "mono"
+
+
+# OCaml/Coq
+
+brew install aspcud
+brew install gpatch
+brew install opam
