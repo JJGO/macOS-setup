@@ -77,8 +77,11 @@ brew "perl"
 # Widely used CLI editors
 brew "vim", args: ['override-system-vi', 'with-python3']
 brew "neovim"
-brew "emacs", args: ['HEAD', 'use-git-head', 'cocoa', 'srgb']
-cask "emacs"
+
+# Regular emacs window does not behave properly. Use this port instead
+tap "railwaycat/emacsmacport"
+brew "emacs-mac"
+cask "emacs-mac"
 
 ### CLI UTILITIES
 brew "ack"                                  # Better grep
