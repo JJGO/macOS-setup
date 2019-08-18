@@ -91,3 +91,8 @@ cp /tmp/git-fire/git-fire $HOME/bin
 # sudo trimforce enable
 
 cd -
+
+# Yabai scripting addition
+sudo yabai --install-sa
+# Disable SIP
+# https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection
