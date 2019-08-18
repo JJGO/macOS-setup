@@ -134,9 +134,9 @@ brew "unison"                               # Sync both ways folders
 brew "write-good"                           # CLI tool for technical writing
 brew "youtube-dl"                           # Download YouTube (and others) from CLI
 
-### chunkwm
-tap 'crisidev/homebrew-chunkwm'
-brew 'chunkwm'
+### yabai
+tap 'koekeishiya/formulae'
+brew 'koekeishiya/formulae/yabai'
 brew 'koekeishiya/formulae/skhd'
 
 ### MISC
