@@ -250,6 +250,9 @@ cask "font-source-sans-pro"
 cask "font-source-serif-pro"
 cask "font-terminus"
 cask "font-times-new-roman"
+cask "font-fantasque-sans-mono"
+  ## Nerd fonts
+cask "font-meslo-nerd-font-mono"
 
 
 tap 'colindean/fonts-nonfree'
