@@ -181,6 +181,7 @@ curl "https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 * Import Biblioteca Tecnica
 
 ## License
+* Adobe Illustrator/Photoshop/InDesign
 * Alfred
 * Bartender
 * Bear
