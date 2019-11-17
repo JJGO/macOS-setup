@@ -16,6 +16,16 @@ duti -s com.sublimetext.3 .c    all
 duti -s com.sublimetext.3 .cpp  all
 duti -s com.sublimetext.3 .h    all
 duti -s com.sublimetext.3 .go   all
+duti -s com.sublimetext.3 .rs   all
+duti -s com.sublimetext.3 .json all
+duti -s com.sublimetext.3 .v    all
+duti -s com.sublimetext.3 .yml  all
+duti -s com.sublimetext.3 .R    all
+duti -s com.sublimetext.3 .toml all
+duti -s com.sublimetext.3 .css  all
+duti -s com.sublimetext.3 .js   all
+duti -s com.sublimetext.3 .jl   all
+duti -s com.sublimetext.3 .hs   all
 
 # Notes
 duti -s com.sublimetext.3 .md   all
