@@ -12,6 +12,7 @@ brew "expect"                               # To write scripts that expect inter
 brew "ext4fuse"                             # To mount Linux drives
 brew "fonttools"                            # Tools to manage fonts
 brew "geckodriver"                          # Firefox webdriver
+brew "hugo"                                 # Golang static content generator
 brew "hub"                                  # Perform GitHub actions from the CLI
 brew "magic-wormhole"                       # CLI tool to share files securely
 brew "mutt", args: ['with-trash-patch']     # Email Client
@@ -22,13 +23,16 @@ brew "stress"                               # Creates several types of compute s
 brew "switchaudio-osx"                      # Switch audio input/output
 brew "tldr"                                 # Simpler man pages
 
+tap possatti/possatti
+brew "pokemonsay"                           # Cowsay but with pokemon`
 
 #### NON CORE CASKS ####
 cask "adobe-acrobat-reader"                 # To fill forms only compatible with Adobe Acrobat
-cask "brave"								# Adblocker private browser
+cask "brave-browser"   					    # Adblocker private browser
 cask "calibre"                              # Eboook Management
 cask "chromium"                             # Open Source web browser
 cask "coconutbattery"                       # Displays battery health
+cask "cscreen"                              # Check Display properties from CLI
 cask "discord"                              # Discord desktop app
 cask "docker"                               # Containerization tool
 cask "eqmac"                                # System Wide Equalizer
@@ -41,6 +45,7 @@ cask "kodi"                                 # Media center for music, tvshows an
 cask "macdown"                              # Simple markdown editor with live preview
 cask "meld"                                 # Diff/Merge tool
 cask "monitorcontrol"                       # Uses DDC/CI to setup monitor brightness/contrast
+cask "obinslab-starter"                     # Anne Pro 2 Driver
 cask "obs"                                  # Screen recording/streaming software
 cask "openemu"                              # Emulator collection
 cask "pock"                                 # Dock in touchbar
@@ -51,6 +56,7 @@ cask "sequel-pro"                           # SQL frontend
 cask "signal"                               # Encrypted messaging app
 cask "simple-comic"                         # Comic viewer
 cask "skype"                                # Video calls
+cask "skype-for-business"                   # Video calls
 cask "soda-player"                          # To play torrent and ace streams
 cask "sourcetree"                           # Git visualization tool
 cask "sublime-merge"                        # Sublime merge tool
@@ -109,7 +115,9 @@ brew "cabal-install"
 # Go, Julia, R
 brew "golang"
 cask "julia"
-brew "r", args: ['with-openblas']
+# brew "r", args: ['with-openblas']
+cask "R"
+cask "rstudio"
 brew "lua"
 
 # Docker

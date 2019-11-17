@@ -187,8 +187,10 @@ cask "logitech-options"                     # Drivers for keyboard and mouse
 cask "logitech-unifying"                    # Drivers for keyboard and mouse
 cask "mactex"                               # LateX and TeX
 cask "malwarebytes"                         # Remove antimalware
+cask "mkvtoolnix"                           # GUI for mkvtoolnix
 cask "onyx"                                 # Tweak tool for OS
 cask "paintbrush"                           # MS paint equivalent
+cask "plex"                                 # Plex Media Player
 cask "scroll-reverser"                      # Tool to invert mousewheel scroll
 cask "selfcontrol"                          # Blacklisting websites
 cask "slack"                                # Slack client
@@ -228,6 +230,7 @@ cask "qlmobi"
 cask "qladdict"
 
 # Fonts
+brew "font-fontawesome"
 tap 'caskroom/fonts'
 cask "font-anonymous-pro"
 cask "font-charter"
@@ -251,6 +254,8 @@ cask "font-source-serif-pro"
 cask "font-terminus"
 cask "font-times-new-roman"
 cask "font-fantasque-sans-mono"
+cask "font-victor-mono"
+cask "font-cascadia"
   ## Nerd fonts
 cask "font-meslo-nerd-font-mono"
 
