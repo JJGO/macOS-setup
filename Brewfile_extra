@@ -1,7 +1,6 @@
 cask_args appdir: '/Applications'
 
 ### EXTRA CLI UTILITIES
-brew "aria2"                                # CLI downloader with torrent support
 brew "djvu2pdf"                             # Converts djvu files to pdf
 brew "dos2unix"                             # Translate newlines between DOS and UNIX
 brew "cksfv"                                # Utility to check SFV files
@@ -14,6 +13,7 @@ brew "fonttools"                            # Tools to manage fonts
 brew "geckodriver"                          # Firefox webdriver
 brew "hugo"                                 # Golang static content generator
 brew "hub"                                  # Perform GitHub actions from the CLI
+brew "jrnl"                                 # Journaling app from the CLI 
 brew "magic-wormhole"                       # CLI tool to share files securely
 brew "mutt", args: ['with-trash-patch']     # Email Client
 brew "nethogs"                              # Network analyzer
@@ -22,9 +22,6 @@ brew "speedtest_cli"                        # Speedtest on CLI
 brew "stress"                               # Creates several types of compute stress
 brew "switchaudio-osx"                      # Switch audio input/output
 brew "tldr"                                 # Simpler man pages
-
-tap possatti/possatti
-brew "pokemonsay"                           # Cowsay but with pokemon`
 
 #### NON CORE CASKS ####
 cask "adobe-acrobat-reader"                 # To fill forms only compatible with Adobe Acrobat
@@ -35,8 +32,6 @@ cask "coconutbattery"                       # Displays battery health
 cask "cscreen"                              # Check Display properties from CLI
 cask "discord"                              # Discord desktop app
 cask "docker"                               # Containerization tool
-cask "eqmac"                                # System Wide Equalizer
-cask "filebot"                              # TVshow/Movie renamer
 cask "gfxcardstatus"                        # Changes the dedicated and internal graphics
 cask "iina"                                 # Video player with nicer configs than VLC
 cask "xquartz"                              # DEP: Inkscape dependency
@@ -51,7 +46,6 @@ cask "openemu"                              # Emulator collection
 cask "pock"                                 # Dock in touchbar
 cask "postman"                              # Debugger for GET/POST requests
 cask "rescuetime"                           # Time tracking & productivity
-cask "seafile-client"                       # Seafile MAC client
 cask "sequel-pro"                           # SQL frontend
 cask "signal"                               # Encrypted messaging app
 cask "simple-comic"                         # Comic viewer
@@ -60,14 +54,11 @@ cask "skype-for-business"                   # Video calls
 cask "soda-player"                          # To play torrent and ace streams
 cask "sourcetree"                           # Git visualization tool
 cask "sublime-merge"                        # Sublime merge tool
-cask "syncplay"                             # Synced playback over network
 cask "ticktick"                             # Alternative todo app
 cask "tor-browser"                          # Anonymized browser
 cask "virtualbox"                           # Virtual machines
 cask "vagrant"                              # Automated VM management/deployment
-cask "vagrant-manager"                      #  helps you manage all your virtual machines in one place directly from the menubar
 cask "vorta"                                # Borg Wrapper, scheduler and menu item
-cask "vox"                                  # Lightweight audio player
 cask "xld"                                  # Convert flac files
 cask "yacreader"                            # Comic reader
 
@@ -142,10 +133,3 @@ brew "subliminal"
 
 # AUTODL
 brew "mono"
-
-
-# OCaml/Coq
-
-brew install aspcud
-brew install gpatch
-brew install opam

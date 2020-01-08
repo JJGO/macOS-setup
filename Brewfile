@@ -97,6 +97,7 @@ brew "elinks"                               # CLI web browser
 brew "fasd"                                 # Fasd offers quick access to files and directories
 brew "fd"                                   # Fast alternative to find
 brew "fdupes"                               # CLI duplicate finder
+brew "fping"                                # More usable ping
 brew "fzf"                                  # Fuzzy finder
 brew "fzy"                                  # Another Fuzzy finder
 brew "graphviz"                             # Graph visualization software
