@@ -90,6 +90,9 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 * Change icon to rebel space icon (Google Drive)
 * Add Fuzzy Clock to Login Items
 
+### Finder Extensions
+* Disable all - check for [adobe](https://apple.stackexchange.com/questions/236577/how-to-disable-adobe-core-sync-app-on-os-x-from-being-launched-automatically)
+
 Third party apps
 ================
 
@@ -258,3 +261,4 @@ curl "https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 
 ## Reference
 https://github.com/herrbischoff/awesome-osx-command-line
+
