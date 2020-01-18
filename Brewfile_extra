@@ -36,6 +36,7 @@ cask "gfxcardstatus"                        # Changes the dedicated and internal
 cask "iina"                                 # Video player with nicer configs than VLC
 cask "xquartz"                              # DEP: Inkscape dependency
 cask "inkscape"                             # Vector graphics
+cask "keycastr"                             # Keystroke visualizer
 cask "kodi"                                 # Media center for music, tvshows and movies
 cask "macdown"                              # Simple markdown editor with live preview
 cask "meld"                                 # Diff/Merge tool
