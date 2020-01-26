@@ -110,6 +110,7 @@ brew "lftp"                                 # Terminal FTP client
 brew "mas"                                  # Install software from app store
 brew "mackup"                               # Configuration Syncer
 brew "cmark"                                # Mkvtoolnix dependency
+brew "ctags"                                # ctags binaries are required for vim
 brew "mkvtoolnix", args: ['with-qt5']       # Mkv tools
 brew "media-info"                           # Media info for videos
 brew "minicom"                              # Serial port communication

@@ -13,6 +13,8 @@ Flask
 Glances
 graphviz
 h5py
+ipdb
+jedi
 jupyter
 jupyterthemes
 keras
@@ -36,6 +38,7 @@ playsound
 pmsensor
 powerline-status
 proselint
+psutil
 pyautogui
 pycrypto
 pydot-ng

@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 ### EXTRA CLI UTILITIES
+brew "axel"                                 # Fast CLI downloader 
 brew "djvu2pdf"                             # Converts djvu files to pdf
 brew "dos2unix"                             # Translate newlines between DOS and UNIX
 brew "cksfv"                                # Utility to check SFV files
@@ -18,6 +19,7 @@ brew "magic-wormhole"                       # CLI tool to share files securely
 brew "mutt", args: ['with-trash-patch']     # Email Client
 brew "nethogs"                              # Network analyzer
 brew "pass"                                 # UNIX password manager based on gpg
+brew "shellcheck"                           # Bash/sh Linter
 brew "speedtest_cli"                        # Speedtest on CLI
 brew "stress"                               # Creates several types of compute stress
 brew "switchaudio-osx"                      # Switch audio input/output
