@@ -179,6 +179,7 @@ cask "flux"                                 # Changes temperature color based on
 cask "gmvault"                              # To backup gmail accounts
 cask "google-chrome"                        # Google's web browser
 cask "google-chrome-canary"                 # Google's beta web browser
+cask "hammerspoon"                          # Desktop automation on macOS
 cask "chrome-remote-desktop-host"           # Remote control using Google credentials
 cask "iterm2"                               # Better than Terminal.app
 cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
