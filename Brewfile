@@ -207,6 +207,7 @@ cask "the-unarchiver"                       # To deflate and decompress files
 cask "transmission"                         # Torrent client
 cask "tunnelblick"                          # OpenVPN client
 cask "veracrypt"                            # Disk and disk image encryption
+cask "visual-studio-code"                   # Visual Studio Code editor
 cask "vlc"                                  # Video Player
 cask "xbox360-controller-driver-unofficial" # Drivers for XBOX 360 controller
 cask "yubico-yubikey-manager"               # Manager for yubikeys
