@@ -86,7 +86,7 @@ fi
 
 
 # Set jupyter theme
-jt -t monokai -fs 11 -tfs 12 -nfs 14 -cellw 70% -T
+jt -t monokai -fs 11 -tfs 12 -nfs 14 -cellw 70% -T -vim
 
 # For jupyter extensions
 conda install -y -c conda-forge jupyter_contrib_nbextensions
