@@ -1,7 +1,7 @@
 cask_args appdir: '/Applications'
 
 ### EXTRA CLI UTILITIES
-brew "axel"                                 # Fast CLI downloader 
+brew "axel"                                 # Fast CLI downloader
 brew "djvu2pdf"                             # Converts djvu files to pdf
 brew "dos2unix"                             # Translate newlines between DOS and UNIX
 brew "cksfv"                                # Utility to check SFV files
@@ -14,7 +14,7 @@ brew "fonttools"                            # Tools to manage fonts
 brew "geckodriver"                          # Firefox webdriver
 brew "hugo"                                 # Golang static content generator
 brew "hub"                                  # Perform GitHub actions from the CLI
-brew "jrnl"                                 # Journaling app from the CLI 
+brew "jrnl"                                 # Journaling app from the CLI
 brew "magic-wormhole"                       # CLI tool to share files securely
 brew "mutt", args: ['with-trash-patch']     # Email Client
 brew "nethogs"                              # Network analyzer
@@ -24,6 +24,8 @@ brew "speedtest_cli"                        # Speedtest on CLI
 brew "stress"                               # Creates several types of compute stress
 brew "switchaudio-osx"                      # Switch audio input/output
 brew "tldr"                                 # Simpler man pages
+brew "yamllint"                             # YAML Linter
+brew "yq"                                   # Jq for YAML
 
 #### NON CORE CASKS ####
 cask "adobe-acrobat-reader"                 # To fill forms only compatible with Adobe Acrobat
