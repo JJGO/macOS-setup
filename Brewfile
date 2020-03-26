@@ -137,6 +137,7 @@ brew "doxygen"                              # tmux dependency
 brew "tmux", args: ['with-utf8proc']        # Terminal multiplexer and server
 brew "trash"                                # To use OS trash instead of rm forever
 brew "unison"                               # Sync both ways folders
+brew "wdiff"                                # Word by word diff
 brew "write-good"                           # CLI tool for technical writing
 brew "youtube-dl"                           # Download YouTube (and others) from CLI
 
