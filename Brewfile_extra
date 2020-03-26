@@ -45,6 +45,7 @@ cask "kodi"                                 # Media center for music, tvshows an
 cask "macdown"                              # Simple markdown editor with live preview
 cask "meld"                                 # Diff/Merge tool
 cask "monitorcontrol"                       # Uses DDC/CI to setup monitor brightness/contrast
+cask "nightowl"                             # Quickly toggle dark mode
 cask "obinslab-starter"                     # Anne Pro 2 Driver
 cask "obs"                                  # Screen recording/streaming software
 cask "openemu"                              # Emulator collection
