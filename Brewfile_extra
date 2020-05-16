@@ -117,6 +117,7 @@ cask "julia"
 cask "R"
 cask "rstudio"
 brew "lua"
+brew "luarocks"
 
 # Docker
 brew "docker"                               # Docker Containers
