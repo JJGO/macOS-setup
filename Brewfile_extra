@@ -63,11 +63,13 @@ cask "sourcetree"                           # Git visualization tool
 cask "sublime-merge"                        # Sublime merge tool
 cask "ticktick"                             # Alternative todo app
 cask "tor-browser"                          # Anonymized browser
-cask "virtualbox"                           # Virtual machines
 cask "vagrant"                              # Automated VM management/deployment
+cask "virtualbox"                           # Virtual machines
+cask "vimr"                                 # NEovim GUI for mac
 cask "vorta"                                # Borg Wrapper, scheduler and menu item
 cask "xld"                                  # Convert flac files
 cask "yacreader"                            # Comic reader
+cask "zoomus"                               # Zoom.us video conference software
 
 # PAID Casks
 cask "dash"                                 # Offline programming reference (PAID)
