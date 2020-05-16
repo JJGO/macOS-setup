@@ -105,6 +105,7 @@ brew "gocryptfs"                            # FUSE encrypted FS
 brew "hardlink-osx"                         # Hard link functionality on macOS
 brew "htop"                                 # Display system usage
 brew "imagemagick", args: ['with-librsvg', 'with-fontconfig'] # Good image editing software
+brew "jdupes"                               # Better fdupes
 brew "lnav"                                 # Log viewer
 brew "lftp"                                 # Terminal FTP client
 brew "mas"                                  # Install software from app store
