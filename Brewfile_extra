@@ -30,6 +30,7 @@ brew "yq"                                   # Jq for YAML
 #### NON CORE CASKS ####
 cask "adobe-acrobat-reader"                 # To fill forms only compatible with Adobe Acrobat
 cask "brave-browser"   					    # Adblocker private browser
+cask "arduino"                              # Arduino IDE
 cask "calibre"                              # Eboook Management
 cask "chromium"                             # Open Source web browser
 cask "coconutbattery"                       # Displays battery health
