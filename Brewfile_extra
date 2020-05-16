@@ -141,3 +141,9 @@ brew "subliminal"
 
 # AUTODL
 brew "mono"
+
+
+# Zathura pdf reader
+tap zegervdv/zathura
+brew tap zegervdv/zathura
+brew install zathura-pdf-poppler
