@@ -185,6 +185,7 @@ cask "google-chrome-canary"                 # Google's beta web browser
 cask "hammerspoon"                          # Desktop automation on macOS
 cask "chrome-remote-desktop-host"           # Remote control using Google credentials
 cask "iterm2"                               # Better than Terminal.app
+cask "istat-menus"                          # Menu bar performance stats for Mac
 cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
 cask "karabiner-elements"                   # Tool to remap keys like caps-lock
 cask "keybase"                              # Keybase macOS client
