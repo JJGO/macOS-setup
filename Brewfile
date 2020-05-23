@@ -7,8 +7,8 @@ cask_args appdir: '/Applications'
 
 ### UNIX DEFAULTS
 tap 'homebrew/dupes'
-brew "coreutils"
 brew "binutils"
+brew "coreutils"
 brew "diffutils"
 brew "ed", args: ['with-default-names']
 brew "findutils", args: ['with-default-names']
@@ -17,8 +17,8 @@ brew "gnu-indent", args: ['with-default-names']
 brew "gnu-sed" , args: ['with-default-names']
 brew "gnu-tar", args: ['with-default-names']
 brew "gnu-which", args: ['with-default-names']
-brew "gnutls"
 brew "gnupg"
+brew "gnutls"
 brew "grep", args: ['with-default-names']
 brew "gzip"
 brew "less", args: ['with-pcre']
@@ -41,8 +41,6 @@ brew "wget"
 brew "git"
 brew "git-extras"                           # Extra commands for convenience
 brew "git-crypt"                            # Enables secretfiles
-brew "git-lfs"                              # Better handling of large files
-brew "git-flow"                             # CLI  utils for git-flow
 
 brew "bash"                                 # Apple's is 3.2 current is 4
 brew "bash-completion"                      # Bash completion is lacking so this fixes it
@@ -50,14 +48,6 @@ brew "fish"                                 # Friendly interactive sheell. Good 
 brew "zsh"                                  # Better shell, specially with zPrezto
 brew "zsh-completions"                      # General ZSH completions
 brew "mosh"                                 # Mobile Shell
-
-### WINE
-cask "xquartz"                              # DEP: WineHQ dependency
-brew "wine"                                 # For Windows software
-brew "winetricks"                           # Extra wine utils
-cask "wine-stable"                          # GUI Wine interface
-cask "wineskin-winery"                      # Wine wrapper
-cask "playonmac"                            # Wine wrapper with nice UI
 
 ### PROGRAMMING LANGUAGES
 brew "xz"
@@ -99,7 +89,6 @@ brew "fd"                                   # Fast alternative to find
 brew "fdupes"                               # CLI duplicate finder
 brew "fping"                                # More usable ping
 brew "fzf"                                  # Fuzzy finder
-brew "fzy"                                  # Another Fuzzy finder
 brew "graphviz"                             # Graph visualization software
 brew "gocryptfs"                            # FUSE encrypted FS
 brew "hardlink-osx"                         # Hard link functionality on macOS
@@ -107,7 +96,6 @@ brew "htop"                                 # Display system usage
 brew "imagemagick", args: ['with-librsvg', 'with-fontconfig'] # Good image editing software
 brew "jdupes"                               # Better fdupes
 brew "lnav"                                 # Log viewer
-brew "lftp"                                 # Terminal FTP client
 brew "mas"                                  # Install software from app store
 brew "mackup"                               # Configuration Syncer
 brew "cmark"                                # Mkvtoolnix dependency
@@ -119,18 +107,14 @@ brew "moreutils"                            # Some extra niceties including para
 brew "ncdu"                                 # Storage analyzer
 brew "nmap"                                 # Network management package
 brew "pandoc"                               # Document conversion
-brew "plowshare"                            # CLI Hoster Downloader
-brew "pv"                                   # Monitor the progress of data through a pipe.
 brew "qpdf"                                 # Pdf CLI utility
 brew "ranger"                               # Console file manager with VI key bindings
 brew "ripgrep"                              # Search similar to ag but faster
 brew "rclone"                               # Rsync to cloud storage
 brew "rmate"                                # Remote TextMate for SSH sublime
 brew "shellcheck"                           # Test shell scripts for errors
-brew "subliminal"                           # Subtitle renamer
 brew "terminal-notifier"                    # Enable terminal notifications for scripts
 brew "tig"                                  # text-mode interface for git
-brew "thefuck"                              # To correct mistypes in commands
 brew "the_silver_searcher"                  # Search similar to ack but faster
 cask "osxfuse"                              # Dependency of sshfs
 brew "sshfs"                                # TO mount disks over SSH
@@ -145,19 +129,12 @@ brew "youtube-dl"                           # Download YouTube (and others) from
 ### yabai
 tap 'koekeishiya/formulae'
 brew 'koekeishiya/formulae/yabai'
-brew 'koekeishiya/formulae/skhd'
+# brew 'koekeishiya/formulae/skhd'
 
 ### MISC
-brew "archey"
 brew "cowsay"
 brew "fortune"
-brew "figlet"
-brew "toilet"
-brew "neofetch"
-brew "sl"
-brew "gti"
-brew "cmatrix"
-brew "pipes-sh"
+brew "archey"
 
 ##### CASKS #####
 
@@ -165,7 +142,6 @@ tap "caskroom/cask"
 tap "caskroom/versions"
 tap "caskroom/drivers"
 
-# cask "amethyst"                             # Tiling window manager
 cask "alfred"                               # Improved Spotlight
 cask "appcleaner"                           # Removes plist along with the app
 cask "authy"								# 2FA App
@@ -181,9 +157,7 @@ cask "firefox"                              # Alternative web browser
 cask "flux"                                 # Changes temperature color based on time of day
 cask "gmvault"                              # To backup gmail accounts
 cask "google-chrome"                        # Google's web browser
-cask "google-chrome-canary"                 # Google's beta web browser
 cask "hammerspoon"                          # Desktop automation on macOS
-cask "chrome-remote-desktop-host"           # Remote control using Google credentials
 cask "iterm2"                               # Better than Terminal.app
 cask "istat-menus"                          # Menu bar performance stats for Mac
 cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
@@ -194,14 +168,13 @@ cask "logitech-control-center"              # Drivers for keyboard and mouse
 cask "logitech-options"                     # Drivers for keyboard and mouse
 cask "logitech-unifying"                    # Drivers for keyboard and mouse
 cask "mactex"                               # LateX and TeX
-cask "malwarebytes"                         # Remove antimalware
-cask "mkvtoolnix"                           # GUI for mkvtoolnix
+cask "malwarebytes"                         # Antimalware
 cask "onyx"                                 # Tweak tool for OS
 cask "paintbrush"                           # MS paint equivalent
 cask "plex"                                 # Plex Media Player
 cask "scroll-reverser"                      # Tool to invert mousewheel scroll
 cask "selfcontrol"                          # Blacklisting websites
-cask "slack"                                # Slack client
+cask "simplenote"                           # Notes app
 cask "skim"                                 # Better PDF tool with Sublime Text integration
 cask "spotify"                              # Music streaming
 cask "steam"                                # Gaming collection hub
@@ -217,62 +190,42 @@ cask "xbox360-controller-driver-unofficial" # Drivers for XBOX 360 controller
 cask "yubico-yubikey-manager"               # Manager for yubikeys
 cask "yubico-authenticator"                 # TOTP authenticator based on yubikeys
 # PAID Casks
-cask "bartender"                            # Groups menu bar items (PAID)
 cask "daisydisk"                            # Handy disk space analyzer (PAID)
 cask "vmware-fusion"                        # Full fledged user friendly VM (PAID)
 
 # Quick Look plugins
-cask "qlcolorcode"
-cask "qlstephen"
-cask "qlmarkdown"
-cask "quicklook-json"
-cask "qlprettypatch"
-cask "quicklook-csv"
 cask "hetimazipql"
-cask "qlimagesize"
-cask "webpquicklook"
-cask "suspicious-package"
-cask "qlvideo"
 cask "jupyter-notebook-ql"
-cask "quicknfo"
-cask "qlmobi"
 cask "qladdict"
+cask "qlcolorcode"
+cask "qlimagesize"
+cask "qlmarkdown"
+cask "qlmobi"
+cask "qlprettypatch"
+cask "qlstephen"
+cask "qlvideo"
+cask "quicklook-csv"
+cask "quicklook-json"
+cask "quicknfo"
+cask "suspicious-package"
+cask "webpquicklook"
 
 # Fonts
-brew "font-fontawesome"
 tap 'caskroom/fonts'
-cask "font-anonymous-pro"
-cask "font-charter"
-cask "font-cooper-hewitt"
-cask "font-dejavu-sans"
-cask "font-comic-neue"
-cask "font-computer-modern"
-cask "font-ibm-plex"
-cask "font-fira-code"
 cask "font-fira-mono"
 cask "font-fira-sans"
-cask "font-hack"
-cask "font-hasklig"
-cask "font-inconsolata"
-cask "font-iosevka"
-cask "font-menlo-for-powerline"
-cask "font-monoid"
-cask "font-source-code-pro"
-cask "font-source-sans-pro"
-cask "font-source-serif-pro"
-cask "font-terminus"
-cask "font-times-new-roman"
-cask "font-fantasque-sans-mono"
 cask "font-victor-mono"
-cask "font-cascadia"
-  ## Nerd fonts
+cask "font-fira-code"
+cask "font-computer-modern"
+## Nerd fonts
 cask "font-meslo-nerd-font-mono"
-
-
-tap 'colindean/fonts-nonfree'
-cask "font-microsoft-office"
 
 ### Mac App Store Installs
 mas "Xcode", id: 497799835                          # Apple's developper tools
-
 mas "WireGuard", id: 1451685025                     # Wireguard macOS client
+
+
+# Docker
+brew "docker"                               # Docker Containers
+brew "docker-compose"
+# brew "docker-swarm"

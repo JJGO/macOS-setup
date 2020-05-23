@@ -1,0 +1,2 @@
+cask "prolific-pl2303"     # UART Cable driver
+cask "protonvpn"

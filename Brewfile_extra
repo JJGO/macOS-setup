@@ -1,35 +1,59 @@
 cask_args appdir: '/Applications'
 
+brew "git-lfs"                              # Better handling of large files
+brew "git-flow"                             # CLI  utils for git-flow
+
+
 ### EXTRA CLI UTILITIES
 brew "axel"                                 # Fast CLI downloader
-brew "djvu2pdf"                             # Converts djvu files to pdf
-brew "dos2unix"                             # Translate newlines between DOS and UNIX
 brew "cksfv"                                # Utility to check SFV files
 brew "cloc"                                 # Count lines of code
 brew "cmus"                                 # Terminal music player
 brew "colordiff"                            # Colored diff
+brew "djvu2pdf"                             # Converts djvu files to pdf
+brew "dos2unix"                             # Translate newlines between DOS and UNIX
 brew "expect"                               # To write scripts that expect interaction
 brew "ext4fuse"                             # To mount Linux drives
 brew "fonttools"                            # Tools to manage fonts
+brew "fzy"                                  # Another Fuzzy finder
 brew "geckodriver"                          # Firefox webdriver
-brew "hugo"                                 # Golang static content generator
 brew "hub"                                  # Perform GitHub actions from the CLI
-brew "jrnl"                                 # Journaling app from the CLI
+brew "hugo"                                 # Golang static content generator
+brew "lftp"                                 # Terminal FTP client
+brew "lunchy"                               # CLI helper for macOS launch plist
 brew "magic-wormhole"                       # CLI tool to share files securely
 brew "mutt", args: ['with-trash-patch']     # Email Client
 brew "nethogs"                              # Network analyzer
 brew "pass"                                 # UNIX password manager based on gpg
+brew "plowshare"                            # CLI Hoster Downloader
+brew "pv"                                   # Monitor the progress of data through a pipe.
 brew "shellcheck"                           # Bash/sh Linter
 brew "speedtest_cli"                        # Speedtest on CLI
 brew "stress"                               # Creates several types of compute stress
+brew "subliminal"                           # Subtitle renamer
 brew "switchaudio-osx"                      # Switch audio input/output
+brew "thefuck"                              # To correct mistypes in commands
 brew "tldr"                                 # Simpler man pages
 brew "yamllint"                             # YAML Linter
 brew "yq"                                   # Jq for YAML
 
+### WINE
+cask "xquartz"                              # DEP: WineHQ dependency
+brew "wine"                                 # For Windows software
+brew "winetricks"                           # Extra wine utils
+cask "wine-stable"                          # GUI Wine interface
+
+### WHIMSY
+brew "figlet"
+brew "toilet"
+brew "neofetch"
+brew "sl"
+brew "gti"
+brew "cmatrix"
+brew "pipes-sh"
+
 #### NON CORE CASKS ####
 cask "adobe-acrobat-reader"                 # To fill forms only compatible with Adobe Acrobat
-cask "brave-browser"   					    # Adblocker private browser
 cask "arduino"                              # Arduino IDE
 cask "calibre"                              # Eboook Management
 cask "chromium"                             # Open Source web browser
@@ -38,45 +62,78 @@ cask "cscreen"                              # Check Display properties from CLI
 cask "discord"                              # Discord desktop app
 cask "docker"                               # Containerization tool
 cask "gfxcardstatus"                        # Changes the dedicated and internal graphics
+cask "google-chrome-canary"                 # Google's beta web browser
 cask "iina"                                 # Video player with nicer configs than VLC
-cask "xquartz"                              # DEP: Inkscape dependency
 cask "inkscape"                             # Vector graphics
+cask "keyboard-maestro"                     # Automation tool
 cask "keycastr"                             # Keystroke visualizer
 cask "kodi"                                 # Media center for music, tvshows and movies
-cask "macdown"                              # Simple markdown editor with live preview
 cask "meld"                                 # Diff/Merge tool
+cask "mkvtoolnix"                           # GUI for mkvtoolnix
 cask "monitorcontrol"                       # Uses DDC/CI to setup monitor brightness/contrast
 cask "nightowl"                             # Quickly toggle dark mode
 cask "obinslab-starter"                     # Anne Pro 2 Driver
 cask "obs"                                  # Screen recording/streaming software
 cask "openemu"                              # Emulator collection
-cask "pock"                                 # Dock in touchbar
+cask "openzfs"                              # ZFS support on macOS
+cask "plexamp"                              # Music Plex player
 cask "postman"                              # Debugger for GET/POST requests
 cask "rescuetime"                           # Time tracking & productivity
 cask "sequel-pro"                           # SQL frontend
-cask "signal"                               # Encrypted messaging app
+# cask "signal"                               # Encrypted messaging app
 cask "simple-comic"                         # Comic viewer
 cask "skype"                                # Video calls
-cask "skype-for-business"                   # Video calls
+cask "slack"                                # Slack client
 cask "soda-player"                          # To play torrent and ace streams
+cask "soulseek"                             # file sharing
 cask "sourcetree"                           # Git visualization tool
 cask "sublime-merge"                        # Sublime merge tool
+cask "syncplay"                             # Remote synchronized player
 cask "ticktick"                             # Alternative todo app
 cask "tor-browser"                          # Anonymized browser
 cask "vagrant"                              # Automated VM management/deployment
-cask "virtualbox"                           # Virtual machines
 cask "vimr"                                 # NEovim GUI for mac
+cask "virtualbox"                           # Virtual machines
 cask "vorta"                                # Borg Wrapper, scheduler and menu item
-cask "xld"                                  # Convert flac files
+cask "xquartz"                              # DEP: Inkscape dependency
 cask "yacreader"                            # Comic reader
 cask "zoomus"                               # Zoom.us video conference software
 
 # PAID Casks
+cask "bartender"                            # Groups menu bar items (PAID)
 cask "dash"                                 # Offline programming reference (PAID)
 cask "kaleidoscope"                         # Visual comparison tool (text, image...)
 cask "pycharm"                              # Use educational license (PAID)
 cask "serial"                               # Serial port console (PAID)
+cask "textual"                              # IRC client (PAID)
 cask "wifi-explorer"                        # Look for wifi networks power and channels (PAID)
+
+
+# Fonts
+tap 'caskroom/fonts'
+brew "font-fontawesome"
+cask "font-anonymous-pro"
+cask "font-charter"
+cask "font-cooper-hewitt"
+cask "font-dejavu-sans"
+cask "font-comic-neue"
+cask "font-ibm-plex"
+cask "font-hack"
+cask "font-hasklig"
+cask "font-inconsolata"
+cask "font-iosevka"
+cask "font-menlo-for-powerline"
+cask "font-monoid"
+cask "font-source-code-pro"
+cask "font-source-sans-pro"
+cask "font-source-serif-pro"
+cask "font-terminus"
+cask "font-times-new-roman"
+cask "font-fantasque-sans-mono"
+cask "font-cascadia"
+
+tap 'colindean/fonts-nonfree'
+cask "font-microsoft-office"
 
 
 ### Mac App Store Installs
@@ -98,19 +155,16 @@ brew "gcc", args: ['with-all-languages']   # Get GCC compiler (macOS default is 
 
 # Java and Scala (order matters)
 cask "java"
-brew "ant"
-brew "scala"
-# brew "sbt"
 
 # Node.js
 brew "node"
 brew "npm"
-brew "nvm"
 brew "yarn"
 
 # Haskell
-brew "ghc"
-brew "cabal-install"
+brew "stack"
+# brew "ghc"
+# brew "cabal-install"
 
 # Go, Julia, R
 brew "golang"
@@ -121,10 +175,6 @@ cask "rstudio"
 brew "lua"
 brew "luarocks"
 
-# Docker
-brew "docker"                               # Docker Containers
-brew "docker-compose"
-brew "docker-swarm"
 
 ### EXTRA NICETIES
 
