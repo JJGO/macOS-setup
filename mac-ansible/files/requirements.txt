@@ -1,3 +1,11 @@
+Cython
+Flask
+Glances
+Pillow
+PyPDF2
+PyQt5
+Pygments
+Send2Trash
 ansible
 ansible-lint
 autopep8
@@ -10,11 +18,8 @@ codespell
 coverage
 cryptography
 cvxopt
-Cython
 docopt
 flake8
-Flask
-Glances
 graphviz
 h5py
 ipdb
@@ -40,7 +45,6 @@ pandas
 paramiko
 parse
 pep8
-Pillow
 pint
 playsound
 plotnine
@@ -52,10 +56,7 @@ pycrypto
 pydot-ng
 pydotplus
 pyflakes
-Pygments
 pylint
-PyPDF2
-PyQt5
 pyserial
 pytest
 pytest-cov
@@ -69,10 +70,11 @@ scipy
 scrapy
 seaborn
 selenium
-Send2Trash
 sympy
 tabulate
 togglCli
+torch
+torchvision
 torchviz
 tqdm
 typer

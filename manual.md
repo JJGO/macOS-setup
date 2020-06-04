@@ -21,22 +21,21 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 ## System Preferences
 
 ### General
-* Use dark menu bar and dock
+x Use dark menu bar and dock
 
 ### Wallpaper and Screensaver
 * Use wallpapers from Google Drive
 * Add wallpapers from [awesome collection](https://github.com/aharris88/awesome-macos-screensavers)
-* Setup hot corners (press alt so they activate only when alt is pressed)
 
 ### Mission Control
-* Uncheck: Automatically rearrange Spaces based on most recent use
-* Hot Corners
-	- Up left: Mission Control
-	- Down left + alt: Sleep display
+x Uncheck: Automatically rearrange Spaces based on most recent use
+x Hot Corners
+	x Up left: Mission Control
+	x Down left + alt: Sleep display
 
 ### Language and Region
-* Language English
-* Region: Spain (should make evrything ISO)
+x Language English
+x Region: ES  (should make evrything ISO)
 * Advanced General
 	- Grouping: Space
 	- Decimal: .
@@ -45,7 +44,7 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 	- ISO 8601 for short and medium
 
 ### Security and Privacy
-* Require password inmediately
+x Require password inmediately
 
 
 ### Mouse
@@ -70,11 +69,8 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 * Add Spanish ISO, Colemak
 * Disable speech dictation
 
-### Printers and Scanners
-* Add Phaser 6300DN
-
 ### Sound
-* Sosumi as error sound (default: funk)
+x Sosumi as error sound (default: funk)
 * Show sound in menu bar
 
 ### Internet Accounts
@@ -96,25 +92,19 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 Third party apps
 ================
 
-## 360Controller
-[Controller](https://github.com/360Controller/360Controller/releases)
-
 ## Google Chrome
 * Login with user
 * Login into extensions
 * Load Stylish JSON
 
 ## Firefox
-* Login with Firefox Sycnc
+* Login with Firefox Sync
 * Load Stylish JSON
 
 ## Scroll reverser
 * Check Start at login
 * Uncheck Reverse Trackpad
 * Uncheck Reverse Tablet
-
-## MATLAB
-* Install latest release form Mathworks using edu account
 
 ## iTerm
 Set iTerm to use dot file config and save to it item
@@ -132,10 +122,6 @@ Save .scpt as .app and it in menubar
 ## Google Drive
 * Login
 * Set up wallpapers
-
-## Better Touch Tool
-Enable Accesibility
-import license
 
 ## Flux
 * Configure
@@ -186,19 +172,13 @@ curl "https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 ## License
 * Adobe Illustrator/Photoshop/InDesign
 * Alfred
-* Bartender
-* Bear
 * DaisyDisk
 * Dash
 * Fantastical
-* Hazel - import rules
 * Kaleidoscope
 * Microsoft Office
-* Paragon NTFS
 * Pixelmator
-* Popclip
 * Transmit
-* Ulysses
 * VMWareFusion
 * WifiExplorer
 
@@ -220,41 +200,13 @@ curl "https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 ## Tunnelblick
 * Import VPN connections
 
-## Bartender
-* Launch at login
-* Dont Check for Updates automatically
-* License
-* Choose apps to hide
-
-## Matlab
-* Use MIT account
-
 ## PyCharm
 * Activate EDU license
 
-## Hazel
-* Import config
 
 ## Karabiner Elements
 * Caps lock to Backspace
 * Menu to right_command
-
-## Carbon Copy Cloner
-* Setup Backup
-* Setup Email
-
-## Steam
-* Install games
-
-## Automation
-* Instalar Jackett
-* Copiar jackett a /Applications
-* Configurar Sonarr trackers
-* Configurar Radarr trackers
-* Configurar Transmission
-
-## Adguard
-* Import blacklist
 
 ## Selfcontrol
 * Import blacklist

@@ -1,5 +1,15 @@
 REFERENCE REPOS & TODO
 
+- configure menubar items
+
+
+- Port Installing nanorc from https://github.com/scopatz/nanorc
+# Installing nano syntax coloring
+mkdir ~/.nano
+git clone https://github.com/scopatz/nanorc.git ~/.nano
+cat ~/.nano/nanorc >>! ~/.nanorc
+
+
 # Bash Script setup
 https://github.com/j9ac9k/macOS_setup
 

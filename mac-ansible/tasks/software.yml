@@ -1,0 +1,23 @@
+
+- name: Enable Homebrew bundle tap
+  homebrew_tap:
+    name: homebrew/bundle
+    update_homebrew: yes
+
+- name: Install mas
+  homebrew:
+    name: mas
+    state: present
+
+- name: Check if Brewfile contains updates
+  shell: brew bundle check --file="Brewfile"
+  register: bundle_check_result
+  ignore_errors: true
+
+- name: Install apps using Brewfile
+  shell: brew bundle install --file="Brewfile"
+  when: bundle_check_result|failed
+
+- name: Configure services
+  command: "brew services start {{ item }}"
+  loop: homebrew_services

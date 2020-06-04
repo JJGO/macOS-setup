@@ -1,0 +1,58 @@
+hostname: "Vindication"
+
+homebrew_taps:
+  - bundle
+
+homebrew_package_removals: []
+
+homebrew_packages:
+
+homebrew_cask_packages:
+
+homebrew_services:
+  - yabai
+  - syncthing
+
+pyenv_python_versions:
+# In precedence order
+- anaconda3-2019.10
+- 3.8.2
+- 2.7.17
+- 3.9-dev
+- pypy3.6-7.3.0
+
+pip_packages: []
+
+gem_packages:
+- jekyll
+- jekyll-tagging
+
+dock_apps:
+- Google Chrome
+- Firefox
+- Spotify
+- Mail
+- Simplenote
+- Todoist
+- Sublime Text
+- kitty
+- Telegram
+- VimR
+
+dock_folders:
+- ~/Downloads
+
+
+cargo_items:
+  - bat
+  - fd-find
+  - ripgrep
+
+gem_packages:
+  - bundler
+  - tmuxinator
+  - lolcat
+  - jekyll
+  - kramdown
+  - minima
+  - github-pages

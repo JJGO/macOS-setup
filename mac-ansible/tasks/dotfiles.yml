@@ -1,0 +1,34 @@
+- name:
+  set_fact:
+    dotfiles_path: "{{ ansible_env.HOME }}/.dotfiles"
+
+- name: Check for dotfiles
+  stat:
+    path: "{{ dotfiles_path }}"
+  register: dotfiles
+
+
+- name: Clone dotfiles
+  git:
+    repo: https://github.com/JJGO/dotfiles.git
+    dest: "{{ dotfiles_path }}"
+  when: not dotfiles.stat.exists
+
+
+- name: Make setup executable
+  file:
+    path: "{{ dotfiles_path }}/setup_all.sh"
+    mode: ug+x
+  when: not dotfiles.stat.exists
+
+- name: Install dotfiles
+  shell: ./setup_all.sh
+  args:
+    chdir: "{{ dotfiles_path }}"
+  when: not dotfiles.stat.exists
+
+- name: Install local dotfiles
+  shell: stow local
+  args:
+    chdir: "{{ dotfiles_path }}"
+  when: not dotfiles.stat.exists

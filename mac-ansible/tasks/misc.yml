@@ -1,0 +1,90 @@
+- name: Set Hostname
+  shell: "sudo scutil --set {{ item }} {{ hostname }}"
+  loop:
+      - ComputerName
+      - HostName
+      - LocalHostName
+
+- name: Install Colemak Keyboard
+  get_url:
+    url: https://colemak.com/pub/mac/Colemak.keylayout
+    dest: "{{ ansible_env.HOME }}/Library/Keyboard\ Layouts/Colemak.keylayout"
+
+- name: Install custom fonts
+  copy: fonts/
+  dest: "{{ ansible_env.HOME }}/Library/Fonts"
+
+- name: Install custom launch agents
+  copy: launch_agents/
+  dest: "{{ ansible_env.HOME }}/Library/LaunchAgents"
+
+# TODO: launchctl load custom agents
+
+# Install additional software
+- name: Check if Brewfile contains updates
+  shell: brew bundle check --file="Brewfile_extra"
+  register: bundle_check_result
+  ignore_errors: true
+
+- name: Install apps using Brewfile
+  shell: brew bundle install --file="Brewfile_extra"
+  when: bundle_check_result|failed
+
+# Ruby gems
+- name: Install gem packages
+  gem:
+    name: '{{ item }}'
+    state: latest
+  loop: '{{ gem_packages }}'
+
+# Rust crates
+- name: Look for rust installation
+  stat:
+    path: "{{ ansible_env.HOME }}/.cargo"
+  register: rust_installation
+
+- name: Install rust
+  shell: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+  when: not rust_installation.stat.exists
+
+- name: Check for crates
+  shell: "{{ ansible_env.HOME }}/.cargo/bin/cargo install --list"
+  register: cargo_installed
+
+- name: Install missing crates
+  shell: "{{ ansible_env.HOME }}/.cargo/bin/cargo install {{ item }}"
+  with_items: "{{ cargo_items }}"
+  when: cargo_installed.stdout.find(item) == -1
+
+# Sublime Text settings
+
+- name: Set sublime path
+  set_fact:
+    sublime_path: "{{ ansible_env.HOME }}/Libary/Application Support/Sublime Text 3"
+
+- name: Check for Package Control
+  stat:
+    path: "{{ sublime_path}}/Installed Packages/Package Control.sublime-package"
+  register: package_control
+
+- name: Download Package Control
+  get_url:
+    url: https://packagecontrol.io/Package%20Control.sublime-package
+    dest: "{{ sublime_path}}/Installed Packages/Package Control.sublime-package"
+  when: not package_control.stat.exists
+
+- name: Clone user settings
+  git:
+    repo: "https://github.com/JJGO/sublime-settings"
+    dest: "{{ sublime_path }}/Packages/User"
+
+# Installing nano syntax coloring
+
+- name: Look for nano installation
+  stat:
+    path: "{{ ansible_env.HOME }}/.nanorc"
+  register: nanorc
+
+- name: Install nano config
+  shell: curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
+  when: not nanorc.stat.exists

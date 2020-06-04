@@ -1,0 +1,1456 @@
+{
+  "BTTPresetName" : "Master",
+  "BTTGeneralSettings" : {
+    "disableScrollingIf3" : true,
+    "BTTForceNormalClickPressure5F" : 200,
+    "disableScrollingIf2" : true,
+    "BTTDidRegisterForUpdateStats" : "2.536",
+    "BTTShowControlStrip" : true,
+    "BTTShowControlStripItem" : true,
+    "BTTForceForceClickPressure5F" : 600,
+    "oldScale" : 1,
+    "BSTSnapAreaDefaultBorderWidth" : 3,
+    "BTTThreeFingerTipTapMinSpread" : 0.029999999999999999,
+    "BTTEnableUsageLogging" : false,
+    "BSTTopMissionControlTreshold" : 34,
+    "BTTForceNormalClickPressure" : 150,
+    "BSTSnapAreaDefaultHighlightColor" : "92.624286, 122.650411, 161.665578, 56.100000",
+    "BTTLastClamshellState" : true,
+    "BSTSnapAreaDefaultShowPictogram" : false,
+    "BTTAllowThumbIfAllFingersArePlacedSimultaneously" : true,
+    "BTTShowESCWhenControlStripHidden" : true,
+    "BTTHandleThumbsRestingOnTopEdgeAndCorners" : true,
+    "BTTFreeSpaceAfterBTT" : 20,
+    "BTTForceNormalClickPressure3F" : 150,
+    "BSTSnapAreaDefaultBorderColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "singleFingerTapRight" : 0.05000000074505806,
+    "BTTDrawingsHighlightStartPoint" : true,
+    "BSTWindowGrabPosX" : 67,
+    "BTTForceForceClickPressure4F" : 650,
+    "BTTHTTPServerListenInterface" : "127.0.0.1",
+    "BTTAutoSwitchToOldKeyboardImplementation" : true,
+    "BTTMinDrawingMovement" : 2,
+    "BSTSnapAreaDefaultBackgroundColor" : "129.988836, 201.126536, 227.013985, 104.550000",
+    "SIRIScrollSpeed" : 1,
+    "batteryWarning" : false,
+    "pluginDictionary" : {
+      "1" : {
+        "Apple Remote Plugin" : {
+          "10" : "Play\/Pause, Holding (only on aluminum remote)",
+          "2" : "Up, Holding",
+          "3" : "Down",
+          "11" : "Menu",
+          "4" : "Down, Holding",
+          "5" : "Left",
+          "12" : "Menu, Holding",
+          "6" : "Left, Holding",
+          "13" : "Center",
+          "7" : "Right",
+          "8" : "Right, Holding",
+          "14" : "Center, Holding",
+          "1" : "Up",
+          "9" : "Play\/Pause (only on aluminum remote)"
+        }
+      }
+    },
+    "BTTTouchBarFontSize" : 15,
+    "BTTSelectedKeyboardTabIndex" : 0,
+    "BSTSnapAreaDefaultDashedBorder" : false,
+    "BSTDontShowSnapAreasWhileModMoving" : 0,
+    "BTTForceForceClickPressure3F" : 700,
+    "BTRScrollSpeed" : "1.000000",
+    "showBTTRemoteTab" : true,
+    "BSTSnapAreaDefaultInvisible" : false,
+    "BTTEnablePalmRecognition" : true,
+    "BTTFreeSpaceAfterESC" : 10,
+    "singleFingerTapLeft" : 0.44999998807907104,
+    "BTTForceForceClickPressure" : 700,
+    "BTTDefaultTBIconHeight" : 22,
+    "mmZoomRepeatDelay" : 0.10000000000000001,
+    "twoFingerDoubleTapDelay" : 0.5,
+    "BTTForceForceClickPressure2F" : 700,
+    "useAppleRemotePlugin" : true,
+    "BSTSnapAreaDefaultCornerRadius" : 20,
+    "BTTForcedHidden" : false,
+    "BSTSnapAreaDefaultAnimationDuration" : 0.30000001192092896,
+    "BTTTpThreeFingerSwipeSensitivity" : 0.29999999999999999,
+    "BSTMemorySaver" : true,
+    "BSTWindowGrabPosY" : 10,
+    "BTTTpFourFingerSwipeSensitivity" : 0.40000000000000002,
+    "showTouchBarTab" : true,
+    "BSTSnapAreaDefaultPictoDistanceFromBottom" : 0.10000000149011612,
+    "showOtherTriggersTab" : true,
+    "BTTDrawingStrokeWidth" : 4,
+    "BTTPathSampleSize" : 100,
+    "BTTMaxAllowedDrawingRotation" : 30,
+    "BTRMouseSpeed" : "1.000000",
+    "BTTDrawingsRestoreMousePosition" : true,
+    "BTTRemoteControlModelDetermined" : true,
+    "BTTCMOnTop" : true,
+    "BSTSnapAreaDefaultPictoDistanceFromLeft" : 0.10000000149011612,
+    "showTrackpadTab" : true,
+    "BTTMovePastedToTop" : true,
+    "BTTShowBTTWhenControlStripHidden" : true,
+    "BTTDrawingAreaWidth" : 915,
+    "BTTCopyImgurURLToClipboard" : true,
+    "BTTForceNormalClickPressure4F" : 175,
+    "BTTScreenshotOpenImgurInBrowser" : true,
+    "BTTTwoFingerTipTapMinSpread" : 0.029999999999999999,
+    "BTTIMGURDefault" : true,
+    "BTTForceForceHapticResponse" : 13,
+    "BSTSnapAreaDefaultPictoSize" : 0.69999998807907104,
+    "showNormalMiceTab" : true,
+    "BSTDisableSnapAreas" : false,
+    "BTTForceNormalHapticResponse" : 12,
+    "showSiriRemoteTab" : true,
+    "BTTForceNormalClickPressure2F" : 140,
+    "SHOWEDHIDEMENUBARWARNING" : true,
+    "cornerSnap" : true,
+    "showDrawingsTab" : true,
+    "BTTDrawingRightMouse" : true,
+    "BSTCornerRoundness" : 40,
+    "BTTDismissIfNothingToShow" : true,
+    "BSTPreventTopMissionControl" : true,
+    "BTTNumberOfStarts" : 12367,
+    "BTTHTTPServerEncrypted" : false,
+    "BTRMessageChangeScrollDirection" : 0,
+    "BTTConvertedDevices" : true,
+    "BTTTiltWheelDelay" : 0.44999998807907104,
+    "showKeyboardTab" : true,
+    "BTTDaysToKeepHistory" : 14,
+    "BTTFilterMagicMouseLeftRightEdge" : true,
+    "showMagicMouseTab" : true,
+    "BTTDefaultTBIconWidth" : 22,
+    "SIRIMouseSpeed" : 1,
+    "BTTRemoteEnabled" : true,
+    "BTTTouchBarChecked" : true,
+    "BTTDrawingAreaHeight" : 626,
+    "tpThreeFingerDoubleTapDelay" : 0.5,
+    "BTTTouchBarVisible" : false,
+    "BTTTouchBarUseMonoSpacedFont" : true,
+    "nextMonitorMoveWarningShowed" : true
+  },
+  "BTTPresetUUID" : "62F8A7B9-40D8-4683-B323-84D0FCE53F44",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "net.sourceforge.skim-app.skim",
+      "BTTAppName" : "Skim",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 306,
+          "BTTTriggerTypeDescription" : "Press Volume Button Down",
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "123",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "0BCB039B-33D2-466D-BAAB-DC0135CE461A",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2
+        },
+        {
+          "BTTTriggerType" : 305,
+          "BTTTriggerTypeDescription" : "Press Volume Button Up",
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "124",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "D13B92CF-0234-4903-B2C7-737BA68196C9",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTRemoteTriggerName" : "Presentacion",
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,35",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "45B7B686-5705-43C7-97BB-6C0958ED4E4A",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.google.Chrome",
+      "BTTAppName" : "Google Chrome",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Google Chrome",
+      "BTTTriggers" : [
+
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.binarynights.ForkLift-3",
+      "BTTAppName" : "ForkLift",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "ForkLift",
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 1004,
+          "BTTTriggerTypeDescription" : "Button 4",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,30",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "246A5605-E00D-4EEE-A4EC-85F7F5DD8645",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 63,
+          "BTTKeySequence" : {
+
+          }
+        },
+        {
+          "BTTTriggerType" : 1003,
+          "BTTTriggerTypeDescription" : "Button 3",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,33",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "29346E44-634E-4E75-8E2F-378A85CA2FBC",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTKeySequence" : {
+
+          }
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,30",
+          "BTTAdditionalConfiguration" : "9437184",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "9BB93448-8B06-4AB5-B9DB-26C73850F1AB",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 124,
+          "BTTShortcutModifierKeys" : 9437184,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,33",
+          "BTTAdditionalConfiguration" : "9437184",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "19C37BFD-D55F-4303-8FB5-3C6EA7DE5B55",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 123,
+          "BTTShortcutModifierKeys" : 9437184,
+          "BTTOrder" : 0
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "org.xbmc.kodi",
+      "BTTAppName" : "Kodi",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTRemoteTriggerName" : "esc",
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "53",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "01EB9666-90E4-4FD0-9B6D-4085D75DDBF1",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3
+        },
+        {
+          "BTTRemoteTriggerName" : "Forward",
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "124",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "0261003C-1A60-4E27-AE9E-DC52B3B0B3B5",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2
+        },
+        {
+          "BTTRemoteTriggerName" : "Play",
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "49",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "FE7885B8-1427-41E6-92C6-43A061EF7657",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTRemoteTriggerName" : "Back",
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "123",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "073E0738-DFFE-4A6E-B139-1348E7C48206",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "tv.plex.player",
+      "BTTAppName" : "Plex Media Player",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Plex Media Player",
+      "BTTTriggers" : [
+        {
+          "BTTRemoteTriggerName" : "play pause",
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "49",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "BB7058FC-E304-48F5-A57D-69C614D4F958",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 92,
+          "BTTKeySequence" : {
+
+          }
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 171,
+          "BTTPredefinedActionName" : "Capture Screenshot then edit in BTT (easiest)",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "2F9117DF-5D11-4E4F-A650-6DAFBB3B6E9A",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 105,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 27
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 49,
+          "BTTPredefinedActionName" : "Launch Application \/ Open File \/ Start Apple Script …",
+          "BTTLaunchPath" : "file:\/\/\/Users\/josejavier\/.dotfiles\/iTerm\/iTermHere.scpt",
+          "BTTAdditionalConfiguration" : "1048576",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "8ADA0D65-8274-4767-AF55-87EB6064CD2C",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 10,
+          "BTTShortcutModifierKeys" : 1048576,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,123",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "4D1ABE17-9776-418E-A45B-F446C36797A9",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 6
+        },
+        {
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,124",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "25473FEE-B8A1-4D6E-A352-D1020F9024FB",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 7
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 112,
+          "BTTPredefinedActionName" : "Enter Fullscreen (If Supported)",
+          "BTTAdditionalConfiguration" : "1835008",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "CD7506D2-6693-47FD-BBF5-BB5DB487A3AB",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 3,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 7
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 23,
+          "BTTPredefinedActionName" : "Play\/Pause",
+          "BTTAdditionalConfiguration" : "9437184",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "6D5D7B80-132D-42F3-AF40-3D8DCAFA3B0F",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 114,
+          "BTTShortcutModifierKeys" : 9437184,
+          "BTTOrder" : 28
+        },
+        {
+          "BTTTriggerType" : 1004,
+          "BTTTriggerTypeDescription" : "Button 4",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,124",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "5BD969A0-2C80-4DA0-A69E-27267C74995F",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerType" : 603,
+          "BTTTriggerTypeDescription" : "Rightclick Green Window Button",
+          "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+          "BTTPredefinedActionType" : 21,
+          "BTTPredefinedActionName" : "Maximize Window",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "D7A85762-FAC9-4633-B0CD-7FFD25AB9862",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 90,
+          "BTTPredefinedActionName" : "Resize Window to Top Left Quarter \/ Corner",
+          "BTTAdditionalConfiguration" : "1572864",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "F2D9A24D-E3A7-4D3C-85B7-46EE7E2B5361",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 89,
+          "BTTShortcutModifierKeys" : 1572864,
+          "BTTOrder" : 14
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 118,
+          "BTTPredefinedActionName" : "Insert \/ Type \/ Paste Custom Text",
+          "BTTStringToType" : "josejavier.gonzalez.ortiz@gmail.com",
+          "BTTAdditionalConfiguration" : "1572864",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "9F5B0468-0192-489B-B9D9-69B60653F29F",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 14,
+          "BTTShortcutModifierKeys" : 1572864,
+          "BTTOrder" : 2
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 19,
+          "BTTPredefinedActionName" : "Maximize Window Left",
+          "BTTAdditionalConfiguration" : "9961472",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "14313994-9C25-42E4-8D51-0D07D7D51234",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 123,
+          "BTTShortcutModifierKeys" : 9961472,
+          "BTTOrder" : 6
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 48,
+          "BTTPredefinedActionName" : "Maximize Window to Next Monitor",
+          "BTTAdditionalConfiguration" : "10223616",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "1FC57E21-6F3B-4271-AF51-C37463FDD44C",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 123,
+          "BTTShortcutModifierKeys" : 10223616,
+          "BTTOrder" : 9
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 92,
+          "BTTPredefinedActionName" : "Resize Window to Top Right Quarter \/ Corner",
+          "BTTAdditionalConfiguration" : "1572864",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "9D6FF6F4-C2F2-46E7-9245-52878CE159A3",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 92,
+          "BTTShortcutModifierKeys" : 1572864,
+          "BTTOrder" : 12
+        },
+        {
+          "BTTTriggerType" : 601,
+          "BTTTriggerTypeDescription" : "Rightclick Red Window Button",
+          "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,12",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "E0B2BD2B-7182-4681-AC12-4BAA2AD6BB40",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTRemoteTriggerName" : "Sleep",
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : 14,
+          "BTTPredefinedActionName" : "Sleep Computer",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "A86DADD3-6130-4B16-9FDB-6F86F0952706",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerType" : 130,
+          "BTTTriggerTypeDescription" : "5 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 95,
+          "BTTPredefinedActionName" : "Maximize Window to Bottom Half",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "473D7362-AF0A-4F27-840E-3D1727D40F97",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 27,
+          "BTTPredefinedActionName" : "Next",
+          "BTTAdditionalConfiguration" : "9437184",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "DD379185-7F35-4566-A6FE-14274EF3DC14",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 115,
+          "BTTShortcutModifierKeys" : 9437184,
+          "BTTOrder" : 29
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 96,
+          "BTTPredefinedActionName" : "Maximize Window to Top Half",
+          "BTTAdditionalConfiguration" : "10223616",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "47C67FA1-F93C-4DE6-9016-A6E9A6FE631B",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 126,
+          "BTTShortcutModifierKeys" : 10223616,
+          "BTTOrder" : 10
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 95,
+          "BTTPredefinedActionName" : "Maximize Window to Bottom Half",
+          "BTTAdditionalConfiguration" : "10223616",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "5AFC5F9B-1B74-48E8-8771-D559A794BB81",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 125,
+          "BTTShortcutModifierKeys" : 10223616,
+          "BTTOrder" : 11
+        },
+        {
+          "BTTTriggerType" : 128,
+          "BTTTriggerTypeDescription" : "5 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 19,
+          "BTTPredefinedActionName" : "Maximize Window Left",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "9CED5596-33E7-48AC-80A4-A8C6487A533C",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 84,
+          "BTTPredefinedActionName" : "Restore Old Window Size",
+          "BTTAdditionalConfiguration" : "9961472",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "8B5DB529-480F-4BCB-AB62-DEF6793C3731",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 125,
+          "BTTShortcutModifierKeys" : 9961472,
+          "BTTOrder" : 4
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 95,
+          "BTTPredefinedActionName" : "Maximize Window to Bottom Half",
+          "BTTAdditionalConfiguration" : "1572864",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "632C99F2-F2DE-45F5-B436-9434CC155A80",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 84,
+          "BTTShortcutModifierKeys" : 1572864,
+          "BTTOrder" : 19
+        },
+        {
+          "BTTTriggerType" : 2013,
+          "BTTTriggerTypeDescription" : "Center",
+          "BTTTriggerClass" : "BTTTriggerTypeOldAppleRemote",
+          "BTTPredefinedActionType" : 23,
+          "BTTPredefinedActionName" : "Play\/Pause",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "AE082B28-1AE6-475F-A449-5CE885C63E83",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerType" : 131,
+          "BTTTriggerTypeDescription" : "5 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 96,
+          "BTTPredefinedActionName" : "Maximize Window to Top Half",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "9B4F19D7-97A7-4B00-B491-FAE1E00EA789",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 93,
+          "BTTPredefinedActionName" : "Resize Window to Bottom Right Quarter \/ Corner",
+          "BTTAdditionalConfiguration" : "1572864",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "8E52E732-2D0B-4159-A05F-774CF7412F77",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 85,
+          "BTTShortcutModifierKeys" : 1572864,
+          "BTTOrder" : 18
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 20,
+          "BTTPredefinedActionName" : "Maximize Window Right",
+          "BTTAdditionalConfiguration" : "9961472",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "F144FA4C-329A-4D8F-A974-9588BF87EAD1",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 124,
+          "BTTShortcutModifierKeys" : 9961472,
+          "BTTOrder" : 5
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 13,
+          "BTTPredefinedActionName" : "Sleep Display",
+          "BTTAdditionalConfiguration" : "393216",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "C21B24F2-B875-4ED0-A307-23B42E3290F5",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 53,
+          "BTTShortcutModifierKeys" : 393216,
+          "BTTOrder" : 22
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 91,
+          "BTTPredefinedActionName" : "Resize Window to Bottom Left Quarter \/ Corner",
+          "BTTAdditionalConfiguration" : "1572864",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "96AB2A5F-09DB-4BE4-986A-7F8484D980B8",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 83,
+          "BTTShortcutModifierKeys" : 1572864,
+          "BTTOrder" : 20
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 128,
+          "BTTPredefinedActionName" : "Send Shortcut to Specific App",
+          "BTTShortcutApp" : "\/Applications\/iTerm.app",
+          "BTTShortcutAppUnderCursor" : "com.googlecode.iterm2",
+          "BTTShortcutToSend" : "55,45",
+          "BTTAdditionalConfiguration" : "1048576",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "FFC1833C-24F8-4350-9E10-005F5ACD8A1A",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 36,
+          "BTTShortcutModifierKeys" : 1048576,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 26,
+          "BTTPredefinedActionName" : "Previous",
+          "BTTAdditionalConfiguration" : "9437184",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "AC070597-D3E4-4893-9206-50CAA5FB8F6B",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 119,
+          "BTTShortcutModifierKeys" : 9437184,
+          "BTTOrder" : 31
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 25,
+          "BTTPredefinedActionName" : "Volume Down",
+          "BTTAdditionalConfiguration" : "9568256",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "6D4322E0-76B8-4290-B565-6B342D42767D",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 121,
+          "BTTShortcutModifierKeys" : 9568256,
+          "BTTOrder" : 30
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 20,
+          "BTTPredefinedActionName" : "Maximize Window Right",
+          "BTTAdditionalConfiguration" : "1572864",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "890EAC6F-00B4-4024-9DFF-F7B48A63A870",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 88,
+          "BTTShortcutModifierKeys" : 1572864,
+          "BTTOrder" : 15
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 137,
+          "BTTPredefinedActionName" : "Execute Terminal Command (Async, non-blocking)",
+          "BTTTerminalCommand" : "cd ~\/bin\/ && .\/next-audio-output",
+          "BTTAdditionalConfiguration" : "1835008",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "5CCEDD03-3A19-470B-BDC8-BE9C835F51B2",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 37,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 23
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 47,
+          "BTTPredefinedActionName" : "Move Window to Next Monitor",
+          "BTTAdditionalConfiguration" : "10223616",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "59BF1AA8-844B-4094-A931-1AA58CC2729E",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 124,
+          "BTTShortcutModifierKeys" : 10223616,
+          "BTTOrder" : 8
+        },
+        {
+          "BTTTriggerType" : 116,
+          "BTTTriggerTypeDescription" : "Pinch Out",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 112,
+          "BTTPredefinedActionName" : "Enter Fullscreen (If Supported)",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "C1E8E02A-DEE2-4D2D-B81E-57346B9830D2",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 1835008,
+          "BTTOrder" : 5
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 14,
+          "BTTPredefinedActionName" : "Sleep Computer",
+          "BTTAdditionalConfiguration" : "1310720",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "A926046D-E1F8-4146-917F-3BB04562D9E3",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 53,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 21
+        },
+        {
+          "BTTTriggerType" : 624,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 194,
+          "BTTPredefinedActionName" : "Toggle Caps Lock On\/Off",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "35B3258B-188F-416E-AE2F-B5030F3A52B2",
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : -1,
+          "BTTShortcutModifierKeys" : -1,
+          "BTTOrder" : 25,
+          "BTTKeySequence" : {
+            "BTTPauseBetween" : 0.29999999999999999,
+            "BTTKeyCount" : 10,
+            "BTTKeySequenceDownKeys" : [
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 530246016
+              }
+            ],
+            "BTTKeySequenceMixedKeys" : [
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYTime" : 530246016
+              }
+            ],
+            "BTTKeySequenceUpKeys" : [
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYTime" : 530246016
+              },
+              {
+                "BTTKEYCode" : 60,
+                "BTTKEYTime" : 530246016
+              }
+            ]
+          }
+        },
+        {
+          "BTTTriggerType" : 624,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 194,
+          "BTTPredefinedActionName" : "Toggle Caps Lock On\/Off",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "41F55423-259A-4AA6-BFE8-B6AF1C008F30",
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : -1,
+          "BTTShortcutModifierKeys" : -1,
+          "BTTOrder" : 24,
+          "BTTKeySequence" : {
+            "BTTPauseBetween" : 0.29999999999999999,
+            "BTTKeyCount" : 10,
+            "BTTKeySequenceDownKeys" : [
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 524434592
+              }
+            ],
+            "BTTKeySequenceMixedKeys" : [
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYTime" : 524434592
+              }
+            ],
+            "BTTKeySequenceUpKeys" : [
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYTime" : 524434592
+              },
+              {
+                "BTTKEYCode" : 56,
+                "BTTKEYTime" : 524434592
+              }
+            ]
+          }
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 24,
+          "BTTPredefinedActionName" : "Volume Up",
+          "BTTAdditionalConfiguration" : "9568256",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "E9298BD6-74E6-4149-A5AA-77C8161BCE67",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 116,
+          "BTTShortcutModifierKeys" : 9568256,
+          "BTTOrder" : 32
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 97,
+          "BTTPredefinedActionName" : "Center Window",
+          "BTTAdditionalConfiguration" : "1572864",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "CB9EB672-E38E-4E01-90A9-D88940FDF42B",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 87,
+          "BTTShortcutModifierKeys" : 1572864,
+          "BTTOrder" : 16
+        },
+        {
+          "BTTTriggerType" : 129,
+          "BTTTriggerTypeDescription" : "5 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 20,
+          "BTTPredefinedActionName" : "Maximize Window Right",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "0BD55F30-28A1-4063-9479-9DDECDF38516",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 96,
+          "BTTPredefinedActionName" : "Maximize Window to Top Half",
+          "BTTAdditionalConfiguration" : "1572864",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "ADAAA480-C1E9-4B58-8736-41A63784FADA",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 91,
+          "BTTShortcutModifierKeys" : 1572864,
+          "BTTOrder" : 13
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "6AB55B31-9C29-4D88-8CD2-868A237A8478",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 19,
+          "BTTPredefinedActionName" : "Maximize Window Left",
+          "BTTAdditionalConfiguration" : "1572864",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "178C3DAA-C85D-4B8C-A92F-1384351EAF25",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 86,
+          "BTTShortcutModifierKeys" : 1572864,
+          "BTTOrder" : 17
+        },
+        {
+          "BTTTriggerType" : 1003,
+          "BTTTriggerTypeDescription" : "Button 3",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,123",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "FCBF7493-BF98-44D3-99F9-67F32241D2B2",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTTriggerType" : 141,
+          "BTTTriggerTypeDescription" : "5 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 84,
+          "BTTPredefinedActionName" : "Restore Old Window Size",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "6B06A463-618B-4DEF-9BA6-CA16D4D16E34",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 3,
+          "BTTPredefinedActionName" : "Left Click",
+          "BTTAdditionalConfiguration" : "1835008",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "FC1694E6-BCC8-42DC-BB4E-F30FF8FA69FC",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 24,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 26
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 21,
+          "BTTPredefinedActionName" : "Maximize Window",
+          "BTTAdditionalConfiguration" : "9961472",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "A4BEDEDD-74A2-447F-920B-8B727803E113",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 126,
+          "BTTShortcutModifierKeys" : 9961472,
+          "BTTOrder" : 3
+        },
+        {
+          "BTTTriggerType" : 600,
+          "BTTTriggerTypeDescription" : "Doubleclick Window Titlebar",
+          "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+          "BTTPredefinedActionType" : 21,
+          "BTTPredefinedActionName" : "Maximize Window",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "D9B3D66E-529C-4373-B817-74AA91A73B08",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "org.gnu.Emacs",
+      "BTTAppName" : "Emacs",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Emacs",
+      "BTTTriggers" : [
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,8",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "98FF14A8-14DC-4E81-9BE6-A974F66F6DBF",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 120,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 0,
+          "BTTAdditionalActions" : [
+            {
+              "BTTTriggerType" : -1,
+              "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+              "BTTPredefinedActionType" : -1,
+              "BTTPredefinedActionName" : "No Action",
+              "BTTShortcutToSend" : "59,32",
+              "BTTEnabled2" : 1,
+              "BTTUUID" : "0A192E03-14C2-42CB-B081-C685A5622ECA",
+              "BTTEnabled" : 1,
+              "BTTShortcutKeyCode" : -1,
+              "BTTShortcutModifierKeys" : -1,
+              "BTTOrder" : 0
+            }
+          ]
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,8",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "1B6C85D8-392A-41C9-9143-1D0AF6E7C7E2",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 99,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 1,
+          "BTTAdditionalActions" : [
+            {
+              "BTTTriggerType" : -1,
+              "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+              "BTTPredefinedActionType" : -1,
+              "BTTPredefinedActionName" : "No Action",
+              "BTTShortcutToSend" : "59,45",
+              "BTTEnabled2" : 1,
+              "BTTUUID" : "C262B700-19B7-4554-A2A5-F9D2AC32C47E",
+              "BTTEnabled" : 1,
+              "BTTShortcutKeyCode" : -1,
+              "BTTShortcutModifierKeys" : -1,
+              "BTTOrder" : 0
+            }
+          ]
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,8",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "0C012498-A2C0-43CF-9C70-64B42BD91132",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 118,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 2,
+          "BTTAdditionalActions" : [
+            {
+              "BTTTriggerType" : -1,
+              "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+              "BTTPredefinedActionType" : -1,
+              "BTTPredefinedActionName" : "No Action",
+              "BTTShortcutToSend" : "59,36",
+              "BTTEnabled2" : 1,
+              "BTTUUID" : "8C6D7311-1328-4883-A4F3-97AB85825FC4",
+              "BTTEnabled" : 1,
+              "BTTShortcutKeyCode" : -1,
+              "BTTShortcutModifierKeys" : -1,
+              "BTTOrder" : 88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "io.mpv",
+      "BTTAppName" : "mpv",
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "9DC51363-76A5-4AE2-88BE-E26491E6D79C",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTTriggerType" : 1002,
+          "BTTTriggerTypeDescription" : "Middle Mouse Button",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "49",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "CBAEFEE7-F272-4775-AA85-E4A3CE5F878F",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.mail",
+      "BTTAppName" : "Mail",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Mail",
+      "BTTTriggers" : [
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,55,0",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "4BBFB9B8-D4BB-4F9F-A6E7-06BA8BB74FD9",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 0,
+          "BTTShortcutModifierKeys" : 1048576,
+          "BTTOrder" : 0
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.skype.skype",
+      "BTTAppName" : "Skype",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "AAB7C6BE-E188-4360-9C18-108F05907106",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,126",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "D443385E-4DBB-4206-9477-7D1E7C5AF3E8",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 126,
+          "BTTShortcutModifierKeys" : 9961472,
+          "BTTOrder" : 0
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,126",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "C5DD0D0E-9576-4449-B6B1-B0BD74DA86F7",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,30",
+          "BTTAdditionalConfiguration" : "9437184",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "2E69DA83-4058-4F33-94D1-5EE16AD64F0A",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 124,
+          "BTTShortcutModifierKeys" : 9437184,
+          "BTTOrder" : 67,
+          "BTTKeySequence" : {
+
+          }
+        },
+        {
+          "BTTTriggerType" : 1004,
+          "BTTTriggerTypeDescription" : "Button 4",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,30",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "98140F59-6A11-4197-83DD-7B21FCF7B411",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,33",
+          "BTTAdditionalConfiguration" : "9437184",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "2B434318-5BBB-47D7-881D-398D29E7E829",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 123,
+          "BTTShortcutModifierKeys" : 9437184,
+          "BTTOrder" : 66,
+          "BTTKeySequence" : {
+
+          }
+        },
+        {
+          "BTTTriggerType" : 1003,
+          "BTTTriggerTypeDescription" : "Button 3",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,33",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "D21FCBA7-9E0B-4120-8A39-1DB2768F0C6B",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1
+        }
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}

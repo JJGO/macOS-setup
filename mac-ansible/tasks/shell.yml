@@ -1,0 +1,115 @@
+- set_fact:
+    prezto_repo_url: https://github.com/sorin-ionescu/prezto.git
+
+# ZSH
+
+- name: Get zsh path
+  command: command -v zsh
+  register: zsh_path
+
+- name: Add hombrew zsh to /etc/shells
+  lineinfile:
+    path: "/etc/shells"
+    line: "{{ zsh_path.stdout }}"
+  become: yes
+
+- name: Switch to zsh
+  user:
+    name: "{{ansible_ssh_user}}"
+    shell: "{{ zsh_path.stdout }}"
+  become: yes
+
+
+# PREZTO
+- name: Install prezto from git.
+  git:
+    repo: "{{ prezto_repo_url }}"
+    dest: "/home/{{ user }}/.zprezto/"
+    recursive: yes
+    update: no
+    accept_hostkey: yes
+
+- name: Delete .zshrc
+  file:
+    path: "/home/{{ user }}/.zshrc"
+    state: absent
+
+- name: Make prezto symlinks
+  file:
+    state: link
+    src: "/home/{{ user }}/.zprezto/runcoms/{{ item }}"
+    dest: "/home/{{ user }}/.{{ item }}"
+  with_items:
+    - zlogin
+    - zlogout
+    - zpreztorc
+    - zprofile
+    - zshenv
+    - zshrc
+
+
+- name: Patch prezto issue
+# https://github.com/sorin-ionescu/prezto/issues/1736
+  file:
+    state: link
+    src: "/home/{{ user }}/.zprezto/modules/prompt/external/pure/async.zsh"
+    dest: "/home/{{ user }}/.zprezto/modules/prompt/functions/async"
+
+- name: Setup for additional plugins
+  lineinfile:
+    path: "/home/{{ user }}/.zprezto/runcoms/zpreztorc"
+    regexp: "^  .prompt"
+    line: "  'prompt' \\"
+
+- name: Enable additional plugins
+  lineinfile:
+    path: "/home/{{ user }}/.zprezto/runcoms/zpreztorc"
+    insertafter: "{{ item.before }}"
+    line: "{{ item.line }}"
+  loop:
+    - { line: "  'git' \\", before: "^  .prompt" }
+    # - { line: "  'syntax-highlighting' \\", before: "^  .git" }
+    - { line: "  'history-substring-search'  \\", before: "^  .git" }
+    - { line: "  'autosuggestions' ", before: "^  .history" }
+
+
+- name: Set theme to powerlevel10k
+  lineinfile:
+    path: "/home/{{ user }}/.zprezto/runcoms/zpreztorc"
+    regexp: "^zstyle ':prezto:module:prompt' theme"
+    line: "zstyle ':prezto:module:prompt' theme 'powerlevel10k'"
+
+
+- name: Create ~/.zsh
+  file:
+    path: "/home/{{ user }}/.zsh"
+    state: directory
+
+- name: Clone Fast syntax
+  git:
+    repo: "https://github.com/zdharma/fast-syntax-highlighting.git"
+    dest: "/home/{{ user }}/.zsh/fast-syntax-highlighting"
+
+- name: Install Fast Syntax
+  lineinfile:
+    path: "/home/{{ user }}/.zshrc"
+    line: "source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh"
+
+
+- name: Install CLI utils
+  homebrew:
+    name: {{ item }}
+    state: present
+  loop:
+    - fasd
+    - fzf
+    - broot
+
+- name: Ensure home/bin is sourced
+  lineinfile:
+    path: "/home/{{ user }}/{{ item }}"
+    line: 'export PATH="$PATH:$HOME/bin"'
+    create: yes
+  loop:
+    - .bashrc
+    - .zshrc

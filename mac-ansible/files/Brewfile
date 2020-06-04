@@ -80,6 +80,7 @@ brew "aspell", args: ['with-lang-es']       # Spell checker
 brew "autossh"                              # Persistent SSH port forwarding
 brew "bat"                                  # Improved cat with highlight and paging
 brew "bitwarden-cli"                        # Bitwarden CLI utility
+brew "broot"                                # Terminal file navigator
 brew "diff-so-fancy"                        # More colorful diff
 brew "dockutil"                             # Manages the dock icons
 brew "duti"                                 # Set default document and URL handlers
@@ -155,6 +156,7 @@ cask "etcher"                               # Tool for flashing USB/SD/&c from .
 cask "etrecheckpro"                         # System maintenance
 cask "firefox"                              # Alternative web browser
 cask "flux"                                 # Changes temperature color based on time of day
+cask "fuzzyclock"                           # Simple menubar fuzzy clock
 cask "gmvault"                              # To backup gmail accounts
 cask "google-chrome"                        # Google's web browser
 cask "hammerspoon"                          # Desktop automation on macOS

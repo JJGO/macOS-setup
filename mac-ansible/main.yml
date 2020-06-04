@@ -1,0 +1,40 @@
+#!/usr/bin/env ansible-playbook
+- hosts: localhost
+  connection: local
+  tasks:
+  - debug:
+      msg: Check we are running in the directory of the script
+    failed_when: not ansible_env.PWD.endswith('/mac-ansible')
+
+- hosts: localhost
+  connection: local
+  become: no
+
+  vars_prompt:
+    - name: ssh_passphrase
+      prompt: "Please enter a passphrase for the SSH key"
+
+  tasks:
+
+    - name: macOS specific setting -- idempotent
+      become: yes
+      script: files/macos-settings.sh
+
+    - name: Configure file extensions -- idempotent
+      script: files/file-extensions.sh
+
+    - name: Install core software
+      include_tasks: tasks/software.yml
+
+    - name: Install python
+      include_tasks: tasks/python.yml
+
+    - name: Setup Dock
+      include_tasks: tasks/dock.yml
+
+    - name: Miscellaneous config
+      include_tasks: tasks/misc.yml
+
+    - name: Custom app settings -- idempotent
+      script: files/app-settings.sh
+
