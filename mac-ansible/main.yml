@@ -18,10 +18,10 @@
 
     - name: macOS specific setting -- idempotent
       become: yes
-      script: files/macos-settings.sh
+      script: scripts/macos-settings.sh
 
     - name: Configure file extensions -- idempotent
-      script: files/file-extensions.sh
+      script: scripts/file-extensions.sh
 
     - name: Install core software
       include_tasks: tasks/software.yml

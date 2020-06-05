@@ -1,5 +1,6 @@
 - name: Set Hostname
   shell: "sudo scutil --set {{ item }} {{ hostname }}"
+  become: yes
   loop:
       - ComputerName
       - HostName
