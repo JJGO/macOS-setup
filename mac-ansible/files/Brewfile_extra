@@ -70,6 +70,7 @@ cask "gfxcardstatus"                        # Changes the dedicated and internal
 cask "google-chrome-canary"                 # Google's beta web browser
 cask "iina"                                 # Video player with nicer configs than VLC
 cask "inkscape"                             # Vector graphics
+cask "itsycal"                              # Simple and configurable menubar clock
 cask "keyboard-maestro"                     # Automation tool
 cask "keycastr"                             # Keystroke visualizer
 cask "kodi"                                 # Media center for music, tvshows and movies
