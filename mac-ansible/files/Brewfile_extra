@@ -104,6 +104,7 @@ cask "vorta"                                # Borg Wrapper, scheduler and menu i
 cask "xquartz"                              # DEP: Inkscape dependency
 cask "yacreader"                            # Comic reader
 cask "zoomus"                               # Zoom.us video conference software
+cask "zotero"                               # Bibliography management
 
 # PAID Casks
 cask "bartender"                            # Groups menu bar items (PAID)
