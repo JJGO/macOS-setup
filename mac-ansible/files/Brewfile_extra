@@ -13,6 +13,7 @@ brew "cmus"                                 # Terminal music player
 brew "colordiff"                            # Colored diff
 brew "djvu2pdf"                             # Converts djvu files to pdf
 brew "dos2unix"                             # Translate newlines between DOS and UNIX
+brew "MisterTea/et/et"                      # Eternal Terminal
 brew "expect"                               # To write scripts that expect interaction
 brew "ext4fuse"                             # To mount Linux drives
 brew "fonttools"                            # Tools to manage fonts
