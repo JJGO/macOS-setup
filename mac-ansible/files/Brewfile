@@ -120,6 +120,8 @@ brew "the_silver_searcher"                  # Search similar to ack but faster
 cask "osxfuse"                              # Dependency of sshfs
 brew "sshfs"                                # TO mount disks over SSH
 brew "doxygen"                              # tmux dependency
+brew "texlab"                               # LaTeX language server
+brew "tectonic"                             # LaTeX build system
 brew "tmux", args: ['with-utf8proc']        # Terminal multiplexer and server
 brew "trash"                                # To use OS trash instead of rm forever
 brew "unison"                               # Sync both ways folders
