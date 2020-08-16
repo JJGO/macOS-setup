@@ -47,6 +47,11 @@ cargo_items:
   - bat
   - fd-find
   - ripgrep
+  - du-dust
+  - procs
+  - hyperfine
+  - diskus
+  - sd
 
 gem_packages:
   - bundler
