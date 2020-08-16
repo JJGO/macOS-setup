@@ -35,6 +35,7 @@ brew "speedtest_cli"                        # Speedtest on CLI
 brew "stress"                               # Creates several types of compute stress
 brew "subliminal"                           # Subtitle renamer
 brew "switchaudio-osx"                      # Switch audio input/output
+brew "tesseract"                            # OCR tool
 brew "thefuck"                              # To correct mistypes in commands
 brew "tldr"                                 # Simpler man pages
 brew "yamllint"                             # YAML Linter
