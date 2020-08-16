@@ -40,6 +40,7 @@ brew "thefuck"                              # To correct mistypes in commands
 brew "tldr"                                 # Simpler man pages
 brew "yamllint"                             # YAML Linter
 brew "yq"                                   # Jq for YAML
+brew "zenith"                               # Rust version of Htop
 
 ### WINE
 cask "xquartz"                              # DEP: WineHQ dependency
