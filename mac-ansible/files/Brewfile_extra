@@ -5,6 +5,7 @@ brew "git-flow"                             # CLI  utils for git-flow
 
 
 ### EXTRA CLI UTILITIES
+brew "agedu"                                # Disk usage utility with time of use
 brew "axel"                                 # Fast CLI downloader
 brew "cksfv"                                # Utility to check SFV files
 brew "cloc"                                 # Count lines of code
