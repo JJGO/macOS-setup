@@ -21,6 +21,7 @@ brew "fzy"                                  # Another Fuzzy finder
 brew "geckodriver"                          # Firefox webdriver
 brew "hub"                                  # Perform GitHub actions from the CLI
 brew "hugo"                                 # Golang static content generator
+brew "languagetool"                         # Spell and Grammar Checker
 brew "lftp"                                 # Terminal FTP client
 brew "lunchy"                               # CLI helper for macOS launch plist
 brew "magic-wormhole"                       # CLI tool to share files securely
