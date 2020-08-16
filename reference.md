@@ -1,14 +1,25 @@
 REFERENCE REPOS & TODO
 
+# TODO
 - configure menubar items
 
-
-- Port Installing nanorc from https://github.com/scopatz/nanorc
 # Installing nano syntax coloring
-mkdir ~/.nano
-git clone https://github.com/scopatz/nanorc.git ~/.nano
-cat ~/.nano/nanorc >>! ~/.nanorc
+- Port Installing nanorc from https://github.com/scopatz/nanorc
+    mkdir ~/.nano
+    git clone https://github.com/scopatz/nanorc.git ~/.nano
+    cat ~/.nano/nanorc >>! ~/.nanorc
 
+
+# Macos Defaults
+https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/
+https://github.com/mathiasbynens/dotfiles/blob/master/.macos
+
+
+# Ansible
+- https://adamj.eu/tech/2019/03/20/how-i-provision-my-macbook-with-ansible/
+- https://github.com/adamchainz/mac-ansible
+- https://github.com/geerlingguy/mac-dev-playbook
+- http://www.frommknecht.net/homebrew-bundle-with-ansible/
 
 # Bash Script setup
 https://github.com/j9ac9k/macOS_setup
