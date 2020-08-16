@@ -1,3 +1,4 @@
+---
 - name: Install pyenv and python dependencies
   homebrew:
     name:
@@ -30,8 +31,8 @@
 - name: python versions latest Cython, pip, and pip-tools
   pip:
     name:
-    - pip
-    - pip-tools
+      - pip
+      - pip-tools
     state: latest
     executable: '~/.pyenv/versions/{{ item }}/bin/pip{% if "pypy3" in item %}3{% endif %}'
   environment:
@@ -55,3 +56,7 @@
     - jupyter_contrib_nbextensions
     - jupyter_nbextensions_configurator
     - ipywidgets
+
+# https://github.com/uploadcare/pillow-simd
+- name: Install Pillow-SIMD
+  shell: 'pip uninstall -y pillow; CC="cc -mavx2" pip install -U --force-reinstall pillow-simd'
