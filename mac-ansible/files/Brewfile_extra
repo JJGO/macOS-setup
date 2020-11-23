@@ -19,6 +19,7 @@ brew "glances"                              # Htop improved
 brew "geckodriver"                          # Firefox webdriver
 brew "hub"                                  # Perform GitHub actions from the CLI
 brew "hugo"                                 # Golang static content generator
+brew "languagetool"                         # Spell and Grammar Checker
 brew "lftp"                                 # Terminal FTP client
 brew "magic-wormhole"                       # CLI tool to share files securely
 brew "mutt"                                 # Email Client
@@ -29,6 +30,7 @@ brew "shellcheck"                           # Bash/sh Linter
 brew "speedtest_cli"                        # Speedtest on CLI
 brew "stress"                               # Creates several types of compute stress
 brew "transmission-cli"                     # Tranmission CLI tools
+brew "tesseract"                            # OCR tool
 brew "yamllint"                             # YAML Linter
 brew "yq"                                   # Jq for YAML
 
@@ -48,6 +50,8 @@ cask "dozer"                                # Menubar hider (FOSS bartender)
 cask "iina"                                 # Video player with nicer configs than VLC
 cask "marta"                                # Better file manager
 # cask "mathpix-snipping-tool"                # Latex OCR
+cask "inkscape"                             # Vector graphics
+cask "itsycal"                              # Simple and configurable menubar clock
 cask "meld"                                 # Diff/Merge tool
 cask "monitorcontrol"                       # Uses DDC/CI to setup monitor brightness/contrast
 cask "obinskit"                             # Anne Pro 2 configurator
@@ -66,6 +70,7 @@ cask "vagrant"                              # Automated VM management/deployment
 cask "vorta"                                # Borg Wrapper, scheduler and menu item
 cask "yacreader"                            # Comic reader
 cask "zoomus"                               # Zoom.us video conference software
+cask "zotero"                               # Bibliography management
 
 # Fonts
 # tap 'homebrew/cask-fonts'

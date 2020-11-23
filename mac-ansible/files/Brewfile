@@ -192,7 +192,7 @@ cask "skim"                                 # Better PDF tool with Sublime Text 
 cask "spotify"                              # Music streaming
 cask "steam"                                # Gaming collection hub
 cask "sublime-text"                         # Multipurpose text editor
-cask "syncthing"                            # Syncthing
+cask "syncthing"                            # Syncthing macos wrapper with launchctl and menu bar
 cask "telegram"                             # Instant messaging with sync across devices
 cask "the-unarchiver"                       # To deflate and decompress files
 cask "veracrypt"                            # Disk and disk image encryption
