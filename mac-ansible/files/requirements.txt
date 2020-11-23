@@ -1,3 +1,4 @@
+borgbackup[fuse]
 Cython
 Flask
 Glances
@@ -35,8 +36,6 @@ metakernel
 mutagen
 mypy
 nbconvert
-neovim
-neovim-remote
 nose
 numpy
 opencv-contrib-python
