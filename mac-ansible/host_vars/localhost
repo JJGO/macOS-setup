@@ -1,0 +1,33 @@
+hostname: "Vindication"
+
+homebrew_services:
+  - yabai
+
+pyenv_python_versions:
+# In precedence order
+- anaconda3-2020.07
+- 3.9.0
+- 2.7.18
+
+pip_packages: []
+
+dock_apps:
+- /Applications/Firefox
+- /Applications/Spotify
+- /System/Applications/Mail
+- /Applications/VimR
+- /Applications/kitty
+- /Applications/Simplenote
+- /Applications/Todoist
+
+dock_folders:
+- ~/Downloads
+
+gem_packages:
+  - bundler
+  - tmuxinator
+  - lolcat
+  - jekyll
+  - kramdown
+  - minima
+  - github-pages
