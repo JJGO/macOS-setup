@@ -1,10 +1,10 @@
 REFERENCE REPOS & TODO
 
+
+# TODO
 - Port Installing nanorc from https://github.com/scopatz/nanorc
 - configure menubar items
 
-# TODO
-- configure menubar items
 
 # Installing nano syntax coloring
 - Port Installing nanorc from https://github.com/scopatz/nanorc

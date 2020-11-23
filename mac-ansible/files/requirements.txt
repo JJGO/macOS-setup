@@ -83,3 +83,4 @@ uncertainties
 virtualenv
 virtualenvwrapper
 watchdog
+comparxiv

@@ -31,6 +31,7 @@ brew "speedtest_cli"                        # Speedtest on CLI
 brew "stress"                               # Creates several types of compute stress
 brew "transmission-cli"                     # Tranmission CLI tools
 brew "tesseract"                            # OCR tool
+brew "tesseract"                            # OCR tool
 brew "yamllint"                             # YAML Linter
 brew "yq"                                   # Jq for YAML
 
@@ -141,3 +142,7 @@ cask "julia"
 # cask "rstudio"
 brew "lua"
 brew "luarocks"
+
+# Latex Tools
+brew "tectonic"
+brew "texlab"
