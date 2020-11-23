@@ -10,9 +10,9 @@
   connection: local
   become: no
 
-  vars_prompt:
-    - name: ssh_passphrase
-      prompt: "Please enter a passphrase for the SSH key"
+#  vars_prompt:
+#    - name: ssh_passphrase
+#      prompt: "Please enter a passphrase for the SSH key"
 
   tasks:
 
@@ -20,21 +20,30 @@
       become: yes
       script: scripts/macos-settings.sh
 
-    - name: Configure file extensions -- idempotent
-      script: scripts/file-extensions.sh
-
     - name: Install core software
       include_tasks: tasks/software.yml
 
-    - name: Install python
-      include_tasks: tasks/python.yml
+    - name: Setup Dotfiles
+      include_tasks: tasks/dotfiles.yml
 
     - name: Setup Dock
       include_tasks: tasks/dock.yml
 
+    - name: Install python
+      include_tasks: tasks/python.yml
+
+    - name: Configure file extensions -- idempotent
+      script: scripts/file-extensions.sh
+
     - name: Miscellaneous config
       include_tasks: tasks/misc.yml
 
-    - name: Custom app settings -- idempotent
-      script: files/app-settings.sh
+    # - name: Custom app settings -- idempotent
+    #   script: files/app-settings.sh
 
+  handlers:
+    - name: kill dock
+      command: killall Dock
+
+    - name: kill finder
+      command: killall Finder
