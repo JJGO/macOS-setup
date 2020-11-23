@@ -17,18 +17,30 @@
 
 - name: Make setup executable
   file:
+    path: "{{ dotfiles_path }}/shell-setup.sh"
+    mode: ug+x
+  when: not dotfiles.stat.exists
+
+- name: Install shell setup
+  shell: "./shell-setup.sh >> /tmp/mac-ansible.log"
+  args:
+    chdir: "{{ dotfiles_path }}"
+  when: not dotfiles.stat.exists
+
+- name: Make setup executable
+  file:
     path: "{{ dotfiles_path }}/setup_all.sh"
     mode: ug+x
   when: not dotfiles.stat.exists
 
 - name: Install dotfiles
-  shell: ./setup_all.sh
+  shell: "./setup_all.sh >> /tmp/mac-ansible.log"
   args:
     chdir: "{{ dotfiles_path }}"
   when: not dotfiles.stat.exists
 
-- name: Install local dotfiles
-  shell: stow local
-  args:
-    chdir: "{{ dotfiles_path }}"
-  when: not dotfiles.stat.exists
+  # - name: Install local dotfiles
+  #   shell: stow local
+  #   args:
+  #     chdir: "{{ dotfiles_path }}"
+  #   when: not dotfiles.stat.exists
