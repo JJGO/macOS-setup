@@ -1,5 +1,9 @@
 #!/bin/bash
 
+set -x
+
+cd scripts
+
 # Ask for the administrator password upfront
 sudo -v
 
@@ -25,7 +29,7 @@ set -o pipefail # Exit on pipe error
 chmod +x *.sh
 
 # Install Homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew update
 
 # Allow third party software
@@ -33,8 +37,8 @@ sudo spctl --master-disable
 
 # Install ansible
 brew install ansible
+# Install expect to get unbuffer
+brew install unbuffer
 
 # Since XCode got installed, need to agree to license
-sudo xcodebuild -license
-
-
+# sudo xcodebuild -license
