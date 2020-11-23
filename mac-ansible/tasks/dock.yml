@@ -4,13 +4,13 @@
     - kill dock
 
 - name: "Add items to dock"
-  command: "dockutil --add /Applications/{{ item }}.app"
-  loop: {{ dock_apps }}
+  command: "dockutil --add \"{{ item }}.app\""
+  loop: "{{ dock_apps }}"
   notify:
     - kill dock
 
 - name: "Add folders to dock"
   command: "dockutil --add {{ item }} --view fan --display folder --section others"
-  loop: {{ dock_folder }}
+  loop: "{{ dock_folders }}"
   notify:
     - kill dock
