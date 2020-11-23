@@ -1,29 +1,27 @@
 # Jose Javier Gonzalez Ortiz
 # Brewfile
 
-tap 'homebrew/science'
 
 cask_args appdir: '/Applications'
 
 ### UNIX DEFAULTS
-tap 'homebrew/dupes'
 brew "binutils"
 brew "coreutils"
 brew "diffutils"
-brew "ed", args: ['with-default-names']
-brew "findutils", args: ['with-default-names']
+brew "ed"
+brew "findutils"
 brew "gawk"
-brew "gnu-indent", args: ['with-default-names']
-brew "gnu-sed" , args: ['with-default-names']
-brew "gnu-tar", args: ['with-default-names']
-brew "gnu-which", args: ['with-default-names']
+brew "gnu-indent"
+brew "gnu-sed"
+brew "gnu-tar"
+brew "gnu-which"
 brew "gnupg"
 brew "gnutls"
-brew "grep", args: ['with-default-names']
+brew "grep"
 brew "gzip"
-brew "less", args: ['with-pcre']
+brew "less"
 brew "lsof"
-brew "make", args: ['with-default-names']
+brew "make"
 brew "nano"
 brew "openssh"
 brew "pstree"
@@ -34,7 +32,7 @@ brew "screen"
 brew "stow"                                 # Symlink creator, useful for dotfiles
 brew "tree"                                 # Recursive display
 brew "watch"                                # Execute and monitor every X seconds
-brew "wdiff", args: ['with-gettext']
+brew "wdiff"
 brew "wget"
 
 ### SHELLS, GIT, PYTHON and RUBY
@@ -48,6 +46,7 @@ brew "fish"                                 # Friendly interactive sheell. Good 
 brew "zsh"                                  # Better shell, specially with zPrezto
 brew "zsh-completions"                      # General ZSH completions
 brew "mosh"                                 # Mobile Shell
+brew "MisterTea/et/et"                      # Eternal Terminal
 
 ### PROGRAMMING LANGUAGES
 brew "xz"
@@ -65,21 +64,23 @@ brew "perl"
 
 ### EDITORS
 # Widely used CLI editors
-brew "vim", args: ['override-system-vi', 'with-python3']
+brew "vim"
 brew "neovim"
+cask "vimr"                                 # NEovim GUI for mac
 
 # Regular emacs window does not behave properly. Use this port instead
 tap "railwaycat/emacsmacport"
-brew "emacs-mac"
+# brew "emacs-mac"
 cask "emacs-mac"
 
 ### CLI UTILITIES
 brew "ack"                                  # Better grep
 brew "atool"                                # A script for managing file archives (aunpack)
-brew "aspell", args: ['with-lang-es']       # Spell checker
+brew "aspell" # Spell checker
 brew "autossh"                              # Persistent SSH port forwarding
 brew "bat"                                  # Improved cat with highlight and paging
 brew "bitwarden-cli"                        # Bitwarden CLI utility
+brew "borgbackup"                           # Incremental and Deduplication backup tool
 brew "broot"                                # Terminal file navigator
 brew "diff-so-fancy"                        # More colorful diff
 brew "dockutil"                             # Manages the dock icons
@@ -94,14 +95,14 @@ brew "graphviz"                             # Graph visualization software
 brew "gocryptfs"                            # FUSE encrypted FS
 brew "hardlink-osx"                         # Hard link functionality on macOS
 brew "htop"                                 # Display system usage
-brew "imagemagick", args: ['with-librsvg', 'with-fontconfig'] # Good image editing software
+brew "imagemagick"  # Good image editing software
 brew "jdupes"                               # Better fdupes
 brew "lnav"                                 # Log viewer
+brew "lunchy"                               # Launchctl util
 brew "mas"                                  # Install software from app store
-brew "mackup"                               # Configuration Syncer
 brew "cmark"                                # Mkvtoolnix dependency
 brew "ctags"                                # ctags binaries are required for vim
-brew "mkvtoolnix", args: ['with-qt5']       # Mkv tools
+brew "mkvtoolnix"  # Mkv tools
 brew "media-info"                           # Media info for videos
 brew "minicom"                              # Serial port communication
 brew "moreutils"                            # Some extra niceties including parallel
@@ -117,10 +118,11 @@ brew "shellcheck"                           # Test shell scripts for errors
 brew "terminal-notifier"                    # Enable terminal notifications for scripts
 brew "tig"                                  # text-mode interface for git
 brew "the_silver_searcher"                  # Search similar to ack but faster
-cask "osxfuse"                              # Dependency of sshfs
+cask "osxfuse"                              # Dependency of sshfs and ntfs-3g
 brew "sshfs"                                # TO mount disks over SSH
+# brew "ntfs-3g"                              # FUSE write support for ntfs drives
 brew "doxygen"                              # tmux dependency
-brew "tmux", args: ['with-utf8proc']        # Terminal multiplexer and server
+brew "tmux"  # Terminal multiplexer and server
 brew "trash"                                # To use OS trash instead of rm forever
 brew "unison"                               # Sync both ways folders
 brew "wdiff"                                # Word by word diff
@@ -139,88 +141,88 @@ brew "archey"
 
 ##### CASKS #####
 
-tap "caskroom/cask"
-tap "caskroom/versions"
-tap "caskroom/drivers"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-versions"
 
+## Security Related - Objective See
+cask "lulu"          # Network monitor and firewall (for blocking trustd among other things)
+# cask "donotdisturb"  # Monitors lid for Evil Maid attacks
+cask "knockknock"    # Manage login items, periodic scripts, ql plugins, &c
+cask "taskexplorer"  # Look at running tasks and their open dylibs, files and network connections
+cask "oversight"     # Monitor mic and camera to prevent unwarranted access
+cask "blockblock"    # Alerts about persistent software installation
+cask "reikey"        # Anti key logger tool
+cask "netiquette"    # Netork monitor to explore network sockets and connections
+cask "ransomwhere"   # Anti ransomware tool
+cask "kextviewr"     # Kernel extension monitor tool
+
+## General
+cask "alacritty"                            # Good terminal emulator
 cask "alfred"                               # Improved Spotlight
 cask "appcleaner"                           # Removes plist along with the app
 cask "authy"								# 2FA App
 cask "bettertouchtool"                      # Macros and gestures (PAID -license)
 cask "bitwarden"                            # Password manager of choice
 cask "bitbar"                               # Menu custom script display
-cask "borgbackup"                           # Incremental and Deduplication backup tool
 cask "caffeine"                             # Prevents the computer from sleeping
 cask "dropbox"                              # Cloud storage with syncing
-cask "etcher"                               # Tool for flashing USB/SD/&c from .img/.iso
 cask "etrecheckpro"                         # System maintenance
 cask "firefox"                              # Alternative web browser
 cask "flux"                                 # Changes temperature color based on time of day
 cask "fuzzyclock"                           # Simple menubar fuzzy clock
-cask "gmvault"                              # To backup gmail accounts
 cask "google-chrome"                        # Google's web browser
 cask "hammerspoon"                          # Desktop automation on macOS
-cask "iterm2"                               # Better than Terminal.app
+cask "iterm3"                               # Better than Terminal.app
 cask "istat-menus"                          # Menu bar performance stats for Mac
 cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
 cask "karabiner-elements"                   # Tool to remap keys like caps-lock
 cask "keybase"                              # Keybase macOS client
 cask "kitty"                                # Terminal emulator with GPU acceleration
-cask "logitech-control-center"              # Drivers for keyboard and mouse
 cask "logitech-options"                     # Drivers for keyboard and mouse
 cask "logitech-unifying"                    # Drivers for keyboard and mouse
 cask "mactex"                               # LateX and TeX
 cask "malwarebytes"                         # Antimalware
 cask "onyx"                                 # Tweak tool for OS
+cask "mos"                                  # Mouse reverser and better scroll
 cask "paintbrush"                           # MS paint equivalent
 cask "plex"                                 # Plex Media Player
-cask "scroll-reverser"                      # Tool to invert mousewheel scroll
 cask "selfcontrol"                          # Blacklisting websites
 cask "simplenote"                           # Notes app
 cask "skim"                                 # Better PDF tool with Sublime Text integration
 cask "spotify"                              # Music streaming
 cask "steam"                                # Gaming collection hub
 cask "sublime-text"                         # Multipurpose text editor
+cask "syncthing"                            # Syncthing
 cask "telegram"                             # Instant messaging with sync across devices
 cask "the-unarchiver"                       # To deflate and decompress files
-cask "transmission"                         # Torrent client
-cask "tunnelblick"                          # OpenVPN client
 cask "veracrypt"                            # Disk and disk image encryption
 cask "visual-studio-code"                   # Visual Studio Code editor
 cask "vlc"                                  # Video Player
-cask "xbox360-controller-driver-unofficial" # Drivers for XBOX 360 controller
-cask "yubico-yubikey-manager"               # Manager for yubikeys
-cask "yubico-authenticator"                 # TOTP authenticator based on yubikeys
 # PAID Casks
 cask "daisydisk"                            # Handy disk space analyzer (PAID)
 cask "vmware-fusion"                        # Full fledged user friendly VM (PAID)
 
 # Quick Look plugins
-cask "hetimazipql"
-cask "jupyter-notebook-ql"
-cask "qladdict"
-cask "qlcolorcode"
-cask "qlimagesize"
-cask "qlmarkdown"
-cask "qlmobi"
-cask "qlprettypatch"
-cask "qlstephen"
-cask "qlvideo"
-cask "quicklook-csv"
-cask "quicklook-json"
-cask "quicknfo"
-cask "suspicious-package"
-cask "webpquicklook"
+cask "glance"   # Wide array of code, json, md, tsv,...
+cask "qladdict" # SRT files
+cask "qlimagesize"  # Images
+cask "qlmobi"  # Mobi ebooks
+cask "qlprettypatch"  # .patch files
+cask "qlstephen"  # catch-all for text files like CHANGELOG, README, INSTALL
+cask "qlvideo"    # Preview video thumbnails
+cask "quicklook-csv"  # CSV
+cask "quicknfo"   # .nfo files
+cask "suspicious-package" # For .pkgs
 
 # Fonts
-tap 'caskroom/fonts'
+tap 'homebrew/cask-fonts'
 cask "font-fira-mono"
 cask "font-fira-sans"
 cask "font-victor-mono"
 cask "font-fira-code"
 cask "font-computer-modern"
 ## Nerd fonts
-cask "font-meslo-nerd-font-mono"
+# cask "font-meslo-nerd-font-mono"
 
 ### Mac App Store Installs
 mas "Xcode", id: 497799835                          # Apple's developper tools
@@ -231,3 +233,15 @@ mas "WireGuard", id: 1451685025                     # Wireguard macOS client
 brew "docker"                               # Docker Containers
 brew "docker-compose"
 # brew "docker-swarm"
+
+
+## MPV
+
+### INSTALL MPV  with 60 fps###
+# https://www.reddit.com/r/osx/comments/4ljbdq/mpv_tutorial_and_60_fps_playback_on_os_x/
+brew "libass"
+brew "ffmpeg"
+cask "mpv"
+brew "mvtools"
+brew "ffms2"
+brew "subliminal"
