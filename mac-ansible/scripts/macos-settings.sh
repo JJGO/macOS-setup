@@ -128,7 +128,7 @@ defaults write NSGlobalDomain com.apple.sound.beep.sound -string "/System/Librar
 sudo nvram SystemAudioVolume=" "
 
 # Disable transparency in the menu bar and elsewhere on Yosemite
-defaults write com.apple.universalaccess reduceTransparency -bool true
+sudo defaults write com.apple.universalaccess reduceTransparency -bool true
 
 # Set highlight color to green
 defaults write NSGlobalDomain AppleHighlightColor -string "1.000000 0.874510 0.701961 Orange"
@@ -250,10 +250,10 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 sudo defaults write /Library/Preferences/.GlobalPreferences.plist AppleKeyboardUIMode -int 3
 
 # Use scroll gesture with the Ctrl (^) modifier key to zoom
-defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
-defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
+sudo defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
+sudo defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
 # Follow the keyboard focus while zoomed in
-defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
+sudo defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 
 # Disable press-and-hold for keys in favor of key repeat
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
@@ -287,36 +287,36 @@ sudo systemsetup -settimezone "America/New_York" > /dev/null
 # Energy saving                                                               #
 ###############################################################################
 
-# Enable lid wakeup
-sudo pmset -a lidwake 1
-
-# Restart automatically on power loss
-sudo pmset -a autorestart 1
-
-# Restart automatically if the computer freezes
-sudo systemsetup -setrestartfreeze on
-
-# Sleep the display after 15 minutes
-sudo pmset -a displaysleep 15
-
-# Disable machine sleep while charging
-sudo pmset -c sleep 0
-
-# Set machine sleep to 5 minutes on battery
-sudo pmset -b sleep 5
-
-# Set standby delay to 24 hours (default is 1 hour)
-sudo pmset -a standbydelay 86400
-
-# Never go into computer sleep mode
-# sudo systemsetup -setcomputersleep Off > /dev/null
-
-# Hibernation mode
-# 0: Disable hibernation (speeds up entering sleep mode)
-# 3: Copy RAM to disk so the system state can still be restored in case of a
-#    power failure.
-sudo pmset -a hibernatemode 0
-
+# # Enable lid wakeup
+# # sudo pmset -a lidwake 1
+# 
+# # Restart automatically on power loss
+# sudo pmset -a autorestart 1
+# 
+# # Restart automatically if the computer freezes
+# sudo systemsetup -setrestartfreeze on
+# 
+# # Sleep the display after 15 minutes
+# sudo pmset -a displaysleep 15
+# 
+# # Disable machine sleep while charging
+# sudo pmset -c sleep 0
+# 
+# # Set machine sleep to 5 minutes on battery
+# sudo pmset -b sleep 5
+# 
+# # Set standby delay to 24 hours (default is 1 hour)
+# sudo pmset -a standbydelay 86400
+# 
+# # Never go into computer sleep mode
+# # sudo systemsetup -setcomputersleep Off > /dev/null
+# 
+# # Hibernation mode
+# # 0: Disable hibernation (speeds up entering sleep mode)
+# # 3: Copy RAM to disk so the system state can still be restored in case of a
+# #    power failure.
+# sudo pmset -a hibernatemode 0
+# 
 # # Remove the sleep image file to save disk space
 # sudo rm /private/var/vm/sleepimage
 # # Create a zero-byte file instead…
@@ -456,7 +456,7 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 # defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
 # Show the ~/Library folder
-chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
+chflags nohidden ~/Library # && xattr -d com.apple.FinderInfo ~/Library
 
 # Show the /Volumes folder
 sudo chflags nohidden /Volumes
@@ -690,7 +690,7 @@ defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
 # Disable Spotlight indexing for any volume that gets mounted and has not yet
 # been indexed before.
 # Use `sudo mdutil -i off "/Volumes/foo"` to stop indexing any volume.
-sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Volumes"
+# sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Volumes"
 # Change indexing order and disable some search results
 # Yosemite-specific search results (remove them if you are using macOS 10.9 or older):
 #   MENU_DEFINITION
@@ -751,7 +751,7 @@ defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 # Disable local Time Machine backups
-hash tmutil &> /dev/null && sudo tmutil disablelocal
+# hash tmutil &> /dev/null && sudo tmutil disablelocal
 
 
 ###############################################################################
@@ -814,7 +814,7 @@ for app in "Activity Monitor" \
     "Dock" \
     "Finder" \
     "Mail" \
-    "Photos" \
+  #  "Photos" \
     "Safari" \
     "SystemUIServer" \
     "Terminal"; do
