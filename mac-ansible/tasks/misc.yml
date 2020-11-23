@@ -1,5 +1,5 @@
 - name: Set Hostname
-  shell: "sudo scutil --set {{ item }} {{ hostname }}"
+  shell: "scutil --set {{ item }} {{ hostname }}"
   become: yes
   loop:
       - ComputerName
@@ -12,24 +12,26 @@
     dest: "{{ ansible_env.HOME }}/Library/Keyboard\ Layouts/Colemak.keylayout"
 
 - name: Install custom fonts
-  copy: fonts/
-  dest: "{{ ansible_env.HOME }}/Library/Fonts"
+  copy:
+    src: fonts/
+    dest: "{{ ansible_env.HOME }}/Library/Fonts"
 
 - name: Install custom launch agents
-  copy: launch_agents/
-  dest: "{{ ansible_env.HOME }}/Library/LaunchAgents"
+  copy:
+    src: launch_agents/
+    dest: "{{ ansible_env.HOME }}/Library/LaunchAgents"
 
 # TODO: launchctl load custom agents
 
 # Install additional software
 - name: Check if Brewfile contains updates
-  shell: brew bundle check --file="Brewfile_extra"
+  shell: brew bundle check --file="files/Brewfile_extra"
   register: bundle_check_result
   ignore_errors: true
 
 - name: Install apps using Brewfile
-  shell: brew bundle install --file="Brewfile_extra"
-  when: bundle_check_result|failed
+  shell: "brew bundle install --file='files/Brewfile_extra' >> /tmp/mac-ansible.log"
+  when: bundle_check_result.rc != 0
 
 # Ruby gems
 - name: Install gem packages
@@ -38,30 +40,11 @@
     state: latest
   loop: '{{ gem_packages }}'
 
-# Rust crates
-- name: Look for rust installation
-  stat:
-    path: "{{ ansible_env.HOME }}/.cargo"
-  register: rust_installation
-
-- name: Install rust
-  shell: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-  when: not rust_installation.stat.exists
-
-- name: Check for crates
-  shell: "{{ ansible_env.HOME }}/.cargo/bin/cargo install --list"
-  register: cargo_installed
-
-- name: Install missing crates
-  shell: "{{ ansible_env.HOME }}/.cargo/bin/cargo install {{ item }}"
-  with_items: "{{ cargo_items }}"
-  when: cargo_installed.stdout.find(item) == -1
-
 # Sublime Text settings
 
 - name: Set sublime path
   set_fact:
-    sublime_path: "{{ ansible_env.HOME }}/Libary/Application Support/Sublime Text 3"
+    sublime_path: "{{ ansible_env.HOME }}/Library/Application Support/Sublime Text 3"
 
 - name: Check for Package Control
   stat:
