@@ -24,21 +24,21 @@
 - name: Install prezto from git.
   git:
     repo: "{{ prezto_repo_url }}"
-    dest: "/home/{{ user }}/.zprezto/"
+    dest: "{{ ansible_env.HOME }}/.zprezto/"
     recursive: yes
     update: no
     accept_hostkey: yes
 
 - name: Delete .zshrc
   file:
-    path: "/home/{{ user }}/.zshrc"
+    path: "{{ ansible_env.HOME }}/.zshrc"
     state: absent
 
 - name: Make prezto symlinks
   file:
     state: link
-    src: "/home/{{ user }}/.zprezto/runcoms/{{ item }}"
-    dest: "/home/{{ user }}/.{{ item }}"
+    src: "{{ ansible_env.HOME }}/.zprezto/runcoms/{{ item }}"
+    dest: "{{ ansible_env.HOME }}/.{{ item }}"
   with_items:
     - zlogin
     - zlogout
@@ -52,18 +52,18 @@
 # https://github.com/sorin-ionescu/prezto/issues/1736
   file:
     state: link
-    src: "/home/{{ user }}/.zprezto/modules/prompt/external/pure/async.zsh"
-    dest: "/home/{{ user }}/.zprezto/modules/prompt/functions/async"
+    src: "{{ ansible_env.HOME }}/.zprezto/modules/prompt/external/pure/async.zsh"
+    dest: "{{ ansible_env.HOME }}/.zprezto/modules/prompt/functions/async"
 
 - name: Setup for additional plugins
   lineinfile:
-    path: "/home/{{ user }}/.zprezto/runcoms/zpreztorc"
+    path: "{{ ansible_env.HOME }}/.zprezto/runcoms/zpreztorc"
     regexp: "^  .prompt"
     line: "  'prompt' \\"
 
 - name: Enable additional plugins
   lineinfile:
-    path: "/home/{{ user }}/.zprezto/runcoms/zpreztorc"
+    path: "{{ ansible_env.HOME }}/.zprezto/runcoms/zpreztorc"
     insertafter: "{{ item.before }}"
     line: "{{ item.line }}"
   loop:
@@ -75,30 +75,30 @@
 
 - name: Set theme to powerlevel10k
   lineinfile:
-    path: "/home/{{ user }}/.zprezto/runcoms/zpreztorc"
+    path: "{{ ansible_env.HOME }}/.zprezto/runcoms/zpreztorc"
     regexp: "^zstyle ':prezto:module:prompt' theme"
     line: "zstyle ':prezto:module:prompt' theme 'powerlevel10k'"
 
 
 - name: Create ~/.zsh
   file:
-    path: "/home/{{ user }}/.zsh"
+    path: "{{ ansible_env.HOME }}/.zsh"
     state: directory
 
 - name: Clone Fast syntax
   git:
     repo: "https://github.com/zdharma/fast-syntax-highlighting.git"
-    dest: "/home/{{ user }}/.zsh/fast-syntax-highlighting"
+    dest: "{{ ansible_env.HOME }}/.zsh/fast-syntax-highlighting"
 
 - name: Install Fast Syntax
   lineinfile:
-    path: "/home/{{ user }}/.zshrc"
+    path: "{{ ansible_env.HOME }}/.zshrc"
     line: "source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh"
 
 
 - name: Install CLI utils
   homebrew:
-    name: {{ item }}
+    name: "{{ item }}"
     state: present
   loop:
     - fasd
@@ -107,7 +107,7 @@
 
 - name: Ensure home/bin is sourced
   lineinfile:
-    path: "/home/{{ user }}/{{ item }}"
+    path: "{{ ansible_env.HOME }}/{{ item }}"
     line: 'export PATH="$PATH:$HOME/bin"'
     create: yes
   loop:
