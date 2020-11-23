@@ -2,22 +2,42 @@
 - name: Enable Homebrew bundle tap
   homebrew_tap:
     name: homebrew/bundle
-    update_homebrew: yes
 
 - name: Install mas
   homebrew:
     name: mas
     state: present
+    update_homebrew: yes
 
 - name: Check if Brewfile contains updates
-  shell: brew bundle check --file="Brewfile"
+  shell: brew bundle check --file="files/Brewfile"
   register: bundle_check_result
   ignore_errors: true
 
 - name: Install apps using Brewfile
-  shell: brew bundle install --file="Brewfile"
-  when: bundle_check_result|failed
+  shell: 'brew bundle install --file="files/Brewfile" >> /tmp/mac-ansible.log'
+  when: bundle_check_result.rc != 0
 
 - name: Configure services
   command: "brew services start {{ item }}"
-  loop: homebrew_services
+  loop: "{{ homebrew_services }}"
+
+# ZSH
+
+- name: Get zsh path
+  command: command -v zsh
+  register: zsh_path
+
+- name: Add hombrew zsh to /etc/shells
+  lineinfile:
+    path: "/etc/shells"
+    line: "{{ zsh_path.stdout }}"
+  become: yes
+
+- name: Switch to zsh
+  user:
+    name: "{{ansible_ssh_user}}"
+    shell: "{{ zsh_path.stdout }}"
+  become: yes
+
+
