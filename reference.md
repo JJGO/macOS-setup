@@ -1,8 +1,5 @@
 REFERENCE REPOS & TODO
 
-- configure menubar items
-
-
 - Port Installing nanorc from https://github.com/scopatz/nanorc
 # Installing nano syntax coloring
 mkdir ~/.nano

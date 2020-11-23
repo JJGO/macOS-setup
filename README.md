@@ -4,7 +4,7 @@ The repository contains the files I use to configure a new installation of OS X/
 
 ## Usage
 
-On first run you need to do `make first`
+On first run you need to do `make init`
 
 On subsequent runs just `make main`
 
