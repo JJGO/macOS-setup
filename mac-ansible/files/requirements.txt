@@ -1,4 +1,3 @@
-borgbackup[fuse]
 Cython
 Flask
 Glances
@@ -9,13 +8,16 @@ Pygments
 Send2Trash
 ansible
 ansible-lint
+arxiv-latex-cleaner
 autopep8
 beautifulsoup4
 black
+borgbackup[fuse]
 cachetools
 click
 click-spinner
 codespell
+comparxiv
 coverage
 cryptography
 cvxopt
