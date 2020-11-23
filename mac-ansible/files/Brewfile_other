@@ -1,2 +1,83 @@
 cask "prolific-pl2303"     # UART Cable driver
 cask "protonvpn"
+
+brew "git-lfs"                              # Better handling of large files
+brew "git-flow"                             # CLI  utils for git-flow
+
+brew "plowshare"                            # CLI Hoster Downloader
+brew "switchaudio-osx"                      # Switch audio input/output
+brew "thefuck"                              # To correct mistypes in commands
+brew "subliminal"                           # Subtitle renamer
+brew "tldr"                                 # Simpler man pages
+### WINE
+cask "xquartz"                              # DEP: WineHQ dependency
+brew "winetricks"                           # Extra wine utils
+cask "wine-stable"                          # GUI Wine interface
+
+brew "neofetch"
+brew "sl"
+brew "gti"
+brew "pipes-sh"
+
+
+cask "arduino"                              # Arduino IDE
+cask "calibre"                              # Eboook Management
+cask "chromium"                             # Open Source web browser
+cask "coconutbattery"                       # Displays battery health
+cask "discord"                              # Discord desktop app
+
+cask "inkscape"                             # Vector graphics
+cask "keyboard-maestro"                     # Automation tool
+cask "keycastr"                             # Keystroke visualizer
+cask "kodi"                                 # Media center for music, tvshows and movies
+cask "gfxcardstatus"                        # Changes the dedicated and internal graphics
+cask "google-chrome-canary"                 # Google's beta web browser
+cask "mkvtoolnix"                           # GUI for mkvtoolnix
+cask "nightowl"                             # Quickly toggle dark mode
+cask "openzfs"                              # ZFS support on macOS
+#cask "postman"                              # Debugger for GET/POST requests
+#cask "signal"                               # Encrypted messaging app
+#cask "slack"                                # Slack client
+#cask "soda-player"                          # To play torrent and ace streams
+#cask "sourcetree"                           # Git visualization tool
+#cask "sublime-merge"                        # Sublime merge tool
+#cask "syncplay"                             # Remote synchronized player
+#cask "ticktick"                             # Alternative todo app
+#cask "tor-browser"                          # Anonymized browser
+
+
+
+
+# PAID Casks
+#cask "bartender"                            # Groups menu bar items (PAID)
+#cask "dash"                                 # Offline programming reference (PAID)
+#cask "kaleidoscope"                         # Visual comparison tool (text, image...)
+#cask "pycharm"                              # Use educational license (PAID)
+#cask "serial"                               # Serial port console (PAID)
+#cask "textual"                              # IRC client (PAID)
+#cask "wifi-explorer"                        # Look for wifi networks power and channels (PAID)
+
+
+### EXTRA NICETIES
+
+
+
+# AUTODL
+# brew "mono"
+
+
+# Zathura pdf reader
+#tap "zegervdv/zathura"
+# brew "zathura-pdf-poppler"
+
+
+
+# cask "xbox360-controller-driver-unofficial" # Drivers for XBOX 360 controller
+# cask "yubico-yubikey-manager"               # Manager for yubikeys
+# cask "yubico-authenticator"                 # TOTP authenticator based on yubikeys
+
+
+# cask "logitech-control-center"              # Drivers for keyboard and mouse # Giving problems on macOS catalina
+
+
+cask "gmvault"                              # To backup gmail accounts
