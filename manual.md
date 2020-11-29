@@ -166,7 +166,7 @@ curl "https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 
 ## Calibre
 * Use Macintosh HD library
-* Setup email from Tolsimir5@gmail.com (hostname: imap.gmail.com, port:587, user:<foo>@gmail.com, encryption: TLS)
+* Setup email, server details are not needed (hostname: imap.gmail.com, port:587, user:<foo>@gmail.com, encryption: TLS))
 * Import Biblioteca Tecnica
 
 ## License
